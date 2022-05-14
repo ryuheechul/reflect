@@ -13,12 +13,17 @@ I accumulated some notes here and there including:
 - anything else...?
 
 And I have been not feeling great about it recently and wanted to attempt another way to manage them better.
+
 Hopefully this time I feel more home here than before by organizing things better here too.
 
 *** Why I named this Reflect?
 I am hoping this collection of my notes to reflect what I discovered/learned that is worth remembering.
+
 Also I want to admit that even after taking notes, things possibly might have bounced back without me absorbing it fully.
 
 ** How
 Since I just started using [[https://orgmode.org/][Emacs Org Mode]] and liked it right away, the main file format would be =*.org= but we will see how it turns out.
+
+I will contains org files under[[ file:org/]] so this repo still has room for other file types and tools.
+
 I also think it would be nice if this can be rendered to HTML [[https://wiki.nikiv.dev/][like this one]]. Maybe I will set that up one day.

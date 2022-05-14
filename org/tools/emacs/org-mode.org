@@ -1,0 +1,9 @@
+* org-mode
+
+[[https://gist.github.com/ryuheechul/1363eec4e945b6840989d255cdbd09e3#file-org-org][Previous note about org-mode]]
+
+** Publishing
+https://orgmode.org/worg/org-blog-wiki.html
+
+** Knowledge Management
+https://www.orgroam.com/

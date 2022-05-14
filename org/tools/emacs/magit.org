@@ -1,0 +1,8 @@
+* magit
+A git client for Emacs - https://magit.vc/
+
+** Evil Keybindings
+https://github.com/emacs-evil/evil-collection/blob/master/modes/magit/evil-collection-magit.el
+
+** How to add files
+like =git add= https://emacs.stackexchange.com/a/15272/37946
