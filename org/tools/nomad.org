@@ -1,3 +1,4 @@
 #+title: Nomad
 
 https://chaordic.io/blog/is-nomad-a-better-kubernetes/
+https://blog.cloudflare.com/how-we-use-hashicorp-nomad/

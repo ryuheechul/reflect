@@ -1,0 +1,6 @@
+#+title: Terraform
+
+https://www.terraform.io/
+https://devdosvid.blog/2022/05/04/new-lifecycle-options-and-refactoring-capabilities-in-terraform-1-1-and-1-2
+
+My take on terraforming TFC: https://github.com/ryuheechul/tf-cloud
