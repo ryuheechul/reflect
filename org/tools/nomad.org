@@ -1,0 +1,3 @@
+#+title: Nomad
+
+https://chaordic.io/blog/is-nomad-a-better-kubernetes/
