@@ -1,0 +1,96 @@
+#+title: Jq
+
+official website: https://stedolan.github.io/jq/
+playground: https://jqplay.org/
+
+#+name: select-the-array-based-on-condition
+#+begin_src bash :results verbatim
+
+cat <<EOF | jq 'if .[].Key == "key-i-want-to-select" then . else empty end' | jq -s
+[
+  {
+    "Key": "key-i-want-to-select",
+    "Value": "whatever value"
+  },
+  {
+    "Key": "Name",
+    "Value": "i have the key"
+  }
+]
+[
+  {
+    "Key": "Name",
+    "Value": "i don't have a key"
+  }
+]
+[
+  {
+    "Key": "key-i-want-to-select",
+    "Value": "whatever value"
+  },
+  {
+    "Key": "Name",
+    "Value": "i have the key as well"
+  }
+]
+EOF
+
+#+end_src
+
+#+RESULTS: select-the-array-based-on-condition
+#+begin_example
+[
+  [
+    {
+      "Key": "key-i-want-to-select",
+      "Value": "whatever value"
+    },
+    {
+      "Key": "Name",
+      "Value": "i have the key"
+    }
+  ],
+  [
+    {
+      "Key": "key-i-want-to-select",
+      "Value": "whatever value"
+    },
+    {
+      "Key": "Name",
+      "Value": "i have the key as well"
+    }
+  ]
+]
+#+end_example
+
+#+name: select-the-array-based-on-condition-simpler-version
+#+begin_src bash :results verbatim
+
+cat <<EOF | jq 'if .[].Key == "key-i-want-to-select" then . else empty end'
+[
+  {
+    "Key": "key-i-want-to-select",
+    "Value": "whatever value"
+  },
+  {
+    "Key": "Name",
+    "Value": "i have the key"
+  }
+]
+EOF
+
+#+end_src
+
+#+RESULTS: select-the-array-based-on-condition-simpler-version
+#+begin_example
+[
+  {
+    "Key": "key-i-want-to-select",
+    "Value": "whatever value"
+  },
+  {
+    "Key": "Name",
+    "Value": "i have the key"
+  }
+]
+#+end_example

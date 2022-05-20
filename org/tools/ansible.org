@@ -1,0 +1,5 @@
+#+title: Ansible
+
+* Provision lightsail for a docker daemon
+An example gist is at https://gist.github.com/ryuheechul/b2301f0ed9714b98bb410a567b683b2f#file-lightsail-as-docker-daemon-md
+This can be useful if your local machine arch (aka M1) is different than the containers you are running.

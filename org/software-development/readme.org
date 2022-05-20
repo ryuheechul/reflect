@@ -1,0 +1,21 @@
+#+title: Software Development - Readme
+
+* Dependency Specification
+We often see some additional characters before (or after) ([[https://semver.org/][semantic]]) version numbers like these:
+=^=, =~=, =*=, =<[=]=, =>[=]=.
+
+More thoughts on semantic versioning is found at https://jolynch.github.io/posts/semver_considered_harmful/.
+
+They are often refer to as version constraints.
+
+** Version Constraints
+It doesn't appear to be that there is just only one true meaning on those constraints. Rather it's up to each pacakage management tool like below.
+- [[https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html][Cargo (Rust)]]
+- [[https://python-poetry.org/docs/dependency-specification/][Python Poetry]]
+- [[https://www.terraform.io/language/expressions/version-constraints][Terraform]]
+- [[https://docs.npmjs.com/about-semantic-versioning][NPM (JavaScript)]]
+  - [[https://semver.npmjs.com/][NPM SemVer Calculator]]
+
+** [[https://en.wikipedia.org/wiki/Shift-left_testing][Shift Left Testing]]
+
+Simply put, test early (shift testing phase to left) to get benefits of testing early on and avoid pitfalls of missing (or adapting late) tests in the pipeline.

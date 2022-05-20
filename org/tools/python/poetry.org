@@ -1,0 +1,28 @@
+#+title: Poetry
+
+* basic usage
+https://python-poetry.org/docs/basic-usage/
+
+* with direnv
+https://github.com/direnv/direnv/wiki/Python
+
+=layout_poetry()= can be added directly to =.envrc= as well as =~/.direnvrc=. (managing =direnv= with (nix) =home-manager= makes it not trivial to manage =~/.direnvrc= with VCS)
+
+additionally include =poetry env use pythonX.X= if default version is different.
+
+i.e. defualt installed version via global `nix` is python3.9
+then install python3.7 (=python37= in nix package) possibly via =shell.nix=
+
+and include =poetry env use python3.7= somewhere makes sense at =.envrc=
+
+* misc issues
+** regarding =libxml2= (from =nix=) and =lxml= (from =pip=) issue
+ https://discourse.nixos.org/t/any-ideas-to-marry-libxml2-pip-and-nix-shell/277/2
+
+
+* what are python wheels
+https://pythonwheels.com/
+https://realpython.com/python-wheels/
+
+* about apple frameworks
+https://github.com/NixOS/nixpkgs/blob/master/pkgs/os-specific/darwin/apple-sdk/frameworks.nix

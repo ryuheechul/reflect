@@ -1,0 +1,7 @@
+* Concept
+Quick memos on new concepts as I learn
+
+** [[https://www.lucidchart.com/blog/what-is-a-tiger-team][Tiger Team]]
+#+begin_quote
+A tiger team is a specialized, cross-functional team brought together to solve or investigate a specific problem or critical issue.
+#+end_quote

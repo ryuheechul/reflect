@@ -7,3 +7,94 @@ https://orgmode.org/worg/org-blog-wiki.html
 
 ** Knowledge Management
 https://www.orgroam.com/
+
+** Babel: Active Code in Org
+Great demo: https://www.youtube.com/watch?v=dljNabciEGg
+Examples: https://github.com/dfeich/org-babel-examples/blob/master/shell/shell-babel.org
+
+*** use =:cache yes= to avoid re-evaluation
+https://www.gnu.org/software/emacs/manual/html_node/org/Evaluating-Code-Blocks.html
+
+*** show result in plain form (i.e. json)
+https://www.reddit.com/r/emacs/comments/gabku5/tips_for_managing_json_from_orgbabel/foytx86/?utm_source=reddit&utm_medium=web2x&context=3
+
+*** Handling Results
+A simple (table) results of code block is actually nested list even though it could look like just a list.
+
+Therefore you can transform this to a list by something like below
+
+**** An Example
+
+#+begin_example org
+
+#+name: table-result-example
+#+begin_src bash
+cat <<EOF
+simulate
+multiple
+outputs
+EOF
+#+end_src
+
+#+RESULTS: table-result-example
+| simulate |
+| multiple |
+| outputs  |
+
+#+name: inspect
+#+begin_src elisp :results verbatim :var from-previous=table-result-example
+(identity from-previous)
+#+end_src
+
+#+RESULTS: inspect
+: (("simulate") ("multiple") ("outputs"))
+
+#+name: flattened
+#+begin_src elisp :var from-previous=table-result-example
+(flatten-list from-previous)
+#+end_src
+
+Notice it now goes side ways after flattened which matches to =("simulate" "multiple" "outputs")= elisp structure.
+#+RESULTS: flattened
+| simulate | multiple | outputs |
+
+#+name: joined
+#+begin_src elisp :var from-previous=flattened
+(string-join from-previous " ")
+#+end_src
+
+#+RESULTS: joined
+: simulate multiple outputs
+
+#+name: usage-with-bash
+#+begin_src bash :results verbatim :var from_previous=joined
+echo "thanks to flattening and joining, now I can process it better!"
+for item in $from_previous
+do
+    echo "- $item"
+done
+#+end_src
+
+#+RESULTS: usage-with-bash
+: thanks to flattening and joining, now I can process it better!
+: - simulate
+: - multiple
+: - outputs
+
+#+name: simpler-usage-with-bash
+#+begin_src bash :results verbatim :var from_previous=table-result-example
+echo "but actually we don't need to flatten and join from elisp, now I just learned that this can be handled in bash too"
+# https://www.masteringunixshell.net/qa35/bash-how-to-print-array.html
+for item in ${from_previous[*]}
+do
+    echo "- $item"
+done
+#+end_src
+
+#+RESULTS: simpler-usage-with-bash
+: but actually we don't need to flatten and join from elisp, now I just learned that this can be handled in bash too
+: - simulate
+: - multiple
+: - outputs
+
+#+end_example

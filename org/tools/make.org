@@ -1,0 +1,8 @@
+#+title: make
+
+* how to silence entering and leaving messages
+https://stackoverflow.com/a/27319144/1570165
+
+#+begin_quote
+You want $(MAKE) --no-print-directory.
+#+end_quote
