@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+## keeping this running will watch and commit and push new changes
+
+script_d="$(dirname "$0")"
+
+echo "${script_d}"
+
+# delay for 120 sec should be adequate
+gitwatch -s 120 -r origin "${script_d}"

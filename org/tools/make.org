@@ -1,5 +1,7 @@
 #+title: make
 
+* why not Makefile - https://earthly.dev/blog/repeatable-builds-every-time/
+
 * how to silence entering and leaving messages
 https://stackoverflow.com/a/27319144/1570165
 
