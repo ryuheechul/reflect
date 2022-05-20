@@ -1,0 +1,5 @@
+#+title: Earthly
+
+https://docs.earthly.dev/
+
+Maybe it's time to move on from Dockerfile and Makefile? - https://earthly.dev/blog/repeatable-builds-every-time/
