@@ -1,0 +1,4 @@
+#+title: Railway Oriented Programming
+
+https://fsharpforfunandprofit.com/rop/
+A nice approach to deal with error handling chaos
