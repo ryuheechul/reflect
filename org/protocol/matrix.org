@@ -1,0 +1,7 @@
+#+title: Matrix
+
+https://matrix.org/
+An open network for secure, decentralized communication
+
+https://matrix.org/bridges/
+A way to allow interop with other platforms
