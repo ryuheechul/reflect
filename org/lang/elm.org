@@ -1,0 +1,9 @@
+#+title: Elm
+
+https://elm-lang.org/
+briefly learned in 2017-2018
+It was a great opportunity for me to be familiar with functional programming and getting a taste of haskell style code
+
+My wedding invitation was built with Elm https://github.com/ryuheechul/save-the-date
+
+Haven't used it for a while though.
