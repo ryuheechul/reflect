@@ -2,6 +2,14 @@
 
 * Functional Programming
 
+There are so many things to be said about functional programming. What would I say if I was asked to describe what functional programming? I probably would want to mention these things.
+- function is the first class citizen
+- try to forget about actual data initially
+- rather than big bespoke functions, create small but compose-friendly distinguishable ones and compose them
+- try not to be eager to apply the data to functions just yet, keep composing and pass the data at the end
+- the product of functional programming code usually result in a bunch of condensed and not-so-straightforward (especially when you are not so familiar with it) but much leaner and flexible code
+- it should feel like assembling lego when right code and it's quite enjoyable but this also could comes with downside of having to use more brain power to read or decode the code later (again especially when you are not so used to it)
+
 ** Monoids
 https://fsharpforfunandprofit.com/posts/monoids-without-tears/
 
