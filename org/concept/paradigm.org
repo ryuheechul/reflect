@@ -1,0 +1,6 @@
+#+title: Paradigm
+
+* Functional Programming
+
+** Monoids
+https://fsharpforfunandprofit.com/posts/monoids-without-tears/
