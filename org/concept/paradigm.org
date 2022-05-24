@@ -4,3 +4,7 @@
 
 ** Monoids
 https://fsharpforfunandprofit.com/posts/monoids-without-tears/
+
+** Ramda
+https://ramdajs.com/
+https://fr.umio.us/why-ramda/
