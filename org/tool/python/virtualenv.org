@@ -1,0 +1,7 @@
+#+title: Virtualenv
+
+* A Primer
+https://realpython.com/python-virtual-environments-a-primer/
+
+* A quick way to use it in case with direnv
+https://stackoverflow.com/a/59753586/1570165
