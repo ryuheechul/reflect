@@ -5,3 +5,5 @@ https://docs.earthly.dev/
 Maybe it's time to move on from Dockerfile and Makefile? - https://earthly.dev/blog/repeatable-builds-every-time/
 
 Debugging tips with Earthly - https://docs.earthly.dev/docs/guides/debugging
+
+Integration tests with Earthly - https://docs.earthly.dev/docs/guides/integration
