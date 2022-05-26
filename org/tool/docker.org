@@ -1,4 +1,21 @@
 #+title: Docker
 
+* Ports
+It's always =host:container= not the reverse but my mind gets confused with it all the time so writing here to prevent confusion in the future!
+
 * Alpine
 https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk
+
+* When you need a quick server to run with docker-compose
+
+#+begin_src yaml
+version: '3'
+services:
+  server-test:
+    image: denoland/deno
+    command: deno run --allow-net https://examples.deno.land/http-server.ts
+    ports:
+    - 80:8000
+#+end_src
+
+* some examples I wrote in the past - https://github.com/ryuheechul/docker-compose
