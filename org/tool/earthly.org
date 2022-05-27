@@ -14,3 +14,5 @@ Integration tests with Earthly - https://docs.earthly.dev/docs/guides/integratio
 
 Prevent caching for specific runs - https://docs.earthly.dev/docs/earthfile#run
 =RUN --no-cache echo "always run this!"=
+
+Multi platform build doesn't come by default. More on it - https://docs.earthly.dev/docs/guides/multi-platform
