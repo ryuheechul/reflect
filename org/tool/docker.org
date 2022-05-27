@@ -19,3 +19,10 @@ services:
 #+end_src
 
 * some examples I wrote in the past - https://github.com/ryuheechul/docker-compose
+
+* Docker heredoc
+
+https://www.docker.com/blog/introduction-to-heredocs-in-dockerfiles/
+
+Adding a line like this on top of Dockerfile will enable new syntax according to https://hub.docker.com/r/docker/dockerfile
+=# syntax = docker/dockerfile:1.4=
