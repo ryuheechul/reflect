@@ -8,3 +8,6 @@ https://stackoverflow.com/a/27319144/1570165
 #+begin_quote
 You want $(MAKE) --no-print-directory.
 #+end_quote
+
+* multiple lines via one shell
+https://stackoverflow.com/a/62819637

@@ -1,0 +1,7 @@
+#+title: Algorithm & Data Structure
+
+Intorudction Tree Data Structure
+https://www.youtube.com/watch?v=1XC3p2zBK34
+
+Graph Theory Introduction
+https://www.youtube.com/watch?v=eQA-m22wjTQ

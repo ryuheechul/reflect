@@ -3,6 +3,9 @@
 * Ports
 It's always =host:container= not the reverse but my mind gets confused with it all the time so writing here to prevent confusion in the future!
 
+* Volume
+https://earthly.dev/blog/docker-volumes/
+
 * Alpine
 https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk
 

@@ -1,0 +1,24 @@
+#+title: Python
+
+* args and kargs
+https://realpython.com/python-kwargs-and-args/
+
+* Celery
+https://betterprogramming.pub/python-celery-best-practices-ae182730bb81
+
+* Surprising behavior of python
+
+** Value suddently becomes tuple with trailing comma
+This one charecter of mistake cost me a few hours of debugging
+
+#+begin_src python
+❯ python
+Python 3.9.11 (main, Apr 10 2022, 19:21:43)
+[Clang 11.1.0 ] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = "hello",
+>>> a
+('hello',)
+#+end_src
+
+After experiencing this, I get why it becomes tuple (and I guess it can be handy sometime??) but it is something surprising for someone who doesn't write python code regularly...
