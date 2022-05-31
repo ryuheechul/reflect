@@ -22,3 +22,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 #+end_src
 
 After experiencing this, I get why it becomes tuple (and I guess it can be handy sometime??) but it is something surprising for someone who doesn't write python code regularly...
+
+** https://github.com/satwikkansal/wtfpython
