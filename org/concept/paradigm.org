@@ -17,3 +17,10 @@ https://fsharpforfunandprofit.com/posts/monoids-without-tears/
 https://ramdajs.com/
 https://fr.umio.us/why-ramda/
 [[https://youtu.be/m3svKOdZijA][Hey Underscore, You're Doing It Wrong!]]
+
+*** pipe vs compose
+Pipe is left to right
+https://ramdajs.com/docs/#pipe
+
+Left from right is compose
+https://ramdajs.com/docs/#compose
