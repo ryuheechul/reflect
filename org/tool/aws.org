@@ -9,3 +9,10 @@ https://aws.amazon.com/blogs/aws/introducing-cloudfront-functions-run-your-code-
 They are similar and both can be triggered by CloudFront events but they differ for:
 - CFF is closer to actual edges and LE is at regional edges (fewer than)
 - [[https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/functions-javascript-runtime-features.html][CFF JavaScript is much more restrictive]]
+
+* Elastic beanstalk PaaS like Server in AWS
+https://aws.amazon.com/elasticbeanstalk/
+
+Multiple platforms and languages are possible and documentation for Docker is https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker.html
+
+Example code I wrote - https://github.com/ryuheechul/eb-sqs-imdsv2
