@@ -1,0 +1,4 @@
+#+title: English
+
+* https://en.wikipedia.org/wiki/Soup_to_nuts
+"Soup to nuts" is an American English idiom that conveys the meaning of "from beginning to end", derived from the description of a full course dinner.
