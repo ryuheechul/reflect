@@ -1,5 +1,11 @@
 #+title: Amazon Web Service
 
-Cloudfront function & Lambda@edge function
+* CloudFront Function & Lambda@Edge function
 https://aws.amazon.com/lambda/edge/
 https://aws.amazon.com/blogs/aws/introducing-cloudfront-functions-run-your-code-at-the-edge-with-low-latency-at-any-scale/
+
+[[https://youtu.be/UgFjcNq-yoQ][AWS CloudFront Functions - Release Radar]]
+
+They are similar and both can be triggered by CloudFront events but they differ for:
+- CFF is closer to actual edges and LE is at regional edges (fewer than)
+- [[https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/functions-javascript-runtime-features.html][CFF JavaScript is much more restrictive]]
