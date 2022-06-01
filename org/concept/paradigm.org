@@ -41,3 +41,7 @@ Each function in the list matches to each parameter
 R.useWith(Math.pow, [R.identity, R.identity])(3, 4); //=> 81
 R.useWith(Math.pow, [R.dec, R.inc])(3, 4); //=> 32 == Math.pow(2, 5)== Math.pow(R.dec(3), R.inc(4))
 #+end_src
+
+*** =transducer=
+https://ramdajs.com/docs/#transduce
+https://www.jeremydaly.com/transducers-supercharge-functional-javascript/
