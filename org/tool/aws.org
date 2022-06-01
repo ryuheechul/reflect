@@ -16,3 +16,8 @@ https://aws.amazon.com/elasticbeanstalk/
 Multiple platforms and languages are possible and documentation for Docker is https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker.html
 
 Example code I wrote - https://github.com/ryuheechul/eb-sqs-imdsv2
+
+* Amazon Simple Queue Service aka SQS
+https://aws.amazon.com/sqs/
+
+Supposedly, it should be able replace these stacks - https://stackshare.io/amazon-sqs/alternatives
