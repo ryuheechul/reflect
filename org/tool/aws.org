@@ -49,7 +49,7 @@ This will allow you to "bypass" these things:
 - having to add your public key to =/home/ec2-user/.ssh/authorized_keys= manually
 - having to expose the network connectivity (ssh port) to public
 
-Really, that's what they basically said as below and it works that way.
+Really, that's what they basically said as below and it works that way with =aws ssm start-session= (when used directly).
 
 https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html
 #+begin_quote
@@ -60,12 +60,14 @@ Leaving inbound SSH ports and remote PowerShell ports open on your managed nodes
 #+end_quote
 
 
-However this behavior is not consistent as soon as you use this as a ProxyCommand via =ssh=
+However, *this behavior is not consistent* as soon as you use =aws ssm start-session= as a ProxyCommand via =ssh= (like the config example above extracted from AWS's document)
 
 If you run a command like this one, =ssh i-blahblah=, you are probably going to face at least two issue
 
 1. You public key auth will fail
 2. It uses your local login username not =ec2-user=
+
+/You can say these two issues are actually kind of mentioned in the document but did you really pick that up from the "fine prints"? not me/
 
 You can remediate 1. by adding your public key to =/home/ec2-user/.ssh/authorized_keys= manually.
 
@@ -80,12 +82,12 @@ To remediate 2. you can either =ssh ec2-user@i-blahblah= or add one line as belo
 When those are dealt with the result between both =ssh= (with ProxyCommand) and via =aws ssm= should be same.
 Which allows us to be able to =scp= finally.
 
-I didn't use =-i /path/my-key-pair.pem= because my ssh tries the key I want to use automatically which might be the case for you too
+_I didn't use =-i /path/my-key-pair.pem= because my ssh tries the key I want to use automatically which might be the case for you too._
 
 ** Closing Note
 
 Also keep that in mind that this whole thing also depends on the user on your host (for example there might be no =ec2-user= on specific host) and it depends on ssm agent on the host (so old version in there might cause other issues)
 
-There are ways to use a different user in case with =aws ssm= which are described at https://aws.amazon.com/premiumsupport/knowledge-center/ssm-session-manager-connect-fail/
+There are ways to use a different user in case with =aws ssm= which are described at https://aws.amazon.com/premiumsupport/knowledge-center/ssm-session-manager-connect-fail/.
 
-Also if you just need a quick ssh without local setup, it's possible via web console - https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-sessions-start.html#start-sys-console
+Also if you just need a quick ssh without local setup, it's possible via web console - https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-sessions-start.html#start-sys-console.
