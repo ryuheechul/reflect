@@ -67,7 +67,7 @@ If you run a command like this one, =ssh i-blahblah=, you are probably going to 
 1. You public key auth will fail
 2. It uses your local login username not =ec2-user=
 
-/Now that I'm aware of this and reading the document again to see if these are mentioned, you can say they are indeed kind of mentioned there but were you really able to pick that up from the "ambiguous fine prints"? not me/
+/Now that I'm aware of this and reading the document again to see if these are mentioned, you can say they are indeed kind of mentioned there but were you really able to pick that up from the "fine prints"? not me/
 
 You can remediate 1. by adding your public key to =/home/ec2-user/.ssh/authorized_keys= manually.
 
