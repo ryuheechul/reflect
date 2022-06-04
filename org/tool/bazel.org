@@ -3,3 +3,4 @@
 https://bazel.build/
 [[https://youtu.be/BZYj6yfA6Bs][Bazel Tutorial: (Part 1) Getting Started, Bazelisk & our First Build Targets]]
 https://www.tweag.io/blog/2018-03-15-bazel-nix
+https://github.com/bazelbuild/examples
