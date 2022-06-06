@@ -1,0 +1,18 @@
+#+title: Erlang
+
+https://www.cis.upenn.edu/~matuszek/General/ConciseGuides/concise-erlang.html
+https://learnyousomeerlang.com/content
+
+* via YouTube
+[[https://youtu.be/SOqQVoVai6s][Erlang Programming Language - Computerphile]]
+[[https://youtu.be/IEhwc2q1zG4][Erlang Tutorial]]
+[[https://youtu.be/JvBT4XBdoUE][The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019]]
+[[https://youtu.be/7AJR66p5E4s][The Erlang Ecosystem - Robert Virding]]
+
+* BEAM
+https://github.com/llaisdy/beam_languages
+
+
+* Elixir
+https://elixir-lang.org/
+https://phoenixframework.org/
