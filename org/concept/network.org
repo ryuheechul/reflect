@@ -1,0 +1,7 @@
+#+title: Network
+
+Specially about computer networks and the internet.
+
+https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/
+https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/
+https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
