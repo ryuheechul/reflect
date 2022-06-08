@@ -12,10 +12,10 @@ https://learnyousomeerlang.com/content
 * BEAM
 https://github.com/llaisdy/beam_languages
 
-
 * Elixir
 https://elixir-lang.org/
 https://phoenixframework.org/
+https://elixirforum.com/t/arithmetic-operators-with-pipe-operator/3580
 
 * with Kubernetes
 https://blog.plataformatec.com.br/2019/10/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small/
