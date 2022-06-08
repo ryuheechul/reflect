@@ -16,3 +16,7 @@ https://github.com/llaisdy/beam_languages
 * Elixir
 https://elixir-lang.org/
 https://phoenixframework.org/
+
+* with Kubernetes
+https://blog.plataformatec.com.br/2019/10/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small/
+https://github.com/bitwalker/libcluster
