@@ -16,7 +16,61 @@ https://github.com/llaisdy/beam_languages
 https://elixir-lang.org/
 https://phoenixframework.org/
 https://elixirforum.com/t/arithmetic-operators-with-pipe-operator/3580
+https://github.com/h4cc/awesome-elixir
 
 * with Kubernetes
 https://blog.plataformatec.com.br/2019/10/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small/
 https://github.com/bitwalker/libcluster
+
+* When to not use Erlang/Elixir
+
+Difficulties with things below seem to limit the usage of Elixir for long running processes aka servers and tasks/jobs.
+At least I wouldn't feel comfortable choosing Elixir to do things that I will mention below.
+Which is too bad that such nice lang/tooling becomes far from top selection.
+But at the same time it's quite understandable given the tight integration between the languages and BEAM which has high emphasis on fault tolerance and high scalability via distributed Erlang.
+That's why it naturally fits more for long running tasks (alone) than being a prompt piece that do a quick job on short tasks which also is expected to be combined with other binaries/processes.
+
+** Scripting
+
+Although scripting can be as easy as below you will notice running the script will feel quite slow compare to other solutions like bash scripts.
+
+#+begin_src markdown
+```bash
+$ cat <<EOF > hello.exs
+∙ #!/usr/bin/env elixir
+∙ "Hello" |> IO.puts
+∙ EOF
+
+$ chmod +x hello.exs && ./hello.exs
+Hello
+```
+#+end_src
+
+Slow startup time (and attempt to find solutions) is mentioned here and there including:
+- https://www.reddit.com/r/elixir/comments/gthrne/startup_time/fsfh5v0/
+- https://news.ycombinator.com/item?id=25240905
+- https://elixirforum.com/t/how-to-minimise-beam-startup-time/31913
+- https://nick.groenen.me/notes/building-cli-scripts-with-elixir/
+
+It appears to be that it is due to the initialization of BEAM and compliation of the Elixir code which no one seems to know how to fix this issue for now.
+
+However, some exceptions can be made. Usually commands like =curl= that involves with network IO, we know to expect there are latencies. Therefore, writing Elixir script that involves with networking would less likely be neglected by slow start up time.
+
+** Portable (Static) Binary
+
+I haven't tried to do this myself but after a quick googling, this also seems to be (at least) awkward thing to do if not unpractical.
+
+Here are few conversations I found regarding the topic:
+- https://stackoverflow.com/questions/31861544/can-elixir-or-erlang-programs-be-compiled-to-a-standalone-binary
+- https://news.ycombinator.com/item?id=24491700
+- https://elixirforum.com/t/elixir-static-app-binaries/15335/14
+
+In contrast, Go and Rust has excellent cross-compiling support which makes the program portable and performant to many different target systems. There are many executables made by Go and Rust (as well as other languages) which often available via =brew= and =nix=, etc.
+
+Go and Rust also provide another option like =cargo install= and =go install= in case packages also provide binaries.
+
+It doesn't have to be binary format to be useful as =npm install -g= and =pipx install= also works well.
+
+In case Erlang/Elixir ecosystem, I'm not sure how often this kind of workflow is expected.
+
+To be fair, I haven't properly learned =mix= nor =rebar3= yet, so this part will yet to be explored for me.
