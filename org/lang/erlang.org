@@ -74,3 +74,12 @@ It doesn't have to be binary format to be useful as =npm install -g= and =pipx i
 In case Erlang/Elixir ecosystem, I'm not sure how often this kind of workflow is expected.
 
 To be fair, I haven't properly learned =mix= nor =rebar3= yet, so this part will yet to be explored for me.
+
+
+* Gleam
+While reading about types in Elixir via https://thoughtbot.com/blog/types-in-dynamic-languages, [[https://gleam.run/][Gleam]] was mentioned.
+It seems quite interesting and has a potential to replace ReasonML (for me).
+It's written in Rust and I can feel some Rust and ReasonML styles from the code syntax which I really like.
+It runs on BEAM and interop with other BEAM languages like Elixir and Erlang.
+[[https://gleam.run/news/v0.16-gleam-compiles-to-javascript/][Compiling to Javascript is possible]] but it doesn't look like a out-of-the-box experience yet.
+I just wrote [[https://github.com/gleam-lang/example-echo-server/pull/17/files][my first Gleam code]].
