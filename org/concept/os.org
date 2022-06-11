@@ -13,3 +13,9 @@ https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
 https://0xax.gitbooks.io/linux-insides/content/SysCall/linux-syscall-1.html
 [[https://softwareengineering.stackexchange.com/a/343797/416039][System calls and C]]
 /Insights on the relationships between languages regarding system calls/
+
+*** Different syscall headers depends on the platform
+https://unix.superglobalmegacorp.com/Net2/newsrc/sys/syscall.h.html
+https://opensource.apple.com/source/xnu/xnu-792/bsd/sys/syscall.h.auto.html
+https://android.googlesource.com/platform/bionic/+/8aabbd7/libc/include/sys/syscall.h
+https://github.com/openbsd/src/blob/master/sys/sys/syscall.h
