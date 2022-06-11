@@ -1,12 +1,12 @@
 #+title: Operating System
 
 * Linux
+https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
+/This is not just for history of naming but also contains information that will help you understand different components of "Linux" clearly./
+
 ** System Calls
 https://linuxhint.com/what-is-a-linux-system-call/
 https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
 https://0xax.gitbooks.io/linux-insides/content/SysCall/linux-syscall-1.html
 [[https://softwareengineering.stackexchange.com/a/343797/416039][System calls and C]]
 /Insights on the relationships between languages regarding system calls/
-
-https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
-/This is not just for history of naming but also contains information that will help you understand different components of "Linux" clearly./
