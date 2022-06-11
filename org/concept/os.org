@@ -6,6 +6,13 @@ https://johv.dk/blog/bare-metal-assembly-tutorial
   - interesting comments that indicating there is always more depth you can go into
 [[https://os.phil-opp.com/][Writing an OS in Rust]]
 
+* on Virtual Machines
+https://en.wikipedia.org/wiki/Unikernel
+https://mirage.io/
+
+* "other" hardwares aka embedded
+https://blog.tonari.no/rust-simple-hardware-project
+
 * Linux
 https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
 /This is not just for history of naming but also contains information that will help you understand different components of "Linux" clearly./
