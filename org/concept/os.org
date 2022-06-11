@@ -4,6 +4,9 @@
 https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
 /This is not just for history of naming but also contains information that will help you understand different components of "Linux" clearly./
 
+** Alpine Linux
+https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
+
 ** System Calls
 https://linuxhint.com/what-is-a-linux-system-call/
 https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
