@@ -1,1 +1,7 @@
 #+title: Operating System
+
+* Linux
+** System Calls
+https://linuxhint.com/what-is-a-linux-system-call/
+https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
+https://0xax.gitbooks.io/linux-insides/content/SysCall/linux-syscall-1.html
