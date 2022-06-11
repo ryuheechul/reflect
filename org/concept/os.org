@@ -1,5 +1,11 @@
 #+title: Operating System
 
+* Bare Metal aka your own
+https://johv.dk/blog/bare-metal-assembly-tutorial
+- https://news.ycombinator.com/item?id=22685154
+  - interesting comments that indicating there is always more depth you can go into
+[[https://os.phil-opp.com/][Writing an OS in Rust]]
+
 * Linux
 https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
 /This is not just for history of naming but also contains information that will help you understand different components of "Linux" clearly./
