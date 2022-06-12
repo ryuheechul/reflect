@@ -12,13 +12,16 @@ I accumulated some notes here and there including:
 - [[https://github.com/ryuheechul/til][til]]
 - [[https://dev.to/ryuheechul][dev.to]]
 - [[https://hashnode.com/@ryuheechul][hashnode]]
+- [[https://medium.com/@ryuheechul][medium]]
 - anything else...?
 
 And I have been not feeling great about it recently and wanted to attempt another way to manage them better.
 
 Hopefully this time I feel more home here than before by organizing things better here too.
 
-*** Why I named this Reflect?
+/Beside the notes here, some example/practice code for various languages and tools that I wrote can be found here/ - [[https://github.com/ryuheechul/jmdstack][jmdstack]]
+
+*** Why I named this Reflect
 I am hoping this collection of my notes to reflect what I discovered/learned that is worth remembering.
 
 Also I want to admit that even after taking notes, things possibly might have bounced back without me absorbing it fully.
@@ -30,4 +33,4 @@ I will contains org files under [[file:org/][org]] so this repo still has room f
 
 I also think it would be nice if this can be rendered to HTML [[https://wiki.nikiv.dev/][like this one]]. Maybe I will set that up one day.
 
-I'm choosing the path of auto commiting this repo via https://github.com/gitwatch/gitwatch. `./watch-and-commit` to trigger that.
+I'm choosing the path of auto commiting this repo via https://github.com/gitwatch/gitwatch. Running =./watch-and-commit= will start watching and commit and push.
