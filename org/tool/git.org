@@ -1,0 +1,3 @@
+#+title: Git
+
+infamous submodule - https://news.ycombinator.com/item?id=26165445
