@@ -1,3 +1,14 @@
 #+title: Zsh
 
 * on macOS
+** Don't install zsh with Homebrew
+/Instead I install via [[https://search.nixos.org/packages?channel=unstable&show=zsh&query=zsh][Nix]] which allows me to avoid issues below./
+
+*** Problems with multi user
+https://github.com/zsh-users/zsh-completions/issues/433
+
+There seems to be a workaround - https://brendanthompson.com/til/2021/07/multi-user-homebrew.
+But I would avoid that when possible.
+
+*** Performance issue
+Very noticeable lag on typing when brew-installed zsh is used with this particular plugin, https://github.com/marlonrichert/zsh-autocomplete at least at the time of writing this.
