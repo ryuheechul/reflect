@@ -1,3 +1,5 @@
 #+title: Git
 
+* submodule
+https://git-scm.com/book/en/v2/Git-Tools-Submodules
 infamous submodule - https://news.ycombinator.com/item?id=26165445
