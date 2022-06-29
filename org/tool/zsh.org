@@ -12,3 +12,4 @@ But I would avoid that when possible.
 
 *** Performance issue
 Very noticeable lag on typing when brew-installed zsh is used with this particular plugin, https://github.com/marlonrichert/zsh-autocomplete at least at the time of writing this.
+/This might be not related to homebrew version and maybe it's solely up to the plugin/

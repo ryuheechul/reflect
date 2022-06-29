@@ -1,0 +1,28 @@
+#+title: Javascript
+
+* Frameworks
+** Svelte
+- more readable (even without learning the framework first)
+- less code/boiler plate
+- compiles to plain html/css/javascript (less footprints)
+- no virtual DOM
+- less choices and more support
+- [[https://www.fathym.com/blog/articles/2022/april/2022-04-13-micro-frontend-popularity#most-loved][happy developers]]
+- [[https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte][backed by Vercel]]
+
+*** Some Links
+https://svelte.dev/
+https://kit.svelte.dev/
+[[https://www.youtube.com/watch?v=AdNJ3fydeao][Rich Harris - Rethinking reactivity]]
+[[https://www.youtube.com/watch?v=kMlkCYL9qo0][Svelte Origins: A JavaScript Documentary]]
+[[https://www.youtube.com/watch?v=860d8usGC0o][Have Single-Page Apps Ruined the Web? | Transitional Apps with Rich Harris, NYTimes]]
+[[https://naturaily.com/blog/why-svelte-is-next-big-thing-javascript-development][Why Svelte is the Next Big Thing in JavaScript Development]]
+[[https://naturaily.com/blog/why-svelte-is-next-big-thing-javascript-development#:~:text=When%20Should%20You%20Not%20Use%20Svelte%20and%20SvelteKit%3F][When Should You Not Use Svelte and SvelteKit?]]
+[[https://www.youtube.com/watch?v=HyWYpM_S-2c][React for the Haters in 100 Seconds]]
+[[https://www.youtube.com/watch?v=uQntFkK8Z54][The Future of Svelte (Interview with Rich Harris)]]
+https://cprimozic.net/blog/trying-out-sveltekit/
+https://css-tricks.com/svelte-for-the-experienced-react-dev/
+https://blog.logrocket.com/build-web-components-svelte/
+
+** RedwoodJS
+[[https://www.youtube.com/watch?v=o5Mwa_TJ3HM][Redwood in 100 Seconds]]

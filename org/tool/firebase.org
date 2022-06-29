@@ -1,0 +1,14 @@
+#+title: Firebase
+
+aka most popular Backend as a Service
+
+[[https://www.youtube.com/watch?v=vAoB4VbhRzM][Firebase in 100 Seconds]]
+[[https://www.youtube.com/watch?v=q5J5ho7YUhA][Firebase - Back to the Basics]]
+
+* Open Source Alternatives
+https://blog.logrocket.com/firebase-vs-supabase-which-is-better/
+
+- https://supabase.com/
+- https://appwrite.io/
+- https://www.back4app.com/
+- https://aws.amazon.com/amplify/ (partially open source)

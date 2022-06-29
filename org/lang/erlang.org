@@ -2,6 +2,9 @@
 
 https://www.cis.upenn.edu/~matuszek/General/ConciseGuides/concise-erlang.html
 https://learnyousomeerlang.com/content
+[[https://elixir-lang.org/crash-course.html][Erlang/Elixir Syntax: A Crash Course]]
+https://erlang.org/course/concurrent_programming.html
+https://learnyousomeerlang.com/the-hitchhikers-guide-to-concurrency
 
 * via YouTube
 [[https://youtu.be/SOqQVoVai6s][Erlang Programming Language - Computerphile]]
@@ -11,6 +14,18 @@ https://learnyousomeerlang.com/content
 
 * BEAM
 https://github.com/llaisdy/beam_languages
+** Why VM not OS?
+Erlang VM, BEAM is called as virtual machine not OS even though we talk a lot about its OS-like features (processes) much more than a machine like features - they come with both.
+
+To answer this question to myself, I thought about what really the meaning of OS is.
+
+Imagine there is only one type of computer that comes with a built-in OS and everybody is just happy with it so no need for inventing different type of OSes. Then to them, the concept of OS is unnecessary and the entity is just simply a computer/machine to them, which allows programs/processes to run.
+
+/but in our reality we are with variety of machines and variety of OSes because one size doesn't fit all/
+
+So in the case of Erlang's VM, there is no need - at least so far - to seperate the machine and OS apart and OS doesn't exist without machine but machine can exist byitself. Hence it makes sense to call them VM, which is probably the same case for Java VM and other VMs.
+
+This is a self answer that is not verified by others but I'm pretty happy with this answer for now.
 
 * Elixir
 https://elixir-lang.org/
@@ -75,6 +90,21 @@ In case Erlang/Elixir ecosystem, I'm not sure how often this kind of workflow is
 
 To be fair, I haven't properly learned =mix= nor =rebar3= yet, so this part will yet to be explored for me.
 
+** Agent
+
+https://elixir-lang.org/getting-started/mix-otp/agent.html
+
+*** What is an Agent
+https://hexdocs.pm/elixir/Agent.html
+
+A module comes with helper functions to create and use a process that can be responsible for holding states.
+
+*** Why do you need Agent?
+**** Can't a spawned process do what Agents do?
+Yes but creating handlers will be your responsibility.
+**** Do we really need a process to handle states?
+If your program is 100% sequential, your "main" process can just use a (handler) function to get produce and use new states.
+But the moment, you requires multiple process to share the state, a dedicated process to handle states would be a natural fit.
 
 * Gleam
 While reading about types in Elixir via https://thoughtbot.com/blog/types-in-dynamic-languages, [[https://gleam.run/][Gleam]] was mentioned.

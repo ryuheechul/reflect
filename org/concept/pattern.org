@@ -1,0 +1,19 @@
+#+title: Pattern
+
+* Microservices
+https://martinfowler.com/articles/microservices.html
+
+* Micro Frontends
+https://martinfowler.com/articles/micro-frontends.html
+
+* Backend For Frontend
+https://medium.com/mobilepeople/backend-for-frontend-pattern-why-you-need-to-know-it-46f94ce420b0
+
+** My thoughts on BFF
+When you think about why traditionally frontend engineers should be "bounded" to work on frontend platform, i.e. Web, iOS, android, there is actual no why other than that's how we thought the way it should be.
+
+Allowing front-end developers to have their own server front-end layer could be as much as powerful for designers starts coding, designers can create PR for their design changes right away without having to rely on someone to do it for them which is good for both parties because it accelerates feedback loop. Same goes here, FE developers can take advantage of controlling the layer that you didn't have a control before. Now you don't have to argue with a backend engineer about how to structure the API for your specific platforms! (I know this shouldn't be the goal but this seriously coulbe be benefitial in some cases though).
+
+Also BFF can be a nice middle ground for BE and FE engineer to meet and collaborate. It really is a nice extention of API Gateway pattern and microservices pattern. It also comes with a cost of course. Deploying and operating and possibly debugging is also more complicated. You will also have some resistances from team members who are not yet convinced.
+
+Although I haven't actually been hands on in this setup, imaging of Next.js or SvelteKit (or whatever make sense for you) as BFF and putting something like Elixir/Phoenix (again, whatever make sense for you) as a more traditional backend would be a nice way to start small with this pattern and evolve from there.

@@ -1,0 +1,5 @@
+#+title: Google Cloud Platform
+
+* AlloyDB
+https://cloud.google.com/blog/products/databases/introducing-alloydb-for-postgresql
+This feels like a product from GCP finally and actaully can compete with AWS RDS (it looks quite promising)
