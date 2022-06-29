@@ -17,3 +17,18 @@ Allowing front-end developers to have their own server front-end layer could be 
 Also BFF can be a nice middle ground for BE and FE engineer to meet and collaborate. It really is a nice extention of API Gateway pattern and microservices pattern. It also comes with a cost of course. Deploying and operating and possibly debugging is also more complicated. You will also have some resistances from team members who are not yet convinced.
 
 Although I haven't actually been hands on in this setup, imaging of Next.js or SvelteKit (or whatever make sense for you) as BFF and putting something like Elixir/Phoenix (again, whatever make sense for you) as a more traditional backend would be a nice way to start small with this pattern and evolve from there.
+
+*** For Native App Developers
+/like iOS and Android/
+
+/With just my old and humble experience being a mobile dev in the past and not very reflecitve hunce,/ it's possible that they might be less interested on this topic to compare to web developers but in case they are, then they can benefit from it for sure.
+
+*** For Web Front End Developers
+Web devs are inherently much more likely to be exposed to the full stack world as also there are many full stack frameworks out there and the exposure to NodeJS tooling. So it might appears nothing new. However, a clear distinction between BFF (that may include frontend like SvelteKit/Next.js or more "UI" free layer) and a backend layer rather than all is combined like Rails/Phoenix, a "monolith". responsibility domain can be clearer especially if that's what your team is looking for.
+
+*** Wrapping Up
+I personally think the distinction between frontend and backend is getting more fuzzier and it can be in a ever changing spectrum.
+
+They are just components which carries charateristics and capabilities that suits them. As long it makes sense why some chunk of code is in A rather than B and how they work together and what's the possibilities of improve structure/organize them better in case some pitfalls are found (which will be always, just give some time),
+
+One thing for sure is that there is no one size fits all and it should be natural for teams that will not agree on the architecture 100%. So don't sweat on unifications but rather focus on a next "small" improvements and carefully evaluate trade-offs.
