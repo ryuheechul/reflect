@@ -1,1 +1,4 @@
 #+title: Computer Science
+
+[[https://www.youtube.com/watch?v=-uleG_Vecis][100+ Computer Science Concepts Explained]]
+[[https://www.youtube.com/watch?v=BT2Cv-Tjq7Q][LLVM in 100 Seconds]]

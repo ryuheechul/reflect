@@ -1,5 +1,7 @@
 #+title: Pattern
 
+[[https://www.youtube.com/watch?v=tv-_1er1mWI][10 Design Patterns Explained in 10 Minutes]]
+
 * Microservices
 https://martinfowler.com/articles/microservices.html
 
