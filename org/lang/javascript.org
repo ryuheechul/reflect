@@ -23,6 +23,7 @@ https://kit.svelte.dev/
 https://cprimozic.net/blog/trying-out-sveltekit/
 https://css-tricks.com/svelte-for-the-experienced-react-dev/
 https://blog.logrocket.com/build-web-components-svelte/
+[[https://www.youtube.com/watch?v=f6prqYlbTE4][🍞 & 🧈: Magically load data with SvelteKit Endpoints]]
 
 ** RedwoodJS
 [[https://www.youtube.com/watch?v=o5Mwa_TJ3HM][Redwood in 100 Seconds]]
