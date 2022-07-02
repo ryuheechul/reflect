@@ -1,4 +1,4 @@
-#+title: Pattern
+#+title: (Design) Pattern / Architecture
 
 [[https://www.youtube.com/watch?v=tv-_1er1mWI][10 Design Patterns Explained in 10 Minutes]]
 
@@ -34,3 +34,23 @@ I personally think the distinction between frontend and backend is getting more 
 They are just components which carries charateristics and capabilities that suits them. As long it makes sense why some chunk of code is in A rather than B and how they work together and what's the possibilities of improve structure/organize them better in case some pitfalls are found (which will be always, just give some time),
 
 One thing for sure is that there is no one size fits all and it should be natural for teams that will not agree on the architecture 100%. So don't sweat on unifications but rather focus on a next "small" improvements and carefully evaluate trade-offs.
+
+
+* Approach to Cleaner Code
+** [[https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)][Hexagonal Architecture]]
+also known as:
+- [[https://web.archive.org/web/20171128235148/http://alistair.cockburn.us/Hexagonal+architecture][Ports and Adapters]]
+- [[https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html][Clean Architecture]]
+
+[[https://youtu.be/2dKZ-dWaCiU?t=3664][ITkonekt 2019 | Robert C. Martin (Uncle Bob), Clean Architecture and Design]]
+#+begin_quote
+[[https://youtube.com/clip/UgkxIam9a_Bj9hBQCZvofFJuSDHtLYmf-fJS][A good architecture maximizes the number of decisions not made]]
+#+end_quote
+
+** Domain Driven Design
+https://martinfowler.com/bliki/DomainDrivenDesign.html
+https://martinfowler.com/bliki/BoundedContext.html
+
+** My (first) "Adaption"
+A (probably first) time that I did something about writing "clean code" that allows the business logic to be free from handling redis without knowing the existence of "Clean Architecture" nor DDD
+https://github.com/ryuheechul/kubeletter/tree/master/kubeletter/src/kubeletter/stores

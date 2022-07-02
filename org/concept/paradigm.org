@@ -45,3 +45,6 @@ R.useWith(Math.pow, [R.dec, R.inc])(3, 4); //=> 32 == Math.pow(2, 5)== Math.pow(
 *** =transducer=
 https://ramdajs.com/docs/#transduce
 https://www.jeremydaly.com/transducers-supercharge-functional-javascript/
+
+* Agile Manifesto
+https://agilemanifesto.org/
