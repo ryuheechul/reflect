@@ -37,6 +37,9 @@ One thing for sure is that there is no one size fits all and it should be natura
 
 
 * Approach to Cleaner Code
+CA/HA and DDD are different approaches to similar goals and this brings questions and confusions.
+This post was helpful to feel the difference, https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/.
+
 ** [[https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)][Hexagonal Architecture]]
 also known as:
 - [[https://web.archive.org/web/20171128235148/http://alistair.cockburn.us/Hexagonal+architecture][Ports and Adapters]]
