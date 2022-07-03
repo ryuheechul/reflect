@@ -53,6 +53,11 @@ also known as:
 [[https://www.qwan.eu/attachments/blogposts/2020/ef-deps-3.png][a good representation of spagetti not necessarily just code but also structure]]
 I really liked how it's depicted above which is from https://www.qwan.eu/2020/08/20/hexagonal-architecture.html because essentially that's the picture that all these patterns are trying to avoid.
 
+I also liked the clearly stated benefits from the article especially this one.
+#+begin_quote
+Guides us in What To Put Where (WTPW) in the code. WTPW is crucial in making and [[http://wirfs-brock.com/blog/2009/06/08/sustainable-design/][keeping our code habitable]]. Getting something to work is half the effort, finding a good place is the other half.
+#+end_quote
+
 [[https://youtu.be/2dKZ-dWaCiU?t=3664][ITkonekt 2019 | Robert C. Martin (Uncle Bob), Clean Architecture and Design]]
 #+begin_quote
 [[https://youtube.com/clip/UgkxIam9a_Bj9hBQCZvofFJuSDHtLYmf-fJS][A good architecture maximizes the number of decisions not made]]
