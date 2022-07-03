@@ -2,6 +2,9 @@
 
 [[https://www.youtube.com/watch?v=tv-_1er1mWI][10 Design Patterns Explained in 10 Minutes]]
 
+* Anti Pattern
+Antipattern is not as simple as bad pattern - https://martinfowler.com/bliki/AntiPattern.html
+
 * Microservices
 https://martinfowler.com/articles/microservices.html
 
