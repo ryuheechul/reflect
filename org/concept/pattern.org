@@ -46,7 +46,7 @@ This post was helpful to feel the difference, https://khalilstemmler.com/article
 ** [[https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)][Hexagonal Architecture]]
 https://blog.octo.com/en/hexagonal-architecture-three-principles-and-an-implementation-example/
 also known as:
-- [[https://web.archive.org/web/20171128235148/http://alistair.cockburn.us/Hexagonal+architecture][Ports and Adapters]]
+- [[https://alistair.cockburn.us/hexagonal-architecture/][Ports and Adapters]]
 - [[https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html][Clean Architecture]]
 
 #+attr_html: :width 40%
