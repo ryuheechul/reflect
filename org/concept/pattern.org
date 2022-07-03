@@ -58,3 +58,10 @@ https://martinfowler.com/bliki/BoundedContext.html
 ** My (first) "Adaption"
 A (probably first) time that I did something about writing "clean code" that allows the business logic to be free from handling redis without knowing the existence of "Clean Architecture" nor DDD
 https://github.com/ryuheechul/kubeletter/tree/master/kubeletter/src/kubeletter/stores
+
+** Presentation Domain Data Layering
+https://martinfowler.com/bliki/PresentationDomainDataLayering.html
+It's relating to Hexagonal Architecture but weirdly I really liked the last sentence the best.
+#+begin_quote
+Developers don't have to be full-stack (although that is laudable) but teams should be.
+#+end_quote
