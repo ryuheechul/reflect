@@ -77,3 +77,9 @@ It's relating to Hexagonal Architecture but weirdly I really liked the last sent
 #+begin_quote
 Developers don't have to be full-stack (although that is laudable) but teams should be.
 #+end_quote
+
+** Domain Driven Hexagon
+#+attr_html: :width 40%
+[[https://github.com/Sairyss/domain-driven-hexagon/blob/master/assets/images/DomainDrivenHexagon.png?raw=true][Look at this beutiful diagram of domain driven hexagon!]]
+
+from https://github.com/Sairyss/domain-driven-hexagon
