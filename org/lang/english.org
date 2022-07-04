@@ -5,3 +5,6 @@
 
 * data
 https://towardsdatascience.com/how-we-use-the-word-data-has-changed-and-it-s-dangerous-b7b6278a8e09
+
+* more nuanced
+https://www.quora.com/What-does-it-mean-for-something-to-be-nuanced
