@@ -85,3 +85,12 @@ Developers don't have to be full-stack (although that is laudable) but teams sho
 [[https://github.com/Sairyss/domain-driven-hexagon/blob/master/assets/images/DomainDrivenHexagon.png?raw=true][Look at this beutiful diagram of domain driven hexagon!]]
 
 from https://github.com/Sairyss/domain-driven-hexagon
+
+
+* Layered Architecture
+https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html
+https://garywoodfine.com/why-i-dont-like-layered-architecture-for-microservices/
+
+* Vertical Slice Architecture
+https://jimmybogard.com/vertical-slice-architecture/
+https://garywoodfine.com/implementing-vertical-slice-architecture/
