@@ -43,6 +43,8 @@ One thing for sure is that there is no one size fits all and it should be natura
 CA/HA and DDD are different approaches to similar goals and this brings questions and confusions.
 This post was helpful to feel the difference, https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/.
 
+** Modular Programming
+https://www.tiny.cloud/blog/modular-programming-principle/
 ** [[https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)][Hexagonal Architecture]]
 https://blog.octo.com/en/hexagonal-architecture-three-principles-and-an-implementation-example/
 also known as:
