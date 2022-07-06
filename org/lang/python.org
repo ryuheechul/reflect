@@ -24,3 +24,14 @@ Type "help", "copyright", "credits" or "license" for more information.
 After experiencing this, I get why it becomes tuple (and I guess it can be handy sometime??) but it is something surprising for someone who doesn't write python code regularly...
 
 ** https://github.com/satwikkansal/wtfpython
+
+* ORM
+https://www.reddit.com/r/Python/comments/punugl/which_orm_should_i_learn/
+https://www.reddit.com/r/flask/comments/jnrbj0/any_alternative_to_sqlalchemy/
+
+https://github.com/coleifer/peewee
+https://github.com/sqlalchemy/sqlalchemy
+https://github.com/tortoise/tortoise-orm
+https://ponyorm.org/
+
+https://www.cosmicpython.com/book/chapter_02_repository.html
