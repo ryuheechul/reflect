@@ -86,6 +86,10 @@ Developers don't have to be full-stack (although that is laudable) but teams sho
 
 from https://github.com/Sairyss/domain-driven-hexagon
 
+** Cosmic Python
+https://www.cosmicpython.com/book/preface.html
+Concrete examples with popular "modern" language, python which other resources lacks since they come from Java era.
+
 
 * Layered Architecture
 https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html
