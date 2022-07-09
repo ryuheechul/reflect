@@ -2,3 +2,14 @@
 
 [[https://www.youtube.com/watch?v=-uleG_Vecis][100+ Computer Science Concepts Explained]]
 [[https://www.youtube.com/watch?v=BT2Cv-Tjq7Q][LLVM in 100 Seconds]]
+
+* Lambda Calculus
+[[https://www.youtube.com/watch?v=eis11j_iGMs][Lambda Calculus - Computerphile]]
+[[https://www.youtube.com/watch?v=9T8A89jgeTI&t=660s][Essentials: Functional Programming's Y Combinator - Computerphile]]
+[[https://www.youtube.com/watch?v=BC8ZAMwfwi4][Y combinator function. What is it?]]
+[[https://www.youtube.com/watch?v=3VQ382QG-y4][Lambda Calculus - Fundamentals of Lambda Calculus & Functional Programming in JavaScript]]
+[[https://youtu.be/pAnLQ9jwN-E][A Flock of Functions: Combinators, Lambda Calculus, & Church Encodings in JS - Part II]]
+
+* Turing Machines
+[[https://www.youtube.com/watch?v=dNRDvLACg5Q][Turing Machines Explained - Computerphile]]
+[[https://www.youtube.com/watch?v=CE8UhcyJS0I][Busy Beaver Turing Machines - Computerphile]]
