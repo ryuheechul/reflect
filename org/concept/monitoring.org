@@ -1,0 +1,20 @@
+#+title: Monitoring / Observability
+
+* Open Metrics
+https://openmetrics.io/
+Basically Prometheus format evolved into open metrics format so this format can be used more widely at different tools
+
+* Open Telemetry
+https://opentelemetry.io/
+#+begin_quote
+OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) to help you analyze your software’s performance and behavior.
+
+OpenTelemetry is generally available across [[https://opentelemetry.io/docs/instrumentation/][several languages]] and is suitable for use.
+#+end_quote
+
+* Open Metrics and Open Telemetry together
+They both are CNCF projects
+https://signoz.io/blog/openmetrics-vs-opentelemetry/
+https://opentelemetry.io/docs/reference/specification/compatibility/openmetrics/
+
+So a meaning of OpenTelemetry and Open Metrics could be like using a OpenTelemetry client (i.e. [[https://opentelemetry.io/docs/instrumentation/js/getting-started/nodejs/][NodeJS]]) to export metrics (i.e. instead of =prom-client=) and the Open Metrics format could be ingested into different backend (i.e. Datadog)
