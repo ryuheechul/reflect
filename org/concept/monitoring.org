@@ -12,6 +12,8 @@ OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, ge
 OpenTelemetry is generally available across [[https://opentelemetry.io/docs/instrumentation/][several languages]] and is suitable for use.
 #+end_quote
 
+https://github.blog/2021-05-26-why-and-how-github-is-adopting-opentelemetry/
+
 * Open Metrics and Open Telemetry together
 They both are CNCF projects
 https://signoz.io/blog/openmetrics-vs-opentelemetry/
