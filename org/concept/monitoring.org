@@ -13,6 +13,7 @@ OpenTelemetry is generally available across [[https://opentelemetry.io/docs/inst
 #+end_quote
 
 https://github.blog/2021-05-26-why-and-how-github-is-adopting-opentelemetry/
+https://docs.datadoghq.com/tracing/trace_collection/open_standards/
 
 * Open Metrics and Open Telemetry together
 They both are CNCF projects
