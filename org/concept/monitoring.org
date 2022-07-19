@@ -15,6 +15,9 @@ OpenTelemetry is generally available across [[https://opentelemetry.io/docs/inst
 https://github.blog/2021-05-26-why-and-how-github-is-adopting-opentelemetry/
 https://docs.datadoghq.com/tracing/trace_collection/open_standards/
 
+** Relationship with Vector
+https://vector.dev/docs/setup/going-to-prod/architecting/
+
 * Open Metrics and Open Telemetry together
 They both are CNCF projects
 https://signoz.io/blog/openmetrics-vs-opentelemetry/
