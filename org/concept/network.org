@@ -1,6 +1,6 @@
 #+title: Network
 
-Specially about computer networks and the internet.
+* Computer networking and the internet in general
 
 https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/
 https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/
@@ -11,3 +11,26 @@ https://www.cloudflare.com/learning/security/glossary/what-is-bgp/
 https://www.cloudflare.com/learning/network-layer/what-is-gre-tunneling/
 https://www.cloudflare.com/learning/network-layer/what-is-ipsec/
 https://www.cloudflare.com/learning/dns/dns-cache-poisoning/
+
+* (Cloud) Solutions
+** Compare Services Between Major Cloud Providers
+https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
+** Service Mesh
+- help visualize/track traffics between services
+- (Envoy) proxy components usually sits next to each target nodes
+- telemetry (tracing, logging, metrics) can be done at proxy level, leaving apps being free of concerning on those things
+- especially benefitial if apps are powered by different languages/platforms
+- control plane can do all the magic of swapping routes and all kinds of stuff by controlling proxies
+- which makes it easier to migrate services to different technologies and platforms
+- suitable for [[https://en.wikipedia.org/wiki/East-west_traffic][East-west traffic]] aka "internal" traffic between micro-services in modern setup.
+
+https://aws.amazon.com/app-mesh
+https://cloud.google.com/traffic-director
+** Service Discovery
+- provide namespaces and aliases to understand each service much clearer without having to know which specific tech/platform each service is running on
+- can provide not just access point but also addtional attributes like port number, database name, where to retrieve secrets
+- which helps decoupling by reducing hard coding to actual values
+- and that also enables smooth migrations as the only place need to update the value is SD
+
+https://aws.amazon.com/cloud-map/
+https://cloud.google.com/service-directory

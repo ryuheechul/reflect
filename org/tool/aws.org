@@ -1,5 +1,8 @@
 #+title: Amazon Web Service
 
+* Comparing/Mapping Services Between Major Cloud Providers
+https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
+
 * CloudFront Function & Lambda@Edge function
 https://aws.amazon.com/lambda/edge/
 https://aws.amazon.com/blogs/aws/introducing-cloudfront-functions-run-your-code-at-the-edge-with-low-latency-at-any-scale/

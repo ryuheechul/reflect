@@ -7,6 +7,7 @@ Antipattern is not as simple as bad pattern - https://martinfowler.com/bliki/Ant
 
 * Microservices
 https://martinfowler.com/articles/microservices.html
+[[https://youtu.be/KPtLbSEFe6c][Data Design and Modeling for Microservices]]
 
 * Micro Frontends
 https://martinfowler.com/articles/micro-frontends.html
