@@ -1,1 +1,15 @@
 #+title: CDK
+
+* AWS Cloud Development Kit
+https://aws.amazon.com/cdk/
+
+It's a infrastructure as Code tool can potentially replace Terraform in your stack but it only works for AWS.
+However there is also such thing as CDKTF, https://www.terraform.io/cdktf which abstract terraform using CDK which unlocks other cloud providers too.
+
+** Construct vs Stack
+- https://docs.aws.amazon.com/cdk/v2/guide/constructs.html
+- https://blog.phillipninan.com/when-to-use-aws-cdk-constructs-vs-stacks
+
+* My Experience with CDK(TF)
+- https://github.com/ryuheechul/tf-cloud
+- https://github.com/ryuheechul/playground-infra
