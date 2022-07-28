@@ -1,0 +1,15 @@
+#+title: Edgedb
+
+https://www.edgedb.com
+
+Just discovered this tool right a day before their 2.0 launch day.
+
+It seems a pretty cool tech/tool for a fresh approach for utilizing relational (SQL) database.
+It basically turns PostgreSQL into a new generation "POST-SQL" database (at least at a user experience side) by sitting in between PostgreSQL and "regular" software.
+
+Unlike SQL, using EdgeQL didn't feel like so foreign coming from general purpose programming languages.
+I never felt comfortable with SQL nor grew interests into it.
+
+But EdgeQL was quite different and in fact I finishted [[https://www.edgedb.com/tutorial][the whole tutorial]] at one go, because it was that interesting and easy to understand (the most parts).
+
+Intrigued to see how this tech grow into the software industry as time progress.
