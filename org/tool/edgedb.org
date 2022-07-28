@@ -2,7 +2,9 @@
 
 https://www.edgedb.com
 
-Just discovered this tool right a day before their 2.0 launch day.
+Just discovered this tool right a day before their 2.0 launch day by these posts:
+- https://news.hada.io/topic?id=7052 (in Korean)
+- https://divan.dev/posts/edgedb/
 
 It seems a pretty cool tech/tool for a fresh approach for utilizing relational (SQL) database.
 It basically turns PostgreSQL into a new generation "POST-SQL" database (at least at a user experience side) by sitting in between PostgreSQL and "regular" software.
