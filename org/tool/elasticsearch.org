@@ -1,6 +1,8 @@
 #+title: Elasticsearch
 
-[[https://youtu.be/BvgGgkN3clI][* Introduction to Apache Lucene & Elasticsearch]]
+* [[https://youtu.be/ZP0NmfyfsoM][What is Elasticsearch]]
+* [[https://youtu.be/BvgGgkN3clI][Introduction to Apache Lucene & Elasticsearch]]
+
 * Use cases
 https://www.elastic.co/blog/found-uses-of-elasticsearch
 
