@@ -6,3 +6,7 @@ https://www.elastic.co/blog/found-uses-of-elasticsearch
 
 * [[https://youtu.be/F1oKcMefb0A][Search War: Elasticsearch Vs OpenSearch]]
 ** A frok from AWS - https://opensearch.org/
+
+* Understand Elasticsearch by Comparing with other Tools/Concepts
+[[https://cloud.netapp.com/blog/cvo-blg-elasticsearch-vs-mongodb-6-key-differences][Elasticsearch vs MongoDB: 6 Key Differences]]
+[[https://www.elastic.co/guide/en/elasticsearch/reference/current/_mapping_concepts_across_sql_and_elasticsearch.html][Mapping concepts across SQL and Elasticsearch]]
