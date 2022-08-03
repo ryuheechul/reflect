@@ -1,7 +1,8 @@
 #+title: Elasticsearch
 
-[[https://youtu.be/BvgGgkN3clI][Introduction to Apache Lucene & Elasticsearch]]
+[[https://youtu.be/BvgGgkN3clI][* Introduction to Apache Lucene & Elasticsearch]]
+* Use cases
+https://www.elastic.co/blog/found-uses-of-elasticsearch
 
-A frok from AWS - https://opensearch.org/
-
-[[https://youtu.be/F1oKcMefb0A][Search War: Elasticsearch Vs OpenSearch]]
+* [[https://youtu.be/F1oKcMefb0A][Search War: Elasticsearch Vs OpenSearch]]
+** A frok from AWS - https://opensearch.org/
