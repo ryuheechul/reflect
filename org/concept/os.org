@@ -32,3 +32,6 @@ https://unix.superglobalmegacorp.com/Net2/newsrc/sys/syscall.h.html
 https://opensource.apple.com/source/xnu/xnu-792/bsd/sys/syscall.h.auto.html
 https://android.googlesource.com/platform/bionic/+/8aabbd7/libc/include/sys/syscall.h
 https://github.com/openbsd/src/blob/master/sys/sys/syscall.h
+
+** Process and Jobs
+[[https://www.youtube.com/watch?v=TJzltwv7jJs][Linux processes, init, fork/exec, ps, kill, fg, bg, jobs]]
