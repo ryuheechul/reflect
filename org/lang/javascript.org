@@ -27,3 +27,7 @@ https://blog.logrocket.com/build-web-components-svelte/
 
 ** RedwoodJS
 [[https://www.youtube.com/watch?v=o5Mwa_TJ3HM][Redwood in 100 Seconds]]
+
+* Typescript
+
+https://www.qualdesk.com/blog/2021/type-guard-for-string-union-types-typescript/
