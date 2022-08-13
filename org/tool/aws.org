@@ -36,8 +36,9 @@ Example code I wrote - https://github.com/ryuheechul/eb-sqs-imdsv2
 
 * Amazon Simple Queue Service aka SQS
 https://aws.amazon.com/sqs/
-
 Supposedly, it should be able replace these stacks - https://stackshare.io/amazon-sqs/alternatives
+
+[[https://www.youtube.com/watch?v=RoKAEzdcr7k][AWS SQS vs SNS vs EventBridge - When to Use What?]]
 
 * Session Manager - aka SSM
 ** =scp= over SSM
