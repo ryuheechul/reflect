@@ -1,8 +1,17 @@
 #+title: Git
 
+* previous note on the subject
+https://gist.github.com/ryuheechul/bc8a6c32f7a50bde183d1b61dbf71867
+
 * config
 https://git-scm.com/docs/git-config
 
 * submodule
 https://git-scm.com/book/en/v2/Git-Tools-Submodules
 infamous submodule - https://news.ycombinator.com/item?id=26165445
+
+* gitignore
+https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+** conditional global ignore
+https://stackoverflow.com/a/73966838/1570165
