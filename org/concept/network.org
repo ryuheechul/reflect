@@ -11,6 +11,7 @@ https://www.cloudflare.com/learning/security/glossary/what-is-bgp/
 https://www.cloudflare.com/learning/network-layer/what-is-gre-tunneling/
 https://www.cloudflare.com/learning/network-layer/what-is-ipsec/
 https://www.cloudflare.com/learning/dns/dns-cache-poisoning/
+https://www.cloudflare.com/learning/access-management/vpn-speed/
 
 * (Cloud) Solutions
 ** Compare Services Between Major Cloud Providers
@@ -34,3 +35,9 @@ https://cloud.google.com/traffic-director
 
 https://aws.amazon.com/cloud-map/
 https://cloud.google.com/service-directory
+
+* HTTP/Browser
+** Cookies
+https://medium.com/swlh/browser-cookies-101-241ef1ce3e7e
+** Cross XXX
+https://dev.to/maleta/cors-xss-and-csrf-with-examples-in-10-minutes-35k3
