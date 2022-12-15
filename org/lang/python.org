@@ -35,3 +35,50 @@ https://github.com/tortoise/tortoise-orm
 https://ponyorm.org/
 
 https://www.cosmicpython.com/book/chapter_02_repository.html
+
+* Python site-packages interference
+
+Unanticipated site-packages can interfere your project even with virtualenv in some cases.
+In my case it was the combination of using =psycopg2-binary= inside poetry project that conflicts with another one installed by =pgcli=.
+In this case the error message was not clear and the most I could find was this https://stackoverflow.com/questions/36103034/importerror-no-module-named-psycopg2-psycopg/54938193#54938193.
+
+#+begin_src bash
+alembic upgrade head
+Traceback (most recent call last):
+  File "/Users/me/Library/Caches/pypoetry/virtualenvs/alembic-playground-hJMT3Y3B-py3.7/bin/alembic", line 8, in <module>
+    sys.exit(main())
+
+  ...
+
+  File "/Users/me/Library/Caches/pypoetry/virtualenvs/alembic-playground-hJMT3Y3B-py3.7/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 553, in dbapi
+    import psycopg2
+  File "/nix/store/jyjdwbimjgcibzcd2zpsqfanrlz95a3y-python3.10-psycopg2-2.9.3/lib/python3.10/site-packages/psycopg2/__init__.py", line 51, in <module>
+    from psycopg2._psycopg import (                     # noqa
+ModuleNotFoundError: No module named 'psycopg2._psycopg'
+#+end_src
+
+But you can see that all of sudden it was trying to access from =/nix/store/...= rather than from =/Users/me/Library/Caches/pypoetry/virtualenv/...= because =pgcli= was installed via nix and it exposed multiple packages as described at https://github.com/NixOS/nixpkgs/blob/c85040af5cfcd191afac5db6ec122dcfa65ebc1d/pkgs/development/python-modules/pgcli/default.nix#L37
+
+by running =python -m site=, debugging the path was possible.
+
+#+begin_src bash
+sys.path = [
+    '/Users/me/my-alembic-playground,
+    '/nix/store/gijrav18cvdl7s2ympiapdnfqwrp1a1h-python3.10-pycparser-2.21/lib/python3.10/site-packages',
+    '/nix/store/qdlin9dzc39gxs2w2qmpi5qjv5862mil-python3-3.10.5/lib/python3.10/site-packages',
+    '/nix/store/rafa6z38xhdkww3mc6sx75ckwn1561zp-python3.10-prompt-toolkit-3.0.28/lib/python3.10/site-packages',
+    ...
+    '/nix/store/jyjdwbimjgcibzcd2zpsqfanrlz95a3y-python3.10-psycopg2-2.9.3/lib/python3.10/site-packages',
+    ...
+    '/nix/store/nqimgvg0rcdj17sx4x0x6qdpsn5i1ppq-python3.10-pygments-2.12.0/lib/python3.10/site-packages',
+    '/nix/store/jhdaz3g8il18ys544rgdynzqljliz2bg-python3-3.7.13/lib/python37.zip',
+    '/nix/store/jhdaz3g8il18ys544rgdynzqljliz2bg-python3-3.7.13/lib/python3.7',
+    '/nix/store/jhdaz3g8il18ys544rgdynzqljliz2bg-python3-3.7.13/lib/python3.7/lib-dynload',
+    '/Users/me/Library/Caches/pypoetry/virtualenvs/alembic-playground-hJMT3Y3B-py3.7/lib/python3.7/site-packages',
+]
+USER_BASE: '/Users/me/.local' (exists)
+USER_SITE: '/Users/me/.local/lib/python3.7/site-packages' (doesn't exist)
+ENABLE_USER_SITE: False
+#+end_src
+
+My resolution to this specific case was simply uninstalling =pgcli= and just using =psql= but hopefully I can find better solution to this at some point.
