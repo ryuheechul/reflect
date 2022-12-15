@@ -40,6 +40,12 @@ Supposedly, it should be able replace these stacks - https://stackshare.io/amazo
 
 [[https://www.youtube.com/watch?v=RoKAEzdcr7k][AWS SQS vs SNS vs EventBridge - When to Use What?]]
 
+* AWS Step Functions
+https://christophebougere.github.io/awesome-stepfunctions
+https://states-language.net/spec.html
+https://docs.aws.amazon.com/step-functions/latest/dg/input-output-example.html
+[[https://github.com/ryuheechul/playground-infra/blob/d92a62910c6169decbcf07b04fbc32e1f364bc4e/aws/one-off-tasks/cdk/one-off-tasks/lib/constructs.ts#L128][An example by me]]
+
 * Session Manager - aka SSM
 ** =scp= over SSM
 It is mentioned here - https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-sessions-start.html#sessions-start-ssh
