@@ -99,3 +99,6 @@ https://garywoodfine.com/why-i-dont-like-layered-architecture-for-microservices/
 * Vertical Slice Architecture
 https://jimmybogard.com/vertical-slice-architecture/
 https://garywoodfine.com/implementing-vertical-slice-architecture/
+
+* Debouncing and throttling for performance
+https://blog.openreplay.com/forever-functional-debouncing-and-throttling-for-performance
