@@ -1,5 +1,8 @@
 #+title: Python
 
+* Configuring Python Projects with INI, TOML, YAML, and ENV files
+https://hackersandslackers.com/simplify-your-python-projects-configuration/
+
 * args and kargs
 https://realpython.com/python-kwargs-and-args/
 
