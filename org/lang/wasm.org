@@ -1,0 +1,5 @@
+#+title: Web Assembly
+
+[[https://youtu.be/gSpXMH9xJy0][* Steve Klabnik - WebAssembly (Digging a bit deeper)]]
+[[https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format][* Understanding WebAssembly text format]]
+[[https://wasdk.github.io/wasmcodeexplorer/][* WebAssembly Code Explorer]]
