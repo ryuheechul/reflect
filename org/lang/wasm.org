@@ -3,3 +3,9 @@
 [[https://youtu.be/gSpXMH9xJy0][* Steve Klabnik - WebAssembly (Digging a bit deeper)]]
 [[https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format][* Understanding WebAssembly text format]]
 [[https://wasdk.github.io/wasmcodeexplorer/][* WebAssembly Code Explorer]]
+
+* Early Stage Frictions?
+** [[https://www.reddit.com/r/WebAssembly/comments/x7y1re/assemblyscript_has_removed_wasi_support/][[Reddit] AssemblyScript has removed WASI support]]
+*** https://www.assemblyscript.org/standards-objections.html
+** [[https://medium.com/@katelyngadd/why-i-quit-googles-webassembly-team-and-how-it-made-me-sick-c50ef562ce1][[Medium] Why I Quit Google’s WebAssembly Team, And How It Made Me Sick]]
+*** [[https://news.ycombinator.com/item?id=31341442][HN Comments on above]]
