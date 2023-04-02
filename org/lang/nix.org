@@ -25,6 +25,7 @@ I also wrote an article sometime ago when I first tried Nix as well
 ** [[https://github.com/alexbakker/log4shell-tools][A simple flake example that build with golang - log4shell-tools]]
 ** https://myme.no/posts/2020-01-26-nixos-for-development.html
 ** https://determinate.systems/posts/nix-run
+** https://ianthehenry.com/posts/how-to-learn-nix/introduction/
 
 * Flake Cheatsheets
 #+begin_src makefile

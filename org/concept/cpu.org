@@ -1,0 +1,6 @@
+#+title: CPU
+
+* Links
+- https://wiki.nikiv.dev/hardware/cpu/
+[[https://kb.iu.edu/d/agxz][- What are binary, octal, and hexadecimal notation?]]
+- https://stackoverflow.com/questions/5295903/how-many-bits-does-a-word-contain-in-32-64-bit-os-respectively

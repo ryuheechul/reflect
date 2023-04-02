@@ -1,17 +1,17 @@
 #+title: Network
 
 * Computer networking and the internet in general
-
-https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/
-https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/
-https://www.cloudflare.com/learning/network-layer/what-is-a-router/
-https://www.cloudflare.com/learning/network-layer/what-is-routing/
-https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
-https://www.cloudflare.com/learning/security/glossary/what-is-bgp/
-https://www.cloudflare.com/learning/network-layer/what-is-gre-tunneling/
-https://www.cloudflare.com/learning/network-layer/what-is-ipsec/
-https://www.cloudflare.com/learning/dns/dns-cache-poisoning/
-https://www.cloudflare.com/learning/access-management/vpn-speed/
+** https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/
+** https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/
+** https://www.cloudflare.com/learning/network-layer/what-is-a-router/
+** https://www.cloudflare.com/learning/network-layer/what-is-routing/
+** https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
+** https://www.cloudflare.com/learning/security/glossary/what-is-bgp/
+** https://www.cloudflare.com/learning/network-layer/what-is-gre-tunneling/
+** https://www.cloudflare.com/learning/network-layer/what-is-ipsec/
+** https://www.cloudflare.com/learning/dns/dns-cache-poisoning/
+** https://www.cloudflare.com/learning/access-management/vpn-speed/
+** [[https://ormuco.com/blog/network-virtualization-how-do-sdn-nfv-differ][In Network Virtualization, How Do SDN and NFV Differ?]]
 
 * (Cloud) Solutions
 ** Compare Services Between Major Cloud Providers
