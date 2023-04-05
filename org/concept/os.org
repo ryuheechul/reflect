@@ -7,8 +7,8 @@ https://johv.dk/blog/bare-metal-assembly-tutorial
 [[https://os.phil-opp.com/][Writing an OS in Rust]]
 
 * on Virtual Machines
-https://en.wikipedia.org/wiki/Unikernel
-https://mirage.io/
+- https://en.wikipedia.org/wiki/Unikernel
+- https://mirage.io/
 
 * "other" hardwares aka embedded
 https://blog.tonari.no/rust-simple-hardware-project
@@ -21,17 +21,26 @@ https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
 https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 
 ** System Calls
-https://linuxhint.com/what-is-a-linux-system-call/
-https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
-https://0xax.gitbooks.io/linux-insides/content/SysCall/linux-syscall-1.html
-[[https://softwareengineering.stackexchange.com/a/343797/416039][System calls and C]]
+- https://linuxhint.com/what-is-a-linux-system-call/
+- https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
+- https://0xax.gitbooks.io/linux-insides/content/SysCall/linux-syscall-1.html
+- [[https://softwareengineering.stackexchange.com/a/343797/416039][System calls and C]]
 /Insights on the relationships between languages regarding system calls/
 
 *** Different syscall headers depends on the platform
-https://unix.superglobalmegacorp.com/Net2/newsrc/sys/syscall.h.html
-https://opensource.apple.com/source/xnu/xnu-792/bsd/sys/syscall.h.auto.html
-https://android.googlesource.com/platform/bionic/+/8aabbd7/libc/include/sys/syscall.h
-https://github.com/openbsd/src/blob/master/sys/sys/syscall.h
+- https://unix.superglobalmegacorp.com/Net2/newsrc/sys/syscall.h.html
+- https://opensource.apple.com/source/xnu/xnu-792/bsd/sys/syscall.h.auto.html
+- https://android.googlesource.com/platform/bionic/+/8aabbd7/libc/include/sys/syscall.h
+- https://github.com/openbsd/src/blob/master/sys/sys/syscall.h
 
 ** Process and Jobs
-[[https://www.youtube.com/watch?v=TJzltwv7jJs][Linux processes, init, fork/exec, ps, kill, fg, bg, jobs]]
+- [[https://www.youtube.com/watch?v=TJzltwv7jJs][Linux processes, init, fork/exec, ps, kill, fg, bg, jobs]]
+- [[https://stackoverflow.com/a/15952170/1570165][TCP Loopback vs Unix Domain Socket]]
+- [[https://askubuntu.com/a/1193931/1666783][Unix Domain Socket vs Named pipe]]
+
+** Shell/Terminal Internals
+- [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][What every SRE should know about GNU/Linux shell related internals: file descriptors, pipes, terminals, user sessions, process groups and daemons]]
+- https://tldp.org/HOWTO/Text-Terminal-HOWTO-10.html
+- https://moi.vonos.net/linux/ttys/
+- [[http://www.linusakesson.net/programming/tty/index.php][The TTY demystified]]
+- [[https://learn.sparkfun.com/tutorials/terminal-basics/all][Serial Terminal Basics (to connect with other hardwares)]]
