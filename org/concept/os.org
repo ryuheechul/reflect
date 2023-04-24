@@ -1,5 +1,9 @@
 #+title: Operating System
 
+#+begin_quote
+Also see [[./cpu.org][CPU]] and [[./gpu.org][GPU]] and [[../lang/nix.org][Nix]]
+#+end_quote
+
 * Bare Metal aka your own
 https://johv.dk/blog/bare-metal-assembly-tutorial
 - https://news.ycombinator.com/item?id=22685154
@@ -44,3 +48,13 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://moi.vonos.net/linux/ttys/
 - [[http://www.linusakesson.net/programming/tty/index.php][The TTY demystified]]
 - [[https://learn.sparkfun.com/tutorials/terminal-basics/all][Serial Terminal Basics (to connect with other hardwares)]]
+- https://www.in-ulm.de/~mascheck/various/shebang/#interpreter-script
+
+** ETC
+- https://github.com/mxssl/sre-interview-prep-guide
+- performance testing - https://wiki.archlinux.org/title/benchmarking
+
+** Boot/Init
+- https://www.freecodecamp.org/news/mbr-vs-gpt-whats-the-difference-between-an-mbr-partition-and-a-gpt-partition-solved/
+- https://github.com/AsahiLinux/docs/wiki/m1n1%3AUser-Guide
+- https://github.com/tpwrules/nixos-apple-silicon/blob/main/docs/uefi-standalone.md

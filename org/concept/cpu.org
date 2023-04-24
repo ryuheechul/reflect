@@ -1,6 +1,29 @@
 #+title: CPU
 
-* Links
+#+begin_quote
+Also see [[./gpu.org][GPU]] and [[./os.org][OS]]
+#+end_quote
+
+* General
 - https://wiki.nikiv.dev/hardware/cpu/
 [[https://kb.iu.edu/d/agxz][- What are binary, octal, and hexadecimal notation?]]
 - https://stackoverflow.com/questions/5295903/how-many-bits-does-a-word-contain-in-32-64-bit-os-respectively
+
+* Arm
+- https://social.treehouse.systems/@marcan/109838053800961073
+- https://en.wikipedia.org/wiki/Apple_M2
+- https://github.com/AsahiLinux/docs/wiki/Apple-Silicon-Subsystems
+- https://en.wikipedia.org/wiki/ARM_big.LITTLE#DynamIQ
+- https://www.arm.com/technologies/dynamiq
+- https://en.wikipedia.org/wiki/Heterogeneous_computing
+- https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture
+
+* Etc
+- https://en.wikipedia.org/wiki/Bus_(computing)
+- https://en.wikipedia.org/wiki/Direct_memory_access aka DMA
+  - [[https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit][https://en.wikipedia.org/wiki/Input-output_memory_management_unit]] aka IOMMU
+    - https://www.peerspot.com/articles/iommu-input-output-memory-management-unit
+    - https://michael2012z.medium.com/iommu-b59e2dc320bd
+  - [[https://stackoverflow.com/a/56835188/1570165][What is the difference between DMA and IOMMU?]]
+- https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-vbs
+- https://www.quora.com/What-is-the-difference-between-Secure-Boot-and-Trusted-Platform-Module-given-that-both-involves-Trusted-Hardware

@@ -1,5 +1,9 @@
 #+title: Nix
 
+#+begin_quote
+Also see [[../concept/os.org][OS]]
+#+end_quote
+
 /A previous note can be found at [[https://gist.github.com/ryuheechul/a0bd4e4b69565da86301ee8cc26311e1][my gist - nix.md]]./
 
 Nix the language is only a part (but important of course) of the whole Nix ecosystem.
@@ -13,19 +17,20 @@ My nix configuration is mostly at https://github.com/ryuheechul/dotfiles/tree/ma
 * There are many official and unofficial articles on Nix which I will add more here over time.
 I also wrote an article sometime ago when I first tried Nix as well
 
-** https://dev.to/ryuheechul/don-t-give-up-on-nix-just-yet-37mh
-** https://stephank.nl/p/2020-06-01-a-nix-primer-by-a-newcomer.html
-** https://xyno.space/post/nix-darwin-introduction
-** https://github.com/hlissner/dotfiles#frequently-asked-questions
-** https://nixos.wiki/wiki/Flakes
-** https://www.tweag.io/blog/2020-05-25-flakes/
-** https://serokell.io/blog/practical-nix-flakes
-** https://zero-to-nix.com/
-** https://github.com/justinwoo/nix-shorts
-** [[https://github.com/alexbakker/log4shell-tools][A simple flake example that build with golang - log4shell-tools]]
-** https://myme.no/posts/2020-01-26-nixos-for-development.html
-** https://determinate.systems/posts/nix-run
-** https://ianthehenry.com/posts/how-to-learn-nix/introduction/
+- https://dev.to/ryuheechul/don-t-give-up-on-nix-just-yet-37mh
+- https://stephank.nl/p/2020-06-01-a-nix-primer-by-a-newcomer.html
+- https://xyno.space/post/nix-darwin-introduction
+- https://github.com/hlissner/dotfiles#frequently-asked-questions
+- https://nixos.wiki/wiki/Flakes
+- https://www.tweag.io/blog/2020-05-25-flakes/
+- https://serokell.io/blog/practical-nix-flakes
+- https://zero-to-nix.com/
+- https://github.com/justinwoo/nix-shorts
+- [[https://github.com/alexbakker/log4shell-tools][A simple flake example that build with golang - log4shell-tools]]
+- https://myme.no/posts/2020-01-26-nixos-for-development.html
+- https://determinate.systems/posts/nix-run
+- https://ianthehenry.com/posts/how-to-learn-nix/introduction/
+- https://nixos.wiki/wiki/NixOS_as_a_desktop
 
 * Flake Cheatsheets
 #+begin_src makefile

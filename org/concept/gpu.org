@@ -1,0 +1,16 @@
+#+title: GPU
+
+#+begin_quote
+Also see [[./cpu.org][CPU]] and [[./os.org][OS]]
+#+end_quote
+
+* Links
+- https://alain.xyz/blog/comparison-of-modern-graphics-apis
+- https://devblogs.microsoft.com/commandline/wslg-architecture/
+- https://devblogs.microsoft.com/directx/directx-heart-linux/
+- https://www.collabora.com/news-and-blog/news-and-events/introducing-opencl-and-opengl-on-directx.html
+- https://www.infoworld.com/article/3299703/what-is-cuda-parallel-programming-for-gpus.html
+- https://www.collabora.com/news-and-blog/blog/2018/10/31/introducing-zink-opengl-implementation-vulkan/
+- https://docs.mesa3d.org/history.html
+- https://en.wikipedia.org/wiki/Direct_Rendering_Infrastructure
+- https://jellyfin.org/docs/general/administration/hardware-acceleration/intel/
