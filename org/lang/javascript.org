@@ -1,5 +1,21 @@
 #+title: Javascript
 
+* V8
+- https://v8.dev/docs/ignition
+- https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775
+
+* NodeJS
+** "Asynchronous Non-blocking I/O"
+- https://medium.com/coderscorner/tale-of-client-server-and-socket-a6ef54a74763
+- [[https://www.youtube.com/watch?v=wB9tIg209-8][Non-blocking I/O and how Node uses it, in friendly terms: blocking vs async IO, CPU vs IO]]
+- [[https://www.youtube.com/watch?v=zphcsoSJMvM][The Node.js Event Loop: Not So Single Threaded]]
+- https://nodejs.org/en/docs/guides/blocking-vs-non-blocking
+- [[https://www.youtube.com/watch?v=PNa9OMajw9w][Morning Keynote- Everything You Need to Know About Node.js Event Loop - Bert Belder, IBM]]
+- [[https://www.youtube.com/watch?v=P9csgxBgaZ8][Node's Event Loop From the Inside Out by Sam Roberts, IBM]]
+- https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74
+- https://strogiyotec.github.io/pages/posts/io.html
+- https://nima101.github.io/io_multiplexing
+
 * Frameworks
 ** Svelte
 - more readable (even without learning the framework first)
