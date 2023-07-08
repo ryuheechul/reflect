@@ -1,11 +1,36 @@
 #+title: Web Assembly
 
-[[https://youtu.be/gSpXMH9xJy0][* Steve Klabnik - WebAssembly (Digging a bit deeper)]]
-[[https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format][* Understanding WebAssembly text format]]
-[[https://wasdk.github.io/wasmcodeexplorer/][* WebAssembly Code Explorer]]
+- [[https://youtu.be/gSpXMH9xJy0][Steve Klabnik - WebAssembly (Digging a bit deeper)]]
+- [[https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format][Understanding WebAssembly text format]]
+- https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_Wasm
+- [[https://wasdk.github.io/wasmcodeexplorer/][WebAssembly Code Explorer]]
 
 * Early Stage Frictions?
 ** [[https://www.reddit.com/r/WebAssembly/comments/x7y1re/assemblyscript_has_removed_wasi_support/][[Reddit] AssemblyScript has removed WASI support]]
 *** https://www.assemblyscript.org/standards-objections.html
 ** [[https://medium.com/@katelyngadd/why-i-quit-googles-webassembly-team-and-how-it-made-me-sick-c50ef562ce1][[Medium] Why I Quit Google’s WebAssembly Team, And How It Made Me Sick]]
 *** [[https://news.ycombinator.com/item?id=31341442][HN Comments on above]]
+
+* References
+- https://webassembly.github.io/spec/core/text/index.html
+- https://webassembly.github.io/spec/core/binary/index.html
+
+* Tools
+- https://github.com/WebAssembly/wabt
+- https://github.com/WebAssembly/binaryen
+- https://webassembly.github.io/wabt/demo/wat2wasm/
+
+* Examples
+- https://learnxinyminutes.com/docs/wasm/
+- https://stisa.space/articles/webassembly-basic-example-adding/
+- https://github.com/eliben/wasm-wat-samples
+- https://blog.scottlogic.com/2018/04/26/webassembly-by-hand.html
+
+* Debugging
+- https://github.com/kateinoigakukun/wasminspect
+- https://developer.chrome.com/blog/wasm-debugging-2020/
+- https://shopify.engineering/debugging-server-side-webassembly
+
+* Native Executables
+https://wasmer.io/posts/wasm-as-universal-binary-format-part-1-native-executables
+https://wasmer.io/posts/wasm-as-universal-binary-format-part-2-wapm

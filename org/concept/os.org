@@ -58,3 +58,9 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://www.freecodecamp.org/news/mbr-vs-gpt-whats-the-difference-between-an-mbr-partition-and-a-gpt-partition-solved/
 - https://github.com/AsahiLinux/docs/wiki/m1n1%3AUser-Guide
 - https://github.com/tpwrules/nixos-apple-silicon/blob/main/docs/uefi-standalone.md
+
+* Portability
+- https://justine.lol/ape.html
+- https://github.com/jart/blink
+- https://redbean.dev/
+- https://justine.lol/cosmopolitan/howfat.html

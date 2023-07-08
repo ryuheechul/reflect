@@ -1,0 +1,16 @@
+#+title: Web
+
+#+begin_quote
+Also see [[./network.org][Network]]
+#+end_quote
+
+* My Go-Tos
+- https://svelte.dev/
+- https://astro.build/
+
+* Advanced
+** Workers
+https://web.dev/workers-overview/
+*** PWA
+- https://web.dev/progressive-web-apps/
+- https://vite-pwa-org.netlify.app/

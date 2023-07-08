@@ -1,7 +1,7 @@
 #+title: Network
 
 #+begin_quote
-Also see [[../protocol][Protocols]]
+Also see [[../protocol][Protocols]] and [[./web.org][Web]]
 #+end_quote
 
 * Computer networking and the internet in general (and some protocols)

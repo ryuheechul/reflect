@@ -1,0 +1,14 @@
+#+title: Etl
+
+There is also [[https://www.ibm.com/cloud/blog/elt-vs-etl-whats-the-difference][ELT]].
+
+- https://airbyte.com/
+- https://www.prefect.io/
+- https://airflow.apache.org/
+  - https://learnanalyticsengineering.substack.com/p/sorry-i-hate-airflow
+- https://dagster.io/
+- https://www.fivetran.com/
+
+* DBT
+- https://www.fivetran.com/blog/dbt-explained
+- [[https://www.youtube.com/watch?v=8FZZivIfJVo&pp=ygUHZGJ0bGFicw%3D%3D][What Is DBT and Why Is It So Popular - Intro To Data Infrastructure Part 3]]

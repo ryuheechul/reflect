@@ -5,6 +5,28 @@ Also see [[./gpu.org][GPU]] and [[./os.org][OS]]
 #+end_quote
 
 * General
+- [[https://www.youtube.com/watch?v=FU_YFpfDqqA][Why Lightbulbs Might Be The Best Invention Ever]]
+- [[https://www.youtube.com/watch?v=IcrBqCFLHIY][How Does a Transistor Work?]]
+#+begin_src
+          + voltage
+         floating gate
+           insulator
+nnnnnnnnpppppppppppppppnnnnnnnn
+source                    drain
+
+p-type silicon has a potential for electron to flow in (this doesn't mean it automatically becomes postively charged)
+n-type silicon is the opposite of above
+
+npn combination makes p-type to be negatively charged and this becomes non-conductive
+(because the electron from n-types moved to the p-type)
+
+but when a small positive voltage is applied to the floating gate the npn combination becomes conductive
+
+what makes p-type and n-type silicon?
+
+p: silicon + x doping
+n: silicon + y doping
+#+end_src
 - https://wiki.nikiv.dev/hardware/cpu/
 [[https://kb.iu.edu/d/agxz][- What are binary, octal, and hexadecimal notation?]]
 - https://stackoverflow.com/questions/5295903/how-many-bits-does-a-word-contain-in-32-64-bit-os-respectively

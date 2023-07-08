@@ -1,0 +1,20 @@
+#+title: Containers/Kubernetes
+
+* General
+- https://kubernetes.io/
+- https://minikube.sigs.k8s.io
+- https://kind.sigs.k8s.io/
+- https://github.com/kubernetes-sigs/kustomize
+- https://helm.sh/
+- https://fluxcd.io/
+
+* Desktop/Dev
+- https://gefyra.dev/
+- https://www.getambassador.io/docs/telepresence
+- https://iximiuz.ck.page/posts/container-tools-tips-and-tricks-issue-3
+- https://news.ycombinator.com/item?id=33745815
+- https://news.ycombinator.com/item?id=33536978
+- https://github.com/rancher-sandbox/rancher-desktop/
+- https://github.com/containers/podman-desktop
+- https://github.com/abiosoft/colima
+- https://github.com/lima-vm/lima

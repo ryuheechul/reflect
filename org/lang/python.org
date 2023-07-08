@@ -1,10 +1,28 @@
 #+title: Python
 
+* [[https://www.youtube.com/watch?v=Jbp4l_7kYxE&t=148s][A Brief Introduction to Python]]
+- there are also links to learning materials in the description
+- especially https://dabeaz-course.github.io/practical-python/
+
+* Visualize python code execution
+https://pythontutor.com/
+
 * Configuring Python Projects with INI, TOML, YAML, and ENV files
 https://hackersandslackers.com/simplify-your-python-projects-configuration/
 
 * args and kargs
 https://realpython.com/python-kwargs-and-args/
+
+* Context Managers and Python's with Statement
+https://realpython.com/python-with-statement/
+
+* Speed Up Your Python Program With Concurrency
+- https://realpython.com/python-concurrency/
+- https://realpython.com/python-gil/
+  - benefit of executing single threaded tasks or I/O bound multi threaded tasks with better performance
+  - allowing c extension code to be thread-safe
+- http://www.golangpatterns.info/concurrency/coroutines
+  -  https://www.golang-book.com/books/intro/10
 
 * Celery
 https://betterprogramming.pub/python-celery-best-practices-ae182730bb81

@@ -48,3 +48,6 @@ https://www.jeremydaly.com/transducers-supercharge-functional-javascript/
 
 * Agile Manifesto
 https://agilemanifesto.org/
+
+* What Is Negative Engineering?
+https://future.com/negative-engineering-and-the-art-of-failing-successfully/

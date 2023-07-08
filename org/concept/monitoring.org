@@ -1,5 +1,29 @@
 #+title: Monitoring / Observability
 
+* Metrics
+** The RED Method: key metrics for microservices architecture
+/fits well for request based services/
+https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/
+- (Request) Rate - the number of requests, per second, you services are serving.
+- (Request) Errors - the number of failed requests per second.
+- (Request) Duration - distributions of the amount of time each request takes.
+** The Use Method
+/resource-oriented perspective/
+- https://www.brendangregg.com/usemethod.html
+  - Utilization: the average time that the resource was busy servicing work
+    - /as a percent over a time interval. eg, "one disk is running at 90% utilization"./
+  - Saturation: the degree to which the resource has extra work which it can't service, often queued
+    - /as a queue length. eg, "the CPUs have an average run queue length of four"./
+  - Errors: the count of error events
+    - /scalar counts. eg, "this network interface has had fifty late collisions"./
+- https://www.circonus.com/2017/08/system-monitoring-with-the-use-dashboard/
+** The Four Golden Signals
+https://sre.google/sre-book/monitoring-distributed-systems/
+- Latency
+- Traffic
+- Errors
+- Saturation
+
 * Open Metrics
 https://openmetrics.io/
 Basically Prometheus format evolved into open metrics format so this format can be used more widely at different tools

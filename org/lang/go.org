@@ -1,0 +1,15 @@
+#+title: Go
+
+* General
+- https://go.dev/tour
+- https://learnxinyminutes.com/docs/go/
+- https://go.dev/doc/code
+- https://github.com/golang-standards/project-layout
+- https://google.github.io/styleguide/go/
+
+* Tips
+- https://github.com/avelino/awesome-go
+- https://github.com/uhub/awesome-go
+- https://bitfieldconsulting.com/golang/tao-of-go
+- https://bitfieldconsulting.com/golang/adapter
+- https://pkg.go.dev/text/template
