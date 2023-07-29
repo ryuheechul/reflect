@@ -31,6 +31,7 @@ I also wrote an article sometime ago when I first tried Nix as well
 - https://determinate.systems/posts/nix-run
 - https://ianthehenry.com/posts/how-to-learn-nix/introduction/
 - https://nixos.wiki/wiki/NixOS_as_a_desktop
+- https://nixos.wiki/wiki/Storage_optimization
 
 * Flake Cheatsheets
 #+begin_src makefile

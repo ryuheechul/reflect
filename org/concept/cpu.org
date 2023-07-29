@@ -27,6 +27,7 @@ what makes p-type and n-type silicon?
 p: silicon + x doping
 n: silicon + y doping
 #+end_src
+- [[https://youtu.be/J4oO7PT_nzQ][Transistors Explained - How transistors work]]
 - https://wiki.nikiv.dev/hardware/cpu/
 [[https://kb.iu.edu/d/agxz][- What are binary, octal, and hexadecimal notation?]]
 - https://stackoverflow.com/questions/5295903/how-many-bits-does-a-word-contain-in-32-64-bit-os-respectively

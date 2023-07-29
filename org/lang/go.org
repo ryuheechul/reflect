@@ -11,5 +11,12 @@
 - https://github.com/avelino/awesome-go
 - https://github.com/uhub/awesome-go
 - https://bitfieldconsulting.com/golang/tao-of-go
+- https://bitfieldconsulting.com/golang/commandments
+  - Especially 10: Thou shalt not blindly follow commandments, but instead think for thyself
+- [[https://bitfieldconsulting.com/golang/how][How to really learn Go]]
+- https://bitfieldconsulting.com/golang/pointers
 - https://bitfieldconsulting.com/golang/adapter
+- https://bitfieldconsulting.com/golang/wrapping-errors
+- [[https://go.dev/tour/methods/15][Type assertions]]
 - https://pkg.go.dev/text/template
+- https://go.dev/doc/faq#methods_on_values_or_pointers

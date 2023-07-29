@@ -59,6 +59,9 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://github.com/AsahiLinux/docs/wiki/m1n1%3AUser-Guide
 - https://github.com/tpwrules/nixos-apple-silicon/blob/main/docs/uefi-standalone.md
 
+** Desktop/GUI
+  https://www.reddit.com/r/linux/comments/3r8nev/eli5_history_of_gtk_qt_x11_and_wayland/
+
 * Portability
 - https://justine.lol/ape.html
 - https://github.com/jart/blink

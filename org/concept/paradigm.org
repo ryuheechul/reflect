@@ -51,3 +51,12 @@ https://agilemanifesto.org/
 
 * What Is Negative Engineering?
 https://future.com/negative-engineering-and-the-art-of-failing-successfully/
+
+* Don't get locked up into avoiding lock-in
+https://martinfowler.com/articles/oss-lockin.html
+
+* Chasing Shiny Objects Makes You Blind
+[[https://architectelevator.com/cloud/hybrid-multi-cloud/][Multi Cloud Architecture: Decisions and Options]]
+
+* Programming without a stack trace: When abstractions become illusions
+https://architectelevator.com/architecture/stacktrace-abstraction/

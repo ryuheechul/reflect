@@ -18,3 +18,11 @@
 - https://github.com/containers/podman-desktop
 - https://github.com/abiosoft/colima
 - https://github.com/lima-vm/lima
+
+* Extensions
+- https://dapr.io/
+- https://www.crossplane.io/
+- https://www.rancher.com/
+- https://istio.io/
+- https://www.openpolicyagent.org/
+- https://cert-manager.io/

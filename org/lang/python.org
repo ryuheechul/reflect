@@ -1,8 +1,30 @@
 #+title: Python
 
-* [[https://www.youtube.com/watch?v=Jbp4l_7kYxE&t=148s][A Brief Introduction to Python]]
-- there are also links to learning materials in the description
-- especially https://dabeaz-course.github.io/practical-python/
+* Intro
+https://docs.python.org/3/tutorial
+https://www.python.org/doc/essays/comparisons/
+https://awesome-python.com/
+
+- [[https://www.youtube.com/watch?v=Jbp4l_7kYxE&t=148s][A Brief Introduction to Python]]
+  - there are also links to learning materials in the description
+  - especially https://dabeaz-course.github.io/practical-python/
+- https://realpython.com/how-long-does-it-take-to-learn-python/
+- https://realpython.com/tutorials/best-practices/
+
+* In-Depth
+- https://realpython.com/python-program-structure/
+- https://realpython.com/python-callable-instances/
+- https://docs.python.org/3/howto/functional.html
+- https://docs.python.org/3/reference/expressions.html#operator-precedence
+- https://realpython.com/python-modules-packages/
+- https://realpython.com/python-import/
+- https://realpython.com/inheritance-composition-python/
+- https://realpython.com/regex-python/
+- [[https://www.valentinog.com/blog/python-for-js/][Python for JavaScript Developers]]
+- [[https://peps.python.org/pep-0008/][PEP 8 - Style Guide for Python Code]]
+- [[https://peps.python.org/pep-0572/][PEP 572 - Assignment Expressions (Walus :=)]]
+- https://realpython.com/python-wheels/
+- https://pythonspeed.com/articles/multi-stage-docker-python/
 
 * Visualize python code execution
 https://pythontutor.com/

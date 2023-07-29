@@ -111,6 +111,7 @@ https://celaldogan2010.medium.com/analyzing-http-2-with-wireshark-64c15793e91
 - https://explained-from-first-principles.com/email/
 - https://jmap.io/
 - https://www.calconnect.org/resources/introduction-internet-calendaring
+- [[https://support.google.com/mail/answer/13130196][[Gmail] Learn about verified emails]]
 
 * In-Depth / Performance
 - [[https://hpbn.co/][High Performance Browser Networking]]
