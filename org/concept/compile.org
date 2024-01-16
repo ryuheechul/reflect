@@ -1,0 +1,20 @@
+#+title: Compile
+
+#+begin_quote
+Also see [[./cpu.org][CPU]]
+#+end_quote
+
+* "Source" Code to "Machine" Code aka Compiling
+- https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/
+- http://plzoo.andrej.com/
+- https://viewsourcecode.org/snaptoken/kilo/
+- https://justine.lol/cosmopolitan/
+  - https://jeskin.net/blog/getting-started-with-cosmopolitan-libc/
+- https://earthly.dev/blog/autoconf/
+- https://www.kernel.org/doc/html/latest/kbuild/llvm.html
+
+* JIT
+- https://www.freecodecamp.org/news/just-in-time-compilation-explained/
+- https://en.wikipedia.org/wiki/Just-in-time_compilation
+- https://github.com/spencertipping/jit-tutorial
+- https://www.quora.com/How-does-a-Just-in-Time-JIT-compiler-say-for-example-Java-JIT-feed-the-generated-machine-code-to-the-processor

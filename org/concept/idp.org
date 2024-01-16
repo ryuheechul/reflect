@@ -1,0 +1,10 @@
+#+title: Internal Developer Platform
+
+- https://internaldeveloperplatform.org/developer-portals/
+- https://medium.com/@rphilogene/internal-developer-platform-vs-internal-developer-portal-whats-the-difference-b7ce6351f195
+- https://nitric.io/
+- https://www.getport.io
+- https://www.cortex.io/
+- https://www.airplane.dev/
+- https://www.qovery.com/
+- https://www.withcoherence.com/

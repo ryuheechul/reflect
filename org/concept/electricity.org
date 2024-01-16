@@ -1,0 +1,20 @@
+#+title: Electricity
+
+#+begin_quote
+Also see [[./electronics.org][electronics]]
+#+end_quote
+
+[[https://www.youtube.com/watch?v=mc979OhitAg&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K][- Electrical Engineering Basics]]
+- https://theengineeringmindset.com/ohms-law/
+- https://electrical-engineering-portal.com/resistive-heating-explained-in-details
+- https://www.nytimes.com/wirecutter/blog/watts-in-a-name-why-were-using-watt-hours-to-compare-batteries/
+- https://www.rapidtables.com/calc/electric/watt-volt-amp-calculator.html
+- https://theengineeringmindset.com/dc-parallel-circuits-explained/
+  - https://www.allaboutcircuits.com/tools/parallel-resistance-calculator/
+  - mind blowing fact, parallel curcuit of 10ohm, 20ohm, 2ohm, 3ohm result in 1ohm in total
+    - this means to get the least resistance the best way is trying multiple routes instead of facing potentially huge resistance in just one route (probably not just for electricity)
+      - like applying multiple job applications instead of one job and one company all the time
+        - this means it's better (less resistance) to apply multiple more difficult (to get) jobs than applying for single easier (to get) job
+        - replace current with the likelyhood of getting hired and replace ohm with the inverse of that
+      - a caveat is that infinite ohm cancels the being multiple
+        - imagine a single serial path is actually single path + infinite path with infinite ohm

@@ -1,0 +1,14 @@
+#+title: Artificial Intelligence
+
+* LLM/LMM
+- https://research.ibm.com/blog/retrieval-augmented-generation-RAG
+- https://swizec.com/blog/ai-engineer-summit-report
+
+* Packaging
+- https://neptune.ai/blog/ml-model-packaging
+- https://microsoft.github.io/ai-at-edge/docs/onnx/
+- https://medium.com/geekculture/onnx-in-a-nutshell-4b584cbae7f5
+- https://medium.com/moonvision/onnx-the-long-and-collaborative-road-to-machine-learning-portability-a6416a96e870
+
+* Learning
+https://www.cloudskillsboost.google/paths/118

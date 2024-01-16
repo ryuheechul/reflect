@@ -1,5 +1,9 @@
 #+title: Docker
 
+#+begin_quote
+Also see [[../concept/os.org][OS]] and [[../concept/container.org][Container]]
+#+end_quote
+
 * Ports
 It's always =host:container= not the reverse but my mind gets confused with it all the time so writing here to prevent confusion in the future!
 

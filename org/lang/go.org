@@ -20,3 +20,12 @@
 - [[https://go.dev/tour/methods/15][Type assertions]]
 - https://pkg.go.dev/text/template
 - https://go.dev/doc/faq#methods_on_values_or_pointers
+
+* Advanced
+** Constants/Iota
+- https://go.dev/blog/constants
+- https://go101.org/article/constants-and-variables.html
+** Reflection
+- https://go.dev/blog/laws-of-reflection
+** Build
+- [[https://go.dev/blog/rebuild][Perfectly Reproducible, Verified Go Toolchains]]

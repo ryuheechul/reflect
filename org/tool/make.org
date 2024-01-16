@@ -11,3 +11,6 @@ You want $(MAKE) --no-print-directory.
 
 * multiple lines via one shell
 https://stackoverflow.com/a/62819637
+
+* CMAke vs. Make
+https://earthly.dev/blog/cmake-vs-make-diff/

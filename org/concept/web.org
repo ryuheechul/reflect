@@ -14,3 +14,11 @@ https://web.dev/workers-overview/
 *** PWA
 - https://web.dev/progressive-web-apps/
 - https://vite-pwa-org.netlify.app/
+
+* Compression
+- [[https://youtu.be/whGwm0Lky2s][GZIP is not enough!]]
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Compression
+- https://www.cloudways.com/blog/brotli-vs-gzip/
+- https://kinsta.com/blog/brotli-compression/
+- https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they
+- https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/

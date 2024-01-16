@@ -1,0 +1,6 @@
+#+title: C
+
+- [[https://www.youtube.com/watch?v=Kq8m980JEeg][How different are C and C++? Can I still say C/C++?]]
+- [[https://www.youtube.com/watch?v=N2y6csonII4][Compiling, assembling, and linking]]
+- [[https://www.youtube.com/watch?v=2YfM-HxQd_8][Compiling C programs with Multiple Files]]
+- [[https://www.youtube.com/watch?v=2AmP7Pse4U0][Spying on Running Programs (strace, ltrace, system calls vs function calls)]]

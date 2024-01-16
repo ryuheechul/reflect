@@ -1,0 +1,28 @@
+#+title: Electronics
+
+#+begin_quote
+Also see [[./electricity.org][electricity]]
+#+end_quote
+
+* Difference between electrical engineering and electronic engineering
+- https://usic.sheffield.ac.uk/blog/difference-between-electrical-and-electronic-engineering
+
+* Computing
+- https://www.engineering.com/story/vacuum-tubes-the-world-before-transistors
+- https://www.raspberrypi.com/
+- https://www.arduino.cc/
+  - https://www.makeuseof.com/tag/4-reasons-everyone-learn-arduino-now/
+- https://learn.sparkfun.com/tutorials/reading-and-writing-serial-eeproms/all
+- https://eater.net/
+- http://mynor.org/
+
+* Data and Power Transfers
+- https://www.quora.com/USB-vs-PCIE-What-is-the-difference-between-them-and-the-buses-Thank-you
+- https://www.reddit.com/r/explainlikeimfive/comments/5sgfzh/eli5_parallel_was_faster_than_serial_why_isnt/
+- https://www.diffen.com/difference/USB_2.0_vs_USB_3.0
+- [[https://www.youtube.com/watch?v=egkqDwQuh8E][Why This WEIRD USB Connector Exists (Type B)]]
+- https://en.wikipedia.org/wiki/USB_hardware
+- [[https://www.youtube.com/watch?v=PctX3kcTj5U][Explaining USB: From 1.0 to USB4 V2.0]]
+- https://community.frame.work/t/pcie-tunneling-over-usb4/21537/11
+- https://appleinsider.com/articles/20/08/24/usb-3-usb-4-thunderbolt-usb-c----everything-you-need-to-know
+- https://community.fs.com/blog/pci-vs-pci-x-vs-pci-e-why-choose-pci-e-card.html

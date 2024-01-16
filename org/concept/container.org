@@ -1,0 +1,8 @@
+#+title: Container
+
+#+begin_quote
+Also see [[./os.org][OS]] and [[../tool/docker.org][Docker]]
+#+end_quote
+
+- [[https://iximiuz.com/en/posts/containers-distroless-images/][What's Inside Of a Distroless Container Image: Taking a Deeper Look]]
+- https://slimtoolkit.org/

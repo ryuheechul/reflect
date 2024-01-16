@@ -4,6 +4,7 @@
 - [[https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format][Understanding WebAssembly text format]]
 - https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_Wasm
 - [[https://wasdk.github.io/wasmcodeexplorer/][WebAssembly Code Explorer]]
+- https://deislabs.io/posts/helpful-webassembly-resources/
 
 * Early Stage Frictions?
 ** [[https://www.reddit.com/r/WebAssembly/comments/x7y1re/assemblyscript_has_removed_wasi_support/][[Reddit] AssemblyScript has removed WASI support]]
@@ -32,5 +33,8 @@
 - https://shopify.engineering/debugging-server-side-webassembly
 
 * Native Executables
-https://wasmer.io/posts/wasm-as-universal-binary-format-part-1-native-executables
-https://wasmer.io/posts/wasm-as-universal-binary-format-part-2-wapm
+- https://wasmer.io/posts/wasm-as-universal-binary-format-part-1-native-executables
+- https://wasmer.io/posts/wasm-as-universal-binary-format-part-2-wapm
+
+* Implementations
+- https://youtu.be/r-A78RgMhZU?si=T1eqR-SdCIgDZbFx

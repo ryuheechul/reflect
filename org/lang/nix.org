@@ -30,8 +30,6 @@ I also wrote an article sometime ago when I first tried Nix as well
 - https://myme.no/posts/2020-01-26-nixos-for-development.html
 - https://determinate.systems/posts/nix-run
 - https://ianthehenry.com/posts/how-to-learn-nix/introduction/
-- https://nixos.wiki/wiki/NixOS_as_a_desktop
-- https://nixos.wiki/wiki/Storage_optimization
 
 * Flake Cheatsheets
 #+begin_src makefile
@@ -51,3 +49,10 @@ run:
 shell:
 	nix shell github:ryuheechul/hexto256 -c hexto256
 #+end_src
+
+* NixOS
+- https://nixos.wiki/wiki/NixOS_as_a_desktop
+- https://msucharski.eu/posts/application-isolation-nixos-containers/
+- https://github.com/ryuheechul/dotfiles/tree/master/nix/nixos
+- https://nixos.wiki/wiki/Storage_optimization
+- https://www.tweag.io/blog/2023-02-09-nixos-vm-on-macos/

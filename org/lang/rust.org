@@ -1,5 +1,15 @@
 #+title: Rust
 
+* Basic
 - https://doc.rust-lang.org/book/
+- https://cheats.rs/
+- https://learnxinyminutes.com/docs/rust/
+- https://github.com/rust-unofficial/awesome-rust
+
+* More
 - https://hermanradtke.com/2016/09/12/rust-using-and_then-and-map-combinators-on-result-type.html/
   - https://fsharpforfunandprofit.com/rop/
+- [[https://www.youtube.com/watch?v=ThjvMReOXYM][Crust of Rust: async/await]]
+  - https://rust-lang.github.io/async-book/
+  - [[https://www.youtube.com/watch?v=9_3krAQtD2k][The What and How of Futures and async/await in Rust]]
+- https://choubey.gitbook.io/internals-of-deno/architecture/overall-architecture

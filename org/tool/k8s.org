@@ -9,20 +9,55 @@
 - https://fluxcd.io/
 
 * Desktop/Dev
+- https://k9scli.io/
+- https://github.com/stern/stern
 - https://gefyra.dev/
 - https://www.getambassador.io/docs/telepresence
 - https://iximiuz.ck.page/posts/container-tools-tips-and-tricks-issue-3
-- https://news.ycombinator.com/item?id=33745815
-- https://news.ycombinator.com/item?id=33536978
+- [[https://news.ycombinator.com/item?id=33745815][[HN] Finch: An open-source client for container development]]
+- [[https://news.ycombinator.com/item?id=33536978][[HN] Podman Desktop: A Free OSS Alternative to Docker Desktop]]
 - https://github.com/rancher-sandbox/rancher-desktop/
 - https://github.com/containers/podman-desktop
 - https://github.com/abiosoft/colima
 - https://github.com/lima-vm/lima
 
+* Internals
+- https://github.com/kubernetes/community/blob/master/contributors/devel/README.md
+
 * Extensions
+- https://kubernetes.io/docs/concepts/extend-kubernetes/
 - https://dapr.io/
 - https://www.crossplane.io/
 - https://www.rancher.com/
 - https://istio.io/
 - https://www.openpolicyagent.org/
 - https://cert-manager.io/
+- https://kubevela.io/
+
+** Operator pattern
+- https://kubernetes.io/docs/concepts/extend-kubernetes/operator/
+  - https://github.com/cncf/tag-app-delivery/blob/main/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md
+- https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
+- https://www.cncf.io/blog/2022/06/15/kubernetes-operators-what-are-they-some-examples/
+- https://innablr.com.au/blog/automating-operational-task-with-kubernetes-operators-part-1/
+- https://innablr.com.au/blog/automating-operational-task-with-kubernetes-operators-part-2/
+- [[https://github.com/kubernetes/kubernetes/tree/master/pkg/controller][k8s builtin controllers]]
+- [[https://github.com/kubernetes/sample-controller]]
+  - https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf
+- https://book.kubebuilder.io/
+  - https://book.kubebuilder.io/architecture
+  - https://itnext.io/under-the-hood-of-kubebuilder-framework-ff6b38c10796
+  - [[https://www.youtube.com/watch?v=q7b23612pSc][Writing Kubernetes Controllers (with kubebuilder)]]
+- https://operatorframework.io/
+  - https://tiewei.github.io/posts/kubebuilder-vs-operator-sdk
+  - https://sdk.operatorframework.io/docs/faqs/#what-are-the-the-differences-between-kubebuilder-and-operator-sdk
+  - https://sdk.operatorframework.io/docs/best-practices/best-practices/
+  - https://itnext.io/under-the-hood-of-the-operator-sdk-eebc8fdeebbf
+- https://kube.rs/
+- [[https://www.youtube.com/watch?v=3xkLYOpXy2U][Metacontroller - Custom Kubernetes Controllers The Easy Way]]
+  - https://metacontroller.github.io/metacontroller/faq.html
+- https://github.com/flant/shell-operator
+  - my initial concern on using this one:
+    - shell scripting can be great on having a concise code for happy path but it is very easy to not handle failure paths and then users would not know what went wrong (in that case) unless that information gets logged or registered as k8s event
+    - so I wonder how these are being handled, so far, I couldn't find the detailed information about this neither from the doc nor the code
+    - digging [[https://sourcegraph.com/search?q=context%3Aglobal+repo%3A%5Egithub%5C.com%2Fflant%2Fshell-operator%24+stderr&patternType=standard&sm=1&groupBy=path][here]] might give some clues

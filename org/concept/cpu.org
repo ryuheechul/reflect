@@ -1,7 +1,7 @@
 #+title: CPU
 
 #+begin_quote
-Also see [[./gpu.org][GPU]] and [[./os.org][OS]]
+Also see [[./compile.org][Compile]], [[./gpu.org][GPU]] and [[./os.org][OS]]
 #+end_quote
 
 * General
@@ -32,6 +32,11 @@ n: silicon + y doping
 [[https://kb.iu.edu/d/agxz][- What are binary, octal, and hexadecimal notation?]]
 - https://stackoverflow.com/questions/5295903/how-many-bits-does-a-word-contain-in-32-64-bit-os-respectively
 
+* Logic Meets Physics (or vice versa)
+- https://codeburst.io/an-introduction-to-6502-assembly-and-low-level-programming-7c11fa6b9cb9
+- http://6502.org/tutorials/
+- [[https://stackoverflow.com/a/2932738/1570165][How is data stored at bit level according to "Endianness"?]]
+
 * Arm
 - https://social.treehouse.systems/@marcan/109838053800961073
 - https://en.wikipedia.org/wiki/Apple_M2
@@ -50,3 +55,10 @@ n: silicon + y doping
   - [[https://stackoverflow.com/a/56835188/1570165][What is the difference between DMA and IOMMU?]]
 - https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-vbs
 - https://www.quora.com/What-is-the-difference-between-Secure-Boot-and-Trusted-Platform-Module-given-that-both-involves-Trusted-Hardware
+
+* "Beyond CPU"
+- [[https://www.youtube.com/watch?v=kHV6wmG35po][High-Performance Computing - Episode 1 - Introducing MPI]]
+- [[https://www.youtube.com/watch?v=c0C9mQaxsD4][MPI Basics]]
+- [[https://www.youtube.com/watch?v=G-EimI4q-TQ][Intro to GPU Programming]]
+- https://langdev.stackexchange.com/questions/1450/what-are-the-pros-and-cons-of-register-based-vms-and-stack-based-vms
+- https://www.quora.com/Why-is-a-stack-based-architecture-preferred-for-application-virtual-machines-while-a-general-purpose-register-architecture-is-preferred-for-physical-CPUs

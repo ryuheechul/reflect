@@ -1,7 +1,7 @@
 #+title: Operating System
 
 #+begin_quote
-Also see [[./cpu.org][CPU]] and [[./gpu.org][GPU]] and [[../lang/nix.org][Nix]]
+Also see [[./cpu.org][CPU]] and [[./gpu.org][GPU]] and [[../lang/nix.org][Nix]] and [[./container.org][Container]]
 #+end_quote
 
 * Bare Metal aka your own
@@ -13,6 +13,7 @@ https://johv.dk/blog/bare-metal-assembly-tutorial
 * on Virtual Machines
 - https://en.wikipedia.org/wiki/Unikernel
 - https://mirage.io/
+- [[https://github.com/utmapp/UTM/discussions/5482#discussioncomment-6765634][Virgl not functionning under Apple's virtualization.framework]]
 
 * "other" hardwares aka embedded
 https://blog.tonari.no/rust-simple-hardware-project
@@ -20,6 +21,9 @@ https://blog.tonari.no/rust-simple-hardware-project
 * Linux
 https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
 /This is not just for history of naming but also contains information that will help you understand different components of "Linux" clearly./
+
+** Kernel
+https://www.kernel.org/doc/html/latest/admin-guide/index.html
 
 ** Alpine Linux
 https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
@@ -39,6 +43,7 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 
 ** Process and Jobs
 - [[https://www.youtube.com/watch?v=TJzltwv7jJs][Linux processes, init, fork/exec, ps, kill, fg, bg, jobs]]
+  - [[https://www.youtube.com/watch?v=xHu7qI1gDPA][more on fork/exec and other system calls]]
 - [[https://stackoverflow.com/a/15952170/1570165][TCP Loopback vs Unix Domain Socket]]
 - [[https://askubuntu.com/a/1193931/1666783][Unix Domain Socket vs Named pipe]]
 
@@ -55,15 +60,42 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - performance testing - https://wiki.archlinux.org/title/benchmarking
 
 ** Boot/Init
+- https://unix.stackexchange.com/questions/17122/is-it-possible-to-install-the-linux-kernel-alone
 - https://www.freecodecamp.org/news/mbr-vs-gpt-whats-the-difference-between-an-mbr-partition-and-a-gpt-partition-solved/
 - https://github.com/AsahiLinux/docs/wiki/m1n1%3AUser-Guide
 - https://github.com/tpwrules/nixos-apple-silicon/blob/main/docs/uefi-standalone.md
+- https://en.wikipedia.org/wiki/Vmlinux
 
 ** Desktop/GUI
-  https://www.reddit.com/r/linux/comments/3r8nev/eli5_history_of_gtk_qt_x11_and_wayland/
+- https://www.reddit.com/r/linux/comments/3r8nev/eli5_history_of_gtk_qt_x11_and_wayland/
+- https://dbus.freedesktop.org/doc/dbus-specification.html
+- https://blog.elementary.io/what-is-hidpi/
+
+*** Performance
+- https://jwilm.io/blog/announcing-alacritty/
+- https://www.warp.dev/blog/how-warp-works
+- [[https://news.ycombinator.com/item?id=23663878][[HN] Xi-Editor Retrospective]]
+- https://raphlinus.github.io/rust/graphics/gpu/2020/06/13/fast-2d-rendering.html
+- https://zed.dev/blog/videogame
+- https://areweguiyet.com/
+- https://thume.ca/2020/05/20/making-a-latency-tester/
+
+** Packaging/ABI
+- https://www.reddit.com/r/linux/comments/42vngw/why_is_the_linux_community_ambivalent_about/
+- https://opensource.com/article/22/12/linux-abi
+- https://www.bensnider.com/posts/abi-compatibility-whoopdty-do-what-does-it-all-mean/
+
+* "Other" Operating Systems
+- https://docs.freebsd.org/en/articles/explaining-bsd/
+- https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems
+- https://www.debian.org/ports/
+- [[https://www.gnu.org/gnu/gnu-linux-faq.html]]
+- https://wiki.freebsd.org/Myths
+- https://www.freebsd.org/advocacy/myths/
 
 * Portability
 - https://justine.lol/ape.html
 - https://github.com/jart/blink
 - https://redbean.dev/
 - https://justine.lol/cosmopolitan/howfat.html
+- http://bhami.com/rosetta.html
