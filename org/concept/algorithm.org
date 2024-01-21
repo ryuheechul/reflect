@@ -1,7 +1,11 @@
 #+title: Algorithm & Data Structure
 
-Intorudction Tree Data Structure
-https://www.youtube.com/watch?v=1XC3p2zBK34
+* [[https://www.youtube.com/watch?v=1XC3p2zBK34][Introduction Tree Data Structure]]
 
-Graph Theory Introduction
-https://www.youtube.com/watch?v=eQA-m22wjTQ
+* [[https://www.youtube.com/watch?v=eQA-m22wjTQ][Graph Theory Introduction]]
+
+* https://en.wikipedia.org/wiki/Merkle_tree
+- https://www.bsvblockchain.org/news/from-torrents-to-git-how-merkle-trees-protect-your-files
+- https://medium.com/geekculture/understanding-merkle-trees-f48732772199
+- https://medium.com/coinmonks/merkle-tree-a-simple-explanation-and-implementation-48903442bc08
+- https://github.com/akbng/merkle-tree

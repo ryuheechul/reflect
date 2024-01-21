@@ -47,6 +47,10 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - [[https://stackoverflow.com/a/15952170/1570165][TCP Loopback vs Unix Domain Socket]]
 - [[https://askubuntu.com/a/1193931/1666783][Unix Domain Socket vs Named pipe]]
 
+** File systems
+[[https://www.youtube.com/watch?v=bbmWOjuFmgA][- Linux File System Explained!]]
+- https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
+
 ** Shell/Terminal Internals
 - [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][What every SRE should know about GNU/Linux shell related internals: file descriptors, pipes, terminals, user sessions, process groups and daemons]]
 - https://tldp.org/HOWTO/Text-Terminal-HOWTO-10.html

@@ -1,0 +1,16 @@
+#+title: Database
+
+#+begin_quote
+Also see [[./crdt.org][CRDT]]
+#+end_quote
+
+https://www.prisma.io/dataguide
+
+* Selections
+- [[https://www.youtube.com/watch?v=kkeFE6iRfMM][How To Choose The Right Database?]]
+- [[https://www.youtube.com/watch?v=xGCm_cLxets][How To Choose a Database for your App]]
+- [[https://www.youtube.com/watch?v=Rk0h7Jd1WGQ][Choosing The Right Database]]
+- https://www.triplit.dev/
+
+* Offerings
+- https://electric-sql.com/blog/2023/09/20/introducing-electricsql-v0.6
