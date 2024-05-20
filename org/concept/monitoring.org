@@ -121,4 +121,5 @@ They both are CNCF projects
 So a meaning of OpenTelemetry and OpenMetrics could be like using a OpenTelemetry client (i.e. [[https://opentelemetry.io/docs/instrumentation/js/getting-started/nodejs/][NodeJS]]) to export metrics (i.e. instead of =prom-client=) and the OpenMetrics format could be ingested into different backend (i.e. Datadog)
 
 * ETC
-https://cloud.google.com/blog/products/devops-sre/welcome-to-the-museum-of-modern-borgmon-art
+- https://cloud.google.com/blog/products/devops-sre/welcome-to-the-museum-of-modern-borgmon-art
+- [[https://gist.github.com/ryuheechul/c6643e797d14f83bed2eb2f7614230e0][summary of monitoring distributed systems in Korean]]
