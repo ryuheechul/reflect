@@ -1,5 +1,28 @@
 #+title: Monitoring / Observability
 
+* Meta
+- https://sre.google/sre-book/monitoring-distributed-systems/
+- https://logz.io/blog/top-10-mistakes-building-observability-dashboards/
+- https://blog.danslimmon.com/2017/10/02/what-makes-a-good-alert/
+
+* Black Box Versus White Box
+- summary from https://sre.google/sre-book/monitoring-distributed-systems/#black-box-versus-white-box-q8sJuw
+- heavy use of white-box monitoring with modest but critical uses of black-box monitoring.
+  - black-box monitoring is symptom-oriented and represents active—not predicted—problems: "The system isn’t working correctly, right now."
+  - white-box monitoring depends on the ability to inspect the innards of the system, such as logs or HTTP endpoints, with instrumentation
+    - therefore allows detection of imminent problems, failures masked by retries, and so forth
+- one person’s symptom is another person’s cause. For example, suppose that a database’s performance is slow
+  - slow database reads are a symptom for the database SRE who detects them
+    - However, for the frontend SRE observing a slow website, the same slow database reads are a cause
+  - therefore, white-box monitoring is sometimes symptom-oriented, and sometimes cause-oriented, depending on just how informative your white-box is
+- When collecting telemetry for debugging,
+  - white-box monitoring is essential
+    - if web servers seem slow on database-heavy requests, you need to know both how fast the web server perceives the database to be, and how fast the database believes itself to be
+      - otherwise, you can’t distinguish an actually slow database server from a network problem between your web server and your database
+- for paging,
+  - black-box monitoring has the key benefit of forcing discipline to only nag a human when a problem is both already ongoing and contributing to real symptoms
+  - on the other hand, for not-yet-occurring but imminent problems, black-box monitoring is fairly useless
+
 * Metrics
 ** The RED Method: key metrics for microservices architecture
 /fits well for request based services/
@@ -18,11 +41,59 @@ https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-archit
     - /scalar counts. eg, "this network interface has had fifty late collisions"./
 - https://www.circonus.com/2017/08/system-monitoring-with-the-use-dashboard/
 ** The Four Golden Signals
-https://sre.google/sre-book/monitoring-distributed-systems/
-- Latency
-- Traffic
-- Errors
-- Saturation
+- summary from https://sre.google/sre-book/monitoring-distributed-systems/#xref_monitoring_golden-signals
+*** Latency
+- the time it takes to service a request
+- it’s important to distinguish between the latency of successful requests and the latency of failed requests
+  - For example,
+    - an HTTP 500 error triggered due to loss of connection to a database or other critical backend might be served very quickly
+    - however, as an HTTP 500 error indicates a failed request
+    - factoring 500s into your overall latency might result in misleading calculations
+    - On the other hand, a slow error is even worse than a fast error!
+  - therefore, it’s important to track error latency, as opposed to just filtering out errors
+*** Traffic
+- a measure of how much demand is being placed on your system, measured in a high-level system-specific metric
+  - for a web service, this measurement is usually HTTP requests per second, perhaps broken out by the nature of the requests (e.g., static versus dynamic content)
+  - for  an audio streaming system, this measurement might focus on network I/O rate or concurrent sessions
+  - for a key-value storage system, this measurement might be transactions and retrievals per second
+*** Errors
+- the rate of requests that fail
+  - either explicitly
+    - e.g., HTTP 500s
+  - implicitly
+    - for example, an HTTP 200 success response, but coupled with the wrong content
+  - or by policy
+    - for example, "If you committed to one-second response times, any request over one second is an error"
+- where protocol response codes are insufficient to express all failure conditions, secondary (internal) protocols may be necessary to track partial failure modes
+  - monitoring these cases can be drastically different:
+    - catching HTTP 500s at your load balancer can do a decent job of catching all completely failed requests
+    - while only end-to-end system tests can detect that you’re serving the wrong content
+*** Saturation
+- How "full" your service is.
+  - A measure of your system fraction,
+    - emphasizing the resources that are most constrained
+      - e.g.,
+        - in a memory-constrained system, show memory;
+        - in an I/O-constrained system, show I/O
+  - note that many systems degrade in performance before they achieve 100% utilization
+  - so having a utilization target is essential
+- supplement with other measurements
+  - in complex systems, saturation can be supplemented with higher-level load measurement:
+    - can your service properly
+      - handle double the traffic?
+      - handle only 10% more traffic?
+      - or handle even less traffic than it currently receives?
+  - for very simple services that have no parameters that alter the complexity of the request
+    - (e.g., "Give me a nonce" or "I need a globally unique monotonic integer")
+    - that rarely change configuration, a static value from a load test might be adequate
+- most services need to use indirect signals like CPU utilization or network bandwidth that have a known upper bound
+- latency increases are often a leading indicator of saturation
+- measuring your 99th percentile response time over some small window (e.g., one minute) can give a very early signal of saturation
+- finally, saturation is also concerned with predictions of impending saturation
+  - such as "It looks like your database will fill its hard drive in 4 hours."
+
+*** (Wrapping Up)
+If you measure all four golden signals and page a human when one signal is problematic (or, in the case of saturation, nearly problematic), your service will be at least decently covered by monitoring.
 
 * OpenMetrics
 https://openmetrics.io/
