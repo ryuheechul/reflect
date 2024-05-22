@@ -95,6 +95,14 @@ https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-archit
 *** (Wrapping Up)
 If you measure all four golden signals and page a human when one signal is problematic (or, in the case of saturation, nearly problematic), your service will be at least decently covered by monitoring.
 
+** P99
+- https://stackoverflow.com/questions/12808934/what-is-p99-latency
+- https://www.quora.com/What-is-p99-latency
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Statistics-definitions.html#Percentile-versus-Trimmed-Mean
+- https://medium.com/last9/your-percentiles-are-incorrect-p99-of-the-times-11436c97d524
+- https://igor.io/latency/
+- https://www.gomomento.com/blog/why-tail-latencies-matter
+
 * OpenMetrics
 https://openmetrics.io/
 Basically Prometheus format evolved into open metrics format so this format can be used more widely at different tools
