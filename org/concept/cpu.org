@@ -45,6 +45,10 @@ n: silicon + y doping
 - https://www.arm.com/technologies/dynamiq
 - https://en.wikipedia.org/wiki/Heterogeneous_computing
 - https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture
+** Translation to x86
+- https://www.reddit.com/r/AsahiLinux/comments/ufbyah/x86_to_arm_translation_using_rosetta/
+- https://github.com/FEX-Emu/FEX
+- https://box86.org/
 
 * Etc
 - https://en.wikipedia.org/wiki/Bus_(computing)

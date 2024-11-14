@@ -1,7 +1,7 @@
 #+title: Operating System
 
 #+begin_quote
-Also see [[./cpu.org][CPU]] and [[./gpu.org][GPU]] and [[../lang/nix.org][Nix]] and [[./container.org][Container]]
+Also see [[./cpu.org][CPU]], [[./gpu.org][GPU]], [[../lang/nix.org][Nix]], [[../tool/systemd.org][systemd]], [[./container.org][Container]], [[../tool/proxmox.org][Proxmox]], [[./network.org][Networking]] and [[./sre.org][SRE]]
 #+end_quote
 
 * Bare Metal aka your own
@@ -14,9 +14,18 @@ https://johv.dk/blog/bare-metal-assembly-tutorial
 - https://en.wikipedia.org/wiki/Unikernel
 - https://mirage.io/
 - [[https://github.com/utmapp/UTM/discussions/5482#discussioncomment-6765634][Virgl not functionning under Apple's virtualization.framework]]
+- https://stackoverflow.com/questions/26581343/what-is-the-difference-between-virtio-emulated-io-direct-i-o-i-o-passthrough
+- http://www.intel.com/content/www/us/en/pci-express/pci-sig-sr-iov-primer-sr-iov-technology-paper.html
+- https://tadeubento.com/2024/replace-proxmox-with-incus-lxd/
+- https://docs.orbstack.dev/compare/utm
+- https://lencerf.github.io/post/2023-05-28-virtio-vhost-vsock/
+  - https://www.redhat.com/en/blog/introduction-virtio-networking-and-vhost-net
+  - https://www.redhat.com/en/blog/deep-dive-virtio-networking-and-vhost-net
+  - https://www.redhat.com/en/blog/hands-vhost-net-do-or-do-not-there-no-try
 
 * "other" hardwares aka embedded
-https://blog.tonari.no/rust-simple-hardware-project
+- https://blog.tonari.no/rust-simple-hardware-project
+- https://zephyrproject.org/chromeoss-embedded-controller/
 
 * Linux
 https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
@@ -25,6 +34,13 @@ https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
 ** Kernel
 https://www.kernel.org/doc/html/latest/admin-guide/index.html
 
+*** device/driver
+- https://en.wikipedia.org/wiki/Udev
+- https://wiki.gentoo.org/wiki/Udev
+- https://www.linux.com/news/udev-introduction-device-management-modern-linux-system/
+- https://wiki.archlinux.org/title/Modalias
+- https://documentation.suse.com/sles/12-SP5/html/SLES-all/cha-udev.html
+
 ** Alpine Linux
 https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 
@@ -32,6 +48,7 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://linuxhint.com/what-is-a-linux-system-call/
 - https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
 - https://0xax.gitbooks.io/linux-insides/content/SysCall/linux-syscall-1.html
+- https://docs.kernel.org/driver-api/ioctl.html
 - [[https://softwareengineering.stackexchange.com/a/343797/416039][System calls and C]]
 /Insights on the relationships between languages regarding system calls/
 
@@ -46,6 +63,11 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
   - [[https://www.youtube.com/watch?v=xHu7qI1gDPA][more on fork/exec and other system calls]]
 - [[https://stackoverflow.com/a/15952170/1570165][TCP Loopback vs Unix Domain Socket]]
 - [[https://askubuntu.com/a/1193931/1666783][Unix Domain Socket vs Named pipe]]
+- https://medium.com/@F.DL/understanding-vsock-684016cf0eb0
+- [[https://lpc.events/event/17/contributions/1626/attachments/1334/2674/VSOCK_%20From%20Convenience%20to%20Performant%20VirtIO%20Communication.pdf][VSOCK - From Convenience to Performant VirtIO Communication]]
+- https://blog.dave.tf/post/linux-pid0/
+- [[https://www.youtube.com/watch?v=ZlZDWeVL2LI][How Linux Kernel Runs Executables]]
+- https://stackoverflow.com/questions/20823371/what-is-the-difference-between-the-functions-of-the-exec-family-of-system-calls
 
 ** File systems
 [[https://www.youtube.com/watch?v=bbmWOjuFmgA][- Linux File System Explained!]]
@@ -59,6 +81,44 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - [[https://learn.sparkfun.com/tutorials/terminal-basics/all][Serial Terminal Basics (to connect with other hardwares)]]
 - https://www.in-ulm.de/~mascheck/various/shebang/#interpreter-script
 
+*** (Serial/Virtual) Console
+- https://thevaluable.dev/guide-terminal-shell-console/
+- [[https://unix.stackexchange.com/a/485198/396504][What is `/dev/console` used for?]]
+- https://medium.com/google-cloud/troubleshoot-vm-with-serial-console-access-in-google-cloud-18d39700f738
+
+*** Hardware
+- [[https://www.youtube.com/watch?v=aAuw2EVCBBg][How Linux Kernel Prints Text on Screen]]
+
+** User/Security
+- https://askubuntu.com/questions/1491545/are-login-passwords-saved-on-the-machine-or-only-a-hash-version-of-the-password
+- https://askubuntu.com/questions/106489/where-is-the-per-user-salt-kept
+- https://rootrecipe.medium.com/suid-binaries-27c724ef753c
+- https://cloud.google.com/container-optimized-os/docs/how-to/secure-apparmor
+- https://gvisor.dev/docs/
+- https://unix.stackexchange.com/questions/90078/which-one-is-lighter-security-and-cpu-wise-lxc-versus-uml
+- https://www.redhat.com/en/blog/passkey-with-rhel
+- https://www.sudo.ws/about/intro/
+  - https://www.redhat.com/en/blog/sudo
+  - https://www.sudo.ws/security/advisories/
+  - https://www.sudo.ws/docs/man/sudo.man/
+  - https://gist.github.com/mnishiguchi/95dd4d1ec903276af1d81c07b466798e
+  - https://en.wikipedia.org/wiki/Setuid
+    - https://www.redhat.com/en/blog/suid-sgid-sticky-bit
+    - https://search.nixos.org/options?channel=unstable&show=security.wrappers&query=wrappers
+- https://wiki.archlinux.org/title/GNOME/Keyring
+- https://wiki.gnome.org/Apps/Seahorse
+- https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/configuring_authentication_and_authorization_in_rhel/understanding-sssd-and-its-benefits_configuring-authentication-and-authorization-in-rhel
+- https://www.reddit.com/r/yubikey/comments/19eobl5/disappointed_that_yubikey_is_virtually_useless_on/
+- https://joinemm.dev/blog/yubikey-nixos-guide
+
+*** TPM
+- https://www.monperrus.net/martin/7-things-to-do-with-your-TPM-on-Linux
+- https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/tpm-fundamentals
+- https://superuser.com/questions/1731190/listing-content-of-a-tpm-2-0-chip
+- [[https://www.youtube.com/watch?v=XwaSyHJIos8][Using the TPM - It's Not Rocket Science (Anymore)]]
+- https://tpm2-software.github.io/
+- [[https://lwn.net/Articles/525459/][Don't play dice with random numbers]]
+
 ** ETC
 - https://github.com/mxssl/sre-interview-prep-guide
 - performance testing - https://wiki.archlinux.org/title/benchmarking
@@ -70,10 +130,27 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://github.com/tpwrules/nixos-apple-silicon/blob/main/docs/uefi-standalone.md
 - https://en.wikipedia.org/wiki/Vmlinux
 
+** systemd/D-Bus
+- [[../tool/systemd.org][systemd]]
+- https://www.freedesktop.org/wiki/Software/dbus/
+- https://github.com/flexibeast/guides/blob/master/dbus.md
+- https://www.chromium.org/chromium-os/developer-library/guides/ipc/dbus-best-practices/
+
 ** Desktop/GUI
+- https://docs.kernel.org/fb/fbcon.html
 - https://www.reddit.com/r/linux/comments/3r8nev/eli5_history_of_gtk_qt_x11_and_wayland/
+- https://wayland.freedesktop.org/architecture.html
+- https://wayland-book.com/introduction/high-level-design.html
 - https://dbus.freedesktop.org/doc/dbus-specification.html
 - https://blog.elementary.io/what-is-hidpi/
+- https://www.trickster.dev/post/running-gui-apps-within-docker-containers/
+- https://gist.github.com/morrolinux/5f8ef8a8505debb179fa2cc889760075
+- https://roscidus.com/blog/blog/2021/03/07/qubes-lite-with-kvm-and-wayland/
+
+*** Font
+- https://pandasauce.org/post/linux-fonts/
+  - see `/etc/fonts` and https://search.nixos.org/options?channel=unstable&query=fontconfig
+- https://freddie.witherden.org/pages/font-rasterisation/
 
 *** Performance
 - https://jwilm.io/blog/announcing-alacritty/
@@ -83,6 +160,12 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://zed.dev/blog/videogame
 - https://areweguiyet.com/
 - https://thume.ca/2020/05/20/making-a-latency-tester/
+
+**** CPU frequency and temperatures
+- https://wiki.archlinux.org/title/CPU_frequency_scaling
+- https://docs.kernel.org/admin-guide/pm/cpufreq.html
+- https://docs.kernel.org/admin-guide/pm/amd-pstate.html
+
 
 ** Packaging/ABI
 - https://www.reddit.com/r/linux/comments/42vngw/why_is_the_linux_community_ambivalent_about/
@@ -103,3 +186,21 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://redbean.dev/
 - https://justine.lol/cosmopolitan/howfat.html
 - http://bhami.com/rosetta.html
+- https://www.codeweavers.com/blog/alasky/2019/3/21/wine-crossover-and-proton-whats-the-relation
+  - https://news.ycombinator.com/item?id=35402759
+
+
+* Greybeard Qualification (Linux Internals)
+- https://www.youtube.com/playlist?list=PLSIUOFhnxEiC3YTdxwqZqgEY5imVL8U8J
+
+* Networking
+- https://zwischenzugs.com/2018/06/08/anatomy-of-a-linux-dns-lookup-part-i/
+- https://blog.cloudflare.com/virtual-networking-101-understanding-tap/
+  - https://docs.kernel.org/networking/tuntap.html
+  - https://vtun.sourceforge.net/tun/faq.html
+- https://www.reddit.com/r/linux/comments/uae18d/recent_book_about_lowlevel_linux_networking/
+- https://labs.iximiuz.com/courses/computer-networking-fundamentals/bridge-vs-switch
+- https://iximiuz.com/en/posts/laymans-iptables-101/
+
+* System Management
+- https://flyingcircus.io/news/detailsansicht/thoughts-on-systems-management-methods/

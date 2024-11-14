@@ -1,7 +1,7 @@
 #+title: Nix
 
 #+begin_quote
-Also see [[../concept/os.org][OS]]
+Also see [[../concept/os.org][OS]], [[../tool/systemd.org][systemd]] and [[../tool/proxmox.org][Proxmox]]
 #+end_quote
 
 /A previous note can be found at [[https://gist.github.com/ryuheechul/a0bd4e4b69565da86301ee8cc26311e1][my gist - nix.md]]./
@@ -30,6 +30,8 @@ I also wrote an article sometime ago when I first tried Nix as well
 - https://myme.no/posts/2020-01-26-nixos-for-development.html
 - https://determinate.systems/posts/nix-run
 - https://ianthehenry.com/posts/how-to-learn-nix/introduction/
+- https://nixos.org/manual/nix/stable/language/constructs
+- https://summer.nixos.org/blog/callpackage-a-tool-for-the-lazy/
 
 * Flake Cheatsheets
 #+begin_src makefile
@@ -56,3 +58,14 @@ shell:
 - https://github.com/ryuheechul/dotfiles/tree/master/nix/nixos
 - https://nixos.wiki/wiki/Storage_optimization
 - https://www.tweag.io/blog/2023-02-09-nixos-vm-on-macos/
+- (read below before add)
+- https://nixos.wiki/wiki/C
+- https://discourse.nixos.org/t/what-version-of-gcc-does-nix-use/17647/4
+- https://stackoverflow.com/questions/75420729/importerror-libstdc-so-6-cannot-open-shared-object-file-no-such-file-or-dir
+- https://jdheyburn.co.uk/blog/nix-cheat-sheet/
+- https://fnordig.de/til/nix/remote-builds.html
+- [[https://taoofmac.com/space/blog/2024/08/17/1530][Running NixOS on Proxmox LXC]]
+- https://search.nixos.org/options?channel=unstable&show=security.wrappers&query=wrappers
+- https://joinemm.dev/blog/yubikey-nixos-guide
+- https://nixcademy.com/posts/nixos-nspawn/
+- https://github.com/SaumonNet/proxmox-nixos

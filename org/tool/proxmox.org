@@ -1,0 +1,84 @@
+#+title: Proxmox
+
+#+begin_quote
+Also see [[../concept/os.org][OS]] and [[../concept/container.org][Container]]
+#+end_quote
+
+- https://pve.proxmox.com/pve-docs/chapter-qm.html
+- https://github.com/SaumonNet/proxmox-nixos
+- https://www.reddit.com/r/Proxmox/comments/yy0kha/confused_on_when_to_use_vm_vs_lxc/
+- https://www.reddit.com/r/Proxmox/comments/lca6cv/proxmox_vs_openstack/
+
+* Hardware passthrough
+- https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_pci_passthrough
+- https://pve.proxmox.com/wiki/PCI(e)_Passthrough
+- https://pve.proxmox.com/wiki/PCI_Passthrough
+- https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/
+- https://www.servethehome.com/how-to-pass-through-pcie-nics-with-proxmox-ve-on-intel-and-amd/
+
+#+begin_src bash
+# check via running these commands after reboot
+lsmod | grep vfio
+dmesg | grep iommu
+#+end_src
+
+* Networking
+- https://forum.proxmox.com/threads/nodes-lose-network-connectivity-when-i-reboot-the-switch-and-do-not-get-it-back-after-switch-reboot-is-complete.139550/page-2#post-636942
+- https://forum.proxmox.com/threads/installing-pve-on-notebook-with-network-manager-and-dynamic-ip.100776/#post-434965
+- https://pve.proxmox.com/wiki/Network_Configuration#_default_configuration_using_a_bridge
+  - https://wiki.debian.org/BridgeNetworkConnections
+    - https://jamielinux.com/docs/libvirt-networking-handbook/
+      - https://jamielinux.com/docs/libvirt-networking-handbook/bridged-network.html
+
+** OpenWRT
+- [[https://gist.github.com/ryuheechul/e829b7846a965638deeb122bdd0b403c][How to "Install" an OpenWRT VM in Proxmox with UEFI]]
+- add a new bridge for a lan that openwrt manages
+- passthrough hardware, in my case wireless card
+  - =opkg install pciutils= and =lspci -c=
+  - install kernel module, =opkg install kmod-mt7921e=
+    - driver failed why? =hardware init failed= from =dmesg=
+- allow luci access from WAN
+  - blocked by default for security but in this case, WAN is a LAN that I control
+  - this can be blocked again once after the LAN is accessible to other devices that are outside proxmox
+    - e.g. wireless lan (via wireless nic passthrough)
+  - another way to circumvent this
+    - ssh into a virtual machine on Proxmox that is connected to openwrt's lan
+      - run =firefox -no-remote= and use that browser to access to openwrt's ip (in the lan)
+        - this lazyway works without much setup upfront (but you still need X11 forwarding working though)
+          - but the performance of the browser over SSH is slow, SSH tunneling would better option
+*** Wirless
+- https://openwrt.org/tag/wireless
+- https://openwrt.org/docs/guide-user/network/wifi/wireless.overview
+- https://openwrt.org/docs/guide-user/network/wifi/start
+- https://openwrt.org/docs/guide-user/network/wifi/wireless-tool/wireless.utilities?s[]=wpad
+- ok about the passthrough to the VM.... it didn't work both with openwrt and nixos vm (even with all these passthrough related kernel options - turns out they are not necessary at least with my current version with proxmox)
+  - however when I tried with nixos live image, it worked!!! but as soon as I installed to the disk it stopped working...
+    - however! thanks to reverse engineering, I was able to see there is [[https://search.nixos.org/options?channel=23.11&show=hardware.enableAllFirmware&from=0&size=50&sort=relevance&type=packages&query=enableallfirmware][hardware.enableAllFirmware]] and using [[https://discourse.nixos.org/t/see-changes-between-two-generations/2469/4][nix-diff]] was helpful to see that there is hint on what's missing on guest os side mainly on some firmware.
+      - and =enableAllFirmware= indeed solved the problem on NixOS
+  - with openwrt's luci interface searching with =mediatek= resulted with =kmod-mt7922-firmware= (requiring clicking =update lists=) which wasn't listed at https://openwrt.org/packages/index/kernel-modules ...
+    after that no more failure message (=hardware init failed=) from =dmesg=!
+- =wifi= doesn't start up on boot
+  - both interface and wireless saying that it's not associated or device not active something like that
+    - seems to be =wifi= doesn't get to be loaded
+  - solution
+     #+begin_src bash
+       # adding this to /etc/rc.local via https://forum.openwrt.org/t/wifi-does-not-turn-on-automatically-on-startup/186127/9
+       sleep 10
+       wifi
+     #+end_src
+- WWAN redundancy (as client)
+  - debug with =/etc/config/network= and =/etc/config/wireless=
+  - just make sure when you scan and join network don't choose existing =wwan= create a new one per upstream ssid
+  - also don't click =add= button as this seems for adding master =SSID= to accept client
+- openwrt as wireless router!
+  - need wireless master setup
+    - WPA2-PSK (where is WPA3 btw?) requires =hostapd=
+      - use =opkg= or luci to install it
+      - or [[https://openwrt.org/docs/guide-user/network/wifi/encryption#atheros_and_generic_mac80211_wi-fi][wpad]] might be better choice to replace =hostapd= and =wpa-supplicant= packages
+      - rebooting seems to be required for luci to pick it up properly after installing these pacakges
+  - there is an issue with my specific card? https://github.com/openwrt/mt76/issues/708
+    - that means the current stable release (24-05) is not patched yet
+    - =lspci -v= shows that driver was not loaded
+      - =iw list= seems to be a way to debug
+    - is also using =hostapd= + =wpa-supplicant= instead of =wpad= required?
+      - there was also booting issue after a reboot and it's solvable via rebooting proxmox (may need hard reboot after shutting off?)

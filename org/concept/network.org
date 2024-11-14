@@ -1,7 +1,8 @@
 #+title: Network
 
 #+begin_quote
-Also see [[../protocol][Protocols]] and [[./web.org][Web]]
+Also see [[../protocol][Protocols]], [[./api.org][API]], [[./auth.org][auth]], [[./web.org][Web]] and [[./os.org][OS]]
+
 #+end_quote
 
 * Computer networking and the internet in general (and some protocols)
@@ -22,10 +23,24 @@ Also see [[../protocol][Protocols]] and [[./web.org][Web]]
 - https://www.cloudflare.com/learning/network-layer/what-is-ipsec/
 - https://www.cloudflare.com/learning/dns/dns-cache-poisoning/
 - https://www.cloudflare.com/learning/access-management/vpn-speed/
+- https://blog.cloudflare.com/virtual-networking-101-understanding-tap/
+  - https://askubuntu.com/questions/383082/whats-the-difference-between-tun-tap-vs-bridgevnet-vs-macvtap-for-virtualiza
+  - https://www.packetcoders.io/virtual-networking-devices-tun-tap-and-veth-pairs-explained/
+  - https://linux-blog.anracom.com/2016/02/02/fun-with-veth-devices-linux-virtual-bridges-kvm-vmware-attach-the-host-and-connect-bridges-via-veth/?ref=packetcoders.io
 - [[https://ormuco.com/blog/network-virtualization-how-do-sdn-nfv-differ][In Network Virtualization, How Do SDN and NFV Differ?]]
 - https://nordvpn.com/blog/what-is-usenet/
 - https://about.netflix.com/en/news/fast-com-now-measures-latency-and-upload-speed
 - https://datatracker.ietf.org/doc/html/rfc1918
+- https://en.wikipedia.org/wiki/Localhost
+- https://en.wikipedia.org/wiki/0.0.0.0
+  - [[https://superuser.com/a/1783503/1174289][How does 0.0.0.0 binding happen in Linux?]]
+- https://labs.iximiuz.com/courses/computer-networking-fundamentals/bridge-vs-switch
+
+* Special IP Addresses
+- https://www.iana.org/help/abuse-answers
+- https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
+- https://en.wikipedia.org/wiki/Reserved_IP_addresses
+- https://bizarre-binary.github.io/toys/ipv4
 
 * DNS
 - https://www.cloudflare.com/learning/dns/what-is-dns/
@@ -39,6 +54,13 @@ Also see [[../protocol][Protocols]] and [[./web.org][Web]]
 - https://moss.sh/free-wildcard-dns-services/
   - https://traefik.me/
   - https://nip.io/
+- https://tailscale.com/learn/why-split-dns
+- https://coredns.io/2018/11/27/cluster-dns-coredns-vs-kube-dns/
+- https://tailscale.com/blog/sisyphean-dns-client-linux
+- https://www.eiman.tv/blog/posts/lannames/
+- https://systemd.io/RESOLVED-VPNS/
+- https://en.wikipedia.org/wiki/Multicast_DNS
+- https://en.wikipedia.org/wiki/Zero-configuration_networking
 
 * IPVS
 - https://dev.to/douglasmakey/how-to-setup-simple-load-balancing-with-ipvs-demo-with-docker-4j1d
@@ -61,15 +83,27 @@ Also see [[../protocol][Protocols]] and [[./web.org][Web]]
 - https://blog.cloudflare.com/icloud-private-relay/
 - https://blog.cloudflare.com/performing-preventing-ssl-stripping-a-plain-english-primer/
 - https://www.troyhunt.com/the-6-step-happy-path-to-https/
+- https://www.cloudflare.com/learning/ssl/what-is-sni/
 - https://www.digitalocean.com/community/tutorials/telnet-command-linux-unix
 - https://www.n-able.com/blog/ssh-network-protocol-overview
+- https://goteleport.com/blog/scp-familiar-simple-insecure-slow/
 - [[https://gist.github.com/ryuheechul/9515381570a0cea994e62647d92a864f][gist.github.com/ryuheechul - SSH.md]]
+
+** Zerotier
+- [[https://www.youtube.com/watch?v=T2BbrqpnMAE][ZeroTier The Planetary Data Center]]
+- [[https://www.youtube.com/watch?v=iAITDB24KKg][ZeroTier Networking Demo]]
+- [[https://www.youtube.com/watch?v=VhQ30bVF3_s][ZeroTier Technical Deep Dive]]
+- https://docs.zerotier.com/protocol/
 
 * Anycast
 - https://www.cloudflare.com/learning/cdn/glossary/anycast-network/
 - https://blog.cloudflare.com/a-brief-anycast-primer/
 - https://blog.benjojo.co.uk/post/path-detection-for-anycast
 - https://blog.cloudflare.com/cloudflares-architecture-eliminating-single-p/
+
+* Wireless
+- https://w1.fi/
+- https://wiki.archlinux.org/title/Wpa_supplicant
 
 * (Cloud) Solutions
 ** Compare Services Between Major Cloud Providers
@@ -119,3 +153,11 @@ https://celaldogan2010.medium.com/analyzing-http-2-with-wireshark-64c15793e91
 
 * In-Depth / Performance
 - [[https://hpbn.co/][High Performance Browser Networking]]
+
+* Performance
+** Bufferbloat
+- https://www.linkedin.com/pulse/sizing-router-buffers-small-new-big-sharada-yeluri/
+- https://forum.gl-inet.com/t/configuring-sqm-to-reduce-bufferbloat/14125
+- https://www.bufferbloat.net/projects/codel/wiki/Cake/
+- https://www.bufferbloat.net/projects/bloat/wiki/Tests_for_Bufferbloat/
+- [[https://lwn.net/Articles/758353][Let them run CAKE]]

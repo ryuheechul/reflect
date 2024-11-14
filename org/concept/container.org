@@ -1,8 +1,46 @@
 #+title: Container
 
 #+begin_quote
-Also see [[./os.org][OS]] and [[../tool/docker.org][Docker]]
+Also see [[./os.org][OS]], [[../tool/docker.org][Docker]], [[../tool/k8s.org][Kubernetes]] and [[../tool/proxmox.org][Proxmox]]
 #+end_quote
 
+* General
+- https://www.annwan.me/computers/what-why-how-containers/
 - [[https://iximiuz.com/en/posts/containers-distroless-images/][What's Inside Of a Distroless Container Image: Taking a Deeper Look]]
 - https://slimtoolkit.org/
+- https://www.docker.com/blog/lxc-vs-docker/
+- https://earthly.dev/blog/lxc-vs-docker/
+- https://www.redhat.com/en/topics/containers/whats-a-linux-container
+- https://discuss.linuxcontainers.org/t/difference-between-lxc-and-systemd-nspawn/21044
+- https://www.lucavall.in/blog/barco-linux-containers-from-scratch-in-c
+- https://docs.orbstack.dev/
+- https://fly.io/blog/sandboxing-and-workload-isolation/
+- https://www.reddit.com/r/Proxmox/comments/yy0kha/confused_on_when_to_use_vm_vs_lxc/
+- https://github.com/rkt/rkt/blob/master/Documentation/rkt-vs-other-projects.md#rkt-vs-systemd-nspawn
+
+* Runtimes
+- https://www.cloudraft.io/blog/container-runtimes
+- https://gvisor.dev/docs/
+- https://github.com/nestybox/sysbox
+- https://github.com/gotoz/runq
+- https://github.com/newsnowlabs/runcvm
+- https://www.reddit.com/r/docker/comments/1fmuv5b/kata_containers_vs_firecracker_vs_gvisor/
+
+* Networking
+- https://labs.iximiuz.com/tutorials/container-networking-from-scratch
+
+* Security
+- https://cloud.google.com/container-optimized-os/docs/how-to/secure-apparmor
+- https://docs.docker.com/engine/security/apparmor/
+- https://zatoichi-engineer.github.io/2017/11/14/apparmor.html
+- https://docs.docker.com/engine/security/seccomp/
+- https://cloud.google.com/kubernetes-engine/docs/concepts/seccomp-in-gke
+
+* "Exotic"
+- [[https://taoofmac.com/space/blog/2024/08/17/1530][Running NixOS on Proxmox LXC]]
+- https://tadeubento.com/2024/replace-proxmox-with-incus-lxd/
+- https://waydro.id/
+- https://github.com/mviereck/x11docker
+- https://stgraber.org/2013/12/23/lxc-1-0-some-more-advanced-container-usage/
+- https://github.com/dockur/windows
+- https://github.com/dockur/macos

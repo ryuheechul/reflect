@@ -1,5 +1,9 @@
 #+title: API
 
+#+begin_quote
+Also see [[./network.org][Network]], [[./auth.org][auth]] and [[./web.org][web]]
+#+end_quote
+
 * REST
 - https://www.ibm.com/topics/rest-apis
 - https://blog.postman.com/rest-api-examples/
@@ -7,3 +11,10 @@
 
 * GraphQL
 - https://graphql.org/learn/
+
+* Specifics
+** Regarding OpenAPI & Django:
+- https://www.saaspegasus.com/guides/modern-javascript-for-django-developers/apis/
+- https://www.django-rest-framework.org/topics/documenting-your-api/#documenting-your-api
+- https://apisyouwonthate.com/blog/openapi-v4-project-moonwalk/
+- [[https://www.youtube.com/watch?v=pRS9LRBgjYg&list=PLOspHqNVtKAAAq9pHWlEiRUVcYMCcu4X0&index=6][REST API and OpenAPI: It’s Not an Either/Or Question]]

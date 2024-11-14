@@ -1,14 +1,15 @@
 #+title: Docker
 
 #+begin_quote
-Also see [[../concept/os.org][OS]] and [[../concept/container.org][Container]]
+Also see [[../concept/os.org][OS]], [[../concept/container.org][Container]] and [[../tool/k8s.org][Kubernetes]]
 #+end_quote
 
 * Ports
 It's always =host:container= not the reverse but my mind gets confused with it all the time so writing here to prevent confusion in the future!
 
 * Volume
-https://earthly.dev/blog/docker-volumes/
+- https://earthly.dev/blog/docker-volumes/
+- https://stackoverflow.com/questions/46907558/docker-compose-relative-paths-vs-docker-volume
 
 * Alpine
 https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk

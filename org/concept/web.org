@@ -1,7 +1,7 @@
 #+title: Web
 
 #+begin_quote
-Also see [[./network.org][Network]]
+Also see [[./network.org][Network]] and [[./api.org][API]], [[./auth.org][auth]]
 #+end_quote
 
 * My Go-Tos
@@ -22,3 +22,10 @@ https://web.dev/workers-overview/
 - https://kinsta.com/blog/brotli-compression/
 - https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they
 - https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/
+
+* CSS
+- https://unocss.dev/
+- https://matcha.mizu.sh/
+- https://github.com/dbohdan/classless-css
+- https://github.com/uhub/awesome-css
+- https://github.com/awesome-css-group/awesome-css

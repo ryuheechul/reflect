@@ -14,3 +14,6 @@ https://www.prisma.io/dataguide
 
 * Offerings
 - https://electric-sql.com/blog/2023/09/20/introducing-electricsql-v0.6
+
+* Playgrounds
+- https://supabase.com/blog/postgres-new

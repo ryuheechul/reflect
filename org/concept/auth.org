@@ -1,0 +1,55 @@
+#+title: Auth
+
+#+begin_quote
+Also see [[./api.org][API]], [[./network.org][Network]] and [[./web.org][web]]
+#+end_quote
+
+* OAuth and OpenID Connect
+- https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
+- [[https://www.youtube.com/watch?v=vVM1Tpu9QB4][ID Tokens VS Access Tokens: What's the Difference?]]
+- https://www.ory.sh/comparisons/
+  - https://www.ory.sh/open-source/
+- https://darutk.medium.com/full-scratch-implementor-of-oauth-and-openid-connect-talks-about-findings-55015f36d1c3
+- https://github.com/dexidp/dex
+- https://lastlogin.net/
+  - https://github.com/lastlogin-net/obligator
+  - https://github.com/lastlogin-net/obligator?tab=readme-ov-file#comparison-is-the-thief-of-joy
+  - [[https://news.ycombinator.com/item?id=37848793][Show HN: Obligator – An OpenID Connect server for self-hosters]]
+
+* LDAP
+- https://jumpcloud.com/blog/what-is-ldap
+- https://www.okta.com/identity-101/what-is-ldap/
+- https://www.redhat.com/en/topics/security/what-is-ldap-authentication
+- https://www.upguard.com/blog/ldap
+- https://ldap.com/understanding-ldap-schema/
+- https://stackoverflow.com/questions/43987531/difference-between-active-directory-and-identity-and-access-managment
+- https://aws.amazon.com/directoryservice/
+- https://www.reddit.com/r/programming/comments/bskw9/if_you_wondered_why_ldap_isnt_more_widely_used/
+- https://jumpcloud.com/blog/aad-vs-aws-iam
+  - [[https://support.apple.com/en-ca/guide/directory-utility/diru39a25fa2/mac][Integrate Active Directory using Directory Utility on Mac]]
+  - [[https://support.apple.com/en-ca/guide/deployment/depd1a7cad1f/web][Integrate Mac computers with Active Directory]]
+  - [[https://support.apple.com/en-ca/guide/deployment/depf5573fbc/web][Active Directory Certificate MDM payload settings for Apple devices]]
+  - [[https://support.apple.com/en-ca/guide/deployment/dep23422775/web][Directory Service MDM payload settings for Apple devices]]
+  - https://www.hexnode.com/mobile-device-management/help/configure-ldap-for-macos-using-hexnode-mdm/
+- https://docs.github.com/en/enterprise-server@3.14/admin/managing-iam/using-ldap-for-enterprise-iam/using-ldap
+- [[https://www.youtube.com/watch?v=_NCcLJin30E][LDAP vs SAML: What's the Difference?]]
+- [[https://www.youtube.com/watch?v=Xjpi8xYqPcY][Kerberos vs. LDAP: What’s the Difference?]]
+- https://wiki.wireshark.org/LDAP
+
+* IdM/IAM
+- https://en.wikipedia.org/wiki/Identity_management
+- https://www.keycloak.org/
+  - https://www.cloud-iam.com/
+- https://kanidm.com/
+  - https://kanidm.com/comparisons/
+    - https://github.com/kanidm/kanidm/issues/2746
+  - https://github.com/kanidm/kanidm
+    - https://kanidm.github.io/kanidm/master/
+  - https://ashhhleyyy.dev/blog/2023-02-05-from-keycloak-to-kanidm
+- https://www.authelia.com/
+- https://www.reddit.com/r/selfhosted/comments/1eohsds/best_self_hosted_authentication_solution/
+
+* ETC
+- [[https://www.youtube.com/watch?v=vULfBEn8N7E][Permissions, Privileges and Scopes - What's the Difference?!]]
+- https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.0/html/server_administration_guide/identity_broker
+- https://www.samltool.com/

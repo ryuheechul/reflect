@@ -19,3 +19,9 @@ It doesn't appear to be that there is just only one true meaning on those constr
 ** [[https://en.wikipedia.org/wiki/Shift-left_testing][Shift Left Testing]]
 
 Simply put, test early (shift testing phase to left) to get benefits of testing early on and avoid pitfalls of missing (or adapting late) tests in the pipeline.
+
+* Project Management
+** Feature Scoping
+- https://www.freecodecamp.org/news/how-to-effectively-scope-your-software-projects-from-planning-to-execution-e96cbcac54b9/
+- https://www.shopify.com/partners/blog/feature-creep
+- https://buffer.com/resources/product-scope/

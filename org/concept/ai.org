@@ -1,5 +1,15 @@
 #+title: Artificial Intelligence
 
+* Machine Learning
+** Introduction
+- http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+
+** Learning
+- https://github.com/jka236/data_jam
+   (this is what caused me to want to learn more about machine learning)
+- https://github.com/amitness/learning
+- https://github.com/ZuzooVn/machine-learning-for-software-engineers
+
 * LLM/LMM
 - https://research.ibm.com/blog/retrieval-augmented-generation-RAG
 - https://swizec.com/blog/ai-engineer-summit-report

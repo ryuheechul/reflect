@@ -14,3 +14,4 @@ Also see [[./cpu.org][CPU]] and [[./os.org][OS]]
 - https://docs.mesa3d.org/history.html
 - https://en.wikipedia.org/wiki/Direct_Rendering_Infrastructure
 - https://jellyfin.org/docs/general/administration/hardware-acceleration/intel/
+- https://www.reddit.com/r/linux4noobs/comments/gvh1ha/mesa_vulkan_opengl_amdgpu_amdvlk_please_eli5_the/

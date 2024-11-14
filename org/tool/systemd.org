@@ -1,0 +1,54 @@
+#+title: Systemd
+
+#+begin_quote
+Also see [[../concept/os.org][OS]] and [[../lang/nix.org][Nix]]
+#+end_quote
+
+* general
+- https://systemd.io/
+- https://www.coursera.org/lecture/linux-system-administration-ibm-power-systems/introduction-to-systemd-NHWnE
+- [[https://www.youtube.com/watch?v=tY9GYsoxeLg][Demystifying systemd]]
+- https://freedesktop.org/wiki/Software/systemd/Debugging/
+- https://michael.franzl.name/blog/posts/2023-11-01-praising-systemd-nspawn
+- https://nixcademy.com/posts/nixos-nspawn/
+- https://michael.franzl.name/blog/posts/2023-12-02-run-graphical-wayland-applications-in-systemd-nspawn
+- [[https://www.youtube.com/watch?v=o_AIw9bGogo][The Tragedy of systemd]]
+- https://mgdm.net/weblog/systemd/
+- https://mgdm.net/weblog/systemd-socket-activation/
+- [[https://opensource.com/article/20/4/systemd][Learning to love systemd]]
+- https://blog.lusis.org/blog/2014/11/20/systemd-redux/
+- https://www.redhat.com/en/blog/mastering-systemd
+- https://0pointer.de/blog/projects/the-biggest-myths.html
+- https://0pointer.net/blog/projects/security.html
+- https://0pointer.net/blog/fitting-everything-together.html
+
+* systemd for developers (1-3)
+- 1 https://0pointer.net/blog/projects/socket-activation.html
+- 2 https://0pointer.net/blog/projects/socket-activation2.html
+- 3 https://0pointer.net/blog/projects/journal-submit.html
+
+* systemd for admins (1-20)
+- 1 https://0pointer.de/blog/projects/systemd-for-admins-1.html
+- 2 https://0pointer.net/blog/projects/systemd-for-admins-2.html
+- 3 https://0pointer.net/blog/projects/systemd-for-admins-3.html
+- 4 https://0pointer.net/blog/projects/systemd-for-admins-4.html
+- 5 https://0pointer.net/blog/projects/three-levels-of-off.html
+- 6 https://0pointer.net/blog/projects/changing-roots.html
+- 7 https://0pointer.net/blog/projects/blame-game.html
+- 8 https://0pointer.net/blog/projects/the-new-configuration-files.html
+- 9 https://0pointer.net/blog/projects/on-etc-sysinit.html
+- 10 https://0pointer.net/blog/projects/instances.html
+- 11 https://0pointer.net/blog/projects/inetd.html
+- 12 https://0pointer.net/blog/projects/security.html
+- 13 https://0pointer.net/blog/projects/systemctl-journal.html
+- 14 https://0pointer.net/blog/projects/self-documented-boot.html
+- 15 https://0pointer.net/blog/projects/watchdog.html
+- 16 https://0pointer.net/blog/projects/serial-console.html
+- 17 https://0pointer.net/blog/projects/journalctl.html
+- 18 https://0pointer.net/blog/projects/resources.html
+- 19 https://0pointer.net/blog/projects/detect-virt.html
+- 20 https://0pointer.net/blog/projects/socket-activated-containers.html
+
+* advanced
+- https://www.codethink.co.uk/articles/2024/systemd-integration-testing-part-1/
+- https://www.codethink.co.uk/articles/2024/systemd-integration-testing-part-2/

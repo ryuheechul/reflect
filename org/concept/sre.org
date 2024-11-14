@@ -1,0 +1,11 @@
+#+title: Site Reliability Engineering
+
+#+begin_quote
+Also see [[./network.org][Network]] and [[./os.org][OS]]
+#+end_quote
+
+- https://www.srepath.com/
+- https://www.srepath.com/10-tips-for-onboarding-new-sre-hires/
+- https://www.srepath.com/developer-survive-you-built-it-you-run-it/
+- https://www.srepath.com/rundown-of-linkedins-sre-practices/
+- https://github.com/mxssl/sre-interview-prep-guide?tab=readme-ov-file
