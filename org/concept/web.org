@@ -7,13 +7,21 @@ Also see [[./network.org][Network]] and [[./api.org][API]], [[./auth.org][auth]]
 * My Go-Tos
 - https://svelte.dev/
 - https://astro.build/
+- https://alpinejs.dev/
+  - https://www.codemotion.com/magazine/frontend/ten-reasons-why-i-think-alpine-js-can-do-magic/
+
+* Awesome Lists
+- https://github.com/stefanofa/awesome
 
 * Advanced
 ** Workers
-https://web.dev/workers-overview/
+- https://web.dev/workers-overview/
 *** PWA
 - https://web.dev/progressive-web-apps/
 - https://vite-pwa-org.netlify.app/
+
+** Cookies
+- https://lessonsofacto.com/videos/029-the-cookie-store-api/
 
 * Compression
 - [[https://youtu.be/whGwm0Lky2s][GZIP is not enough!]]
@@ -29,3 +37,38 @@ https://web.dev/workers-overview/
 - https://github.com/dbohdan/classless-css
 - https://github.com/uhub/awesome-css
 - https://github.com/awesome-css-group/awesome-css
+- https://chenhuijing.com/blog/css-for-i18n/
+- https://developer.chrome.com/docs/css-ui/scrollbar-styling
+
+* Deployments
+** https://pages.cloudflare.com/
+*** Compare with Netlify
+- https://blog.logrocket.com/netlify-vs-cloudflare-pages/
+- https://getdeploying.com/cloudflare-vs-netlify
+- https://bejamas.com/compare/cloudflare-pages-vs-netlify
+*** https://developers.cloudflare.com/pages/platform/known-issues/
+*** https://developers.cloudflare.com/pages/functions/advanced-mode/
+**** https://community.cloudflare.com/t/setting-up-cloudflare-functions-for-an-astro-project/617686/3
+
+* Caching
+** https://www.cloudflare.com/learning/cdn/what-is-caching/
+** https://blog.cloudflare.com/cdn-cache-control/
+** https://www.cloudflare.com/learning/cdn/glossary/what-is-cache-control/
+** https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
+** https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+** https://developer.mozilla.org/en-US/docs/Web/API/Request/cache
+** https://toss.tech/article/smart-web-service-cache
+*** https://http.cat/status/304
+*** https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/ETag
+**** https://stackoverflow.com/questions/24542959/how-does-a-etag-work-in-expressjs
+
+* App Logic and Web Components
+** Problems
+- https://web.dev/articles/cls
+** Web Components
+- [[https://news.ycombinator.com/item?id=38942847][[HN] Shoelace: A library of web components]]
+  - https://blog.jim-nielsen.com/2023/html-web-components/
+    - https://frankchimero.com/blog/2015/the-webs-grain/
+
+- https://dev.to/stuffbreaker/web-components-and-ssr-2024-edition-1nel
+- https://www.spicyweb.dev/web-components-ssr-node/

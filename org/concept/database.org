@@ -4,7 +4,7 @@
 Also see [[./crdt.org][CRDT]]
 #+end_quote
 
-https://www.prisma.io/dataguide
+- https://www.prisma.io/dataguide
 
 * Selections
 - [[https://www.youtube.com/watch?v=kkeFE6iRfMM][How To Choose The Right Database?]]
@@ -17,3 +17,7 @@ https://www.prisma.io/dataguide
 
 * Playgrounds
 - https://supabase.com/blog/postgres-new
+
+* PostgreSQL
+- https://www.pgcasts.com/episodes/geolocations-using-earthdistance-and-cubes
+- https://www.timescale.com/learn/postgresql-extensions-cube

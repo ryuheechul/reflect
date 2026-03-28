@@ -1,7 +1,7 @@
 #+title: Network
 
 #+begin_quote
-Also see [[../protocol][Protocols]], [[./api.org][API]], [[./auth.org][auth]], [[./web.org][Web]] and [[./os.org][OS]]
+Also see [[../protocol][Protocols]], [[./api.org][API]], [[./auth.org][auth]], [[./web.org][Web]], [[./os.org][OS]] and [[./container.org][container]]
 
 #+end_quote
 
@@ -69,8 +69,6 @@ Also see [[../protocol][Protocols]], [[./api.org][API]], [[./auth.org][auth]], [
 * Security/Proxy/VPN/Tunnels
 - https://developers.redhat.com/blog/2019/05/17/an-introduction-to-linux-virtual-interfaces-tunnels
 - https://www.wireguard.com/
-- https://tailscale.com/blog/how-tailscale-works/
-- https://tailscale.com/blog/how-nat-traversal-works/
 - https://nordvpn.com/blog/socks5-proxy/
 - https://www.security.org/vpn/proxy-vs-vpn/
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Proxy_servers_and_tunneling
@@ -88,6 +86,17 @@ Also see [[../protocol][Protocols]], [[./api.org][API]], [[./auth.org][auth]], [
 - https://www.n-able.com/blog/ssh-network-protocol-overview
 - https://goteleport.com/blog/scp-familiar-simple-insecure-slow/
 - [[https://gist.github.com/ryuheechul/9515381570a0cea994e62647d92a864f][gist.github.com/ryuheechul - SSH.md]]
+- https://developers.cloudflare.com/cloudflare-one/faq/cloudflare-tunnels-faq/
+  =netcat -zv [origin-ip] [port]= to check if port is open
+- https://github.com/SagerNet/sing-box
+  - https://www.youtube.com/watch?v=9f4bX6gNseg&list=PL_akDzx9nCAEYAZByaDGVJM5Sw_2HWoF9
+
+** Tailscale
+- https://tailscale.com/blog/how-tailscale-works/
+- https://tailscale.com/blog/how-nat-traversal-works/
+- https://tailscale.com/blog/throughput-improvements
+- https://tailscale.com/blog/more-throughput
+- https://tailscale.com/kb/1320/performance-best-practices
 
 ** Zerotier
 - [[https://www.youtube.com/watch?v=T2BbrqpnMAE][ZeroTier The Planetary Data Center]]
@@ -107,7 +116,7 @@ Also see [[../protocol][Protocols]], [[./api.org][API]], [[./auth.org][auth]], [
 
 * (Cloud) Solutions
 ** Compare Services Between Major Cloud Providers
-https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
+- https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
 ** Service Mesh
 - help visualize/track traffics between services
 - (Envoy) proxy components usually sits next to each target nodes
@@ -117,22 +126,22 @@ https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
 - which makes it easier to migrate services to different technologies and platforms
 - suitable for [[https://en.wikipedia.org/wiki/East-west_traffic][East-west traffic]] aka "internal" traffic between micro-services in modern setup.
 
-https://aws.amazon.com/app-mesh
-https://cloud.google.com/traffic-director
+- https://aws.amazon.com/app-mesh
+- https://cloud.google.com/traffic-director
 ** Service Discovery
 - provide namespaces and aliases to understand each service much clearer without having to know which specific tech/platform each service is running on
 - can provide not just access point but also addtional attributes like port number, database name, where to retrieve secrets
 - which helps decoupling by reducing hard coding to actual values
 - and that also enables smooth migrations as the only place need to update the value is SD
 
-https://aws.amazon.com/cloud-map/
-https://cloud.google.com/service-directory
+- https://aws.amazon.com/cloud-map/
+- https://cloud.google.com/service-directory
 
 * HTTP/Browser
 ** Cookies
-https://medium.com/swlh/browser-cookies-101-241ef1ce3e7e
+- https://medium.com/swlh/browser-cookies-101-241ef1ce3e7e
 ** Cross XXX
-https://dev.to/maleta/cors-xss-and-csrf-with-examples-in-10-minutes-35k3
+- https://dev.to/maleta/cors-xss-and-csrf-with-examples-in-10-minutes-35k3
 ** AJAX
 - https://en.wikipedia.org/wiki/Ajax_(programming)
 - https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started
@@ -143,7 +152,13 @@ https://dev.to/maleta/cors-xss-and-csrf-with-examples-in-10-minutes-35k3
 - https://socket.io/docs/v4/
 - https://stackoverflow.com/a/10112562/1570165
 ** HTTP2
-https://celaldogan2010.medium.com/analyzing-http-2-with-wireshark-64c15793e91
+- https://celaldogan2010.medium.com/analyzing-http-2-with-wireshark-64c15793e91
+** others
+- https://www.pubnub.com/guides/long-polling/
+- https://www.pubnub.com/guides/server-sent-events/
+  - https://hpbn.co/server-sent-events-sse/
+  - https://hpbn.co/xmlhttprequest/#real-time-notifications-and-delivery
+- https://medium.com/@asharsaleem4/long-polling-vs-server-sent-events-vs-websockets-a-comprehensive-guide-fb27c8e610d0
 
 * Email & Calendar
 - https://explained-from-first-principles.com/email/
@@ -151,13 +166,24 @@ https://celaldogan2010.medium.com/analyzing-http-2-with-wireshark-64c15793e91
 - https://www.calconnect.org/resources/introduction-internet-calendaring
 - [[https://support.google.com/mail/answer/13130196][[Gmail] Learn about verified emails]]
 
-* In-Depth / Performance
-- [[https://hpbn.co/][High Performance Browser Networking]]
+* In-Depth
+- https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/
+- https://passt.top/passt/about/
+- https://www.redhat.com/en/topics/containers/what-is-skopeo
+- https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking
+  - https://tomsitcafe.com/2024/07/03/macvlan-vs-bridge-interface-wi-fi-compatibility-and-benefits/
 
 * Performance
+- [[https://hpbn.co/][High Performance Browser Networking]]
+- [[https://brooker.co.za/blog/2021/04/19/latency.html][Tail Latency Might Matter More Than You Think]]
 ** Bufferbloat
 - https://www.linkedin.com/pulse/sizing-router-buffers-small-new-big-sharada-yeluri/
 - https://forum.gl-inet.com/t/configuring-sqm-to-reduce-bufferbloat/14125
 - https://www.bufferbloat.net/projects/codel/wiki/Cake/
 - https://www.bufferbloat.net/projects/bloat/wiki/Tests_for_Bufferbloat/
 - [[https://lwn.net/Articles/758353][Let them run CAKE]]
+
+* "Others"
+- https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial
+- https://en.wikipedia.org/wiki/CAN_bus
+- https://electronics.stackexchange.com/questions/637112/what-is-the-etymology-of-plane-e-g-data-plane-control-plane-etc

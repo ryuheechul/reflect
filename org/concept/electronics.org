@@ -1,7 +1,7 @@
 #+title: Electronics
 
 #+begin_quote
-Also see [[./electricity.org][electricity]]
+Also see [[./electricity.org][electricity]] and [[./os.org][OS]]
 #+end_quote
 
 * Difference between electrical engineering and electronic engineering
@@ -18,6 +18,9 @@ Also see [[./electricity.org][electricity]]
 
 * Data and Power Transfers
 - https://www.quora.com/USB-vs-PCIE-What-is-the-difference-between-them-and-the-buses-Thank-you
+  - https://www.reddit.com/r/ElectricalEngineering/comments/17miaq3/etymology_bus/
+    - https://www.ltmuseum.co.uk/collections/stories/transport/londons-horse-bus-era-1829-1910
+    - https://electronics.stackexchange.com/questions/96139/difference-between-a-bus-and-a-wire
 - https://www.reddit.com/r/explainlikeimfive/comments/5sgfzh/eli5_parallel_was_faster_than_serial_why_isnt/
 - https://www.diffen.com/difference/USB_2.0_vs_USB_3.0
 - [[https://www.youtube.com/watch?v=egkqDwQuh8E][Why This WEIRD USB Connector Exists (Type B)]]

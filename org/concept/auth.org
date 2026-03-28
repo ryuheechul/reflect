@@ -5,8 +5,10 @@ Also see [[./api.org][API]], [[./network.org][Network]] and [[./web.org][web]]
 #+end_quote
 
 * OAuth and OpenID Connect
+- https://developer.okta.com/docs/concepts/oauth-openid/
 - https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
-- [[https://www.youtube.com/watch?v=vVM1Tpu9QB4][ID Tokens VS Access Tokens: What's the Difference?]]
+- https://auth0.com/blog/id-token-access-token-what-is-the-difference/
+  - [[https://www.youtube.com/watch?v=vVM1Tpu9QB4][ID Tokens VS Access Tokens: What's the Difference?]]
 - https://www.ory.sh/comparisons/
   - https://www.ory.sh/open-source/
 - https://darutk.medium.com/full-scratch-implementor-of-oauth-and-openid-connect-talks-about-findings-55015f36d1c3
@@ -15,6 +17,9 @@ Also see [[./api.org][API]], [[./network.org][Network]] and [[./web.org][web]]
   - https://github.com/lastlogin-net/obligator
   - https://github.com/lastlogin-net/obligator?tab=readme-ov-file#comparison-is-the-thief-of-joy
   - [[https://news.ycombinator.com/item?id=37848793][Show HN: Obligator – An OpenID Connect server for self-hosters]]
+- https://curity.io/resources/learn/oauth-device-flow/
+  - https://auth0.com/docs/get-started/authentication-and-authorization-flow/device-authorization-flow
+- https://developers.google.com/identity/openid-connect/openid-connect
 
 * LDAP
 - https://jumpcloud.com/blog/what-is-ldap
@@ -48,6 +53,14 @@ Also see [[./api.org][API]], [[./network.org][Network]] and [[./web.org][web]]
   - https://ashhhleyyy.dev/blog/2023-02-05-from-keycloak-to-kanidm
 - https://www.authelia.com/
 - https://www.reddit.com/r/selfhosted/comments/1eohsds/best_self_hosted_authentication_solution/
+  - https://www.reddit.com/r/selfhosted/comments/1pibf2n/why_do_people_recommend_authelia/
+- https://github.com/voidauth/voidauth
+- https://tinyauth.app
+  - https://github.com/steveiliop56/tinyauth
+- https://pocket-id.org/docs/introduction
+  - https://github.com/pocket-id/pocket-id
+- https://voidauth.app/
+  - https://github.com/voidauth/voidauth
 
 * ETC
 - [[https://www.youtube.com/watch?v=vULfBEn8N7E][Permissions, Privileges and Scopes - What's the Difference?!]]

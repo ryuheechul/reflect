@@ -2,7 +2,7 @@
 I use =dired= on top of Doomemacs, FYI.
 
 ** Evil Keybindings
-https://github.com/emacs-evil/evil-collection/blob/master/modes/dired/evil-collection-dired.el
+- https://github.com/emacs-evil/evil-collection/blob/master/modes/dired/evil-collection-dired.el
 
 ** Create File
 =find-file= (=<Space> .)

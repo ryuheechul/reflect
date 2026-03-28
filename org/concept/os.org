@@ -1,7 +1,7 @@
 #+title: Operating System
 
 #+begin_quote
-Also see [[./cpu.org][CPU]], [[./gpu.org][GPU]], [[../lang/nix.org][Nix]], [[../tool/systemd.org][systemd]], [[./container.org][Container]], [[../tool/proxmox.org][Proxmox]], [[./network.org][Networking]] and [[./sre.org][SRE]]
+Also see [[./electronics.org][electronics]], [[./cpu.org][CPU]], [[./gpu.org][GPU]], [[../lang/nix.org][Nix]], [[../tool/systemd.org][systemd]], [[./container.org][Container]], [[../tool/proxmox.org][Proxmox]], [[./network.org][Networking]] and [[./sre.org][SRE]]
 #+end_quote
 
 * Bare Metal aka your own
@@ -38,8 +38,12 @@ https://www.kernel.org/doc/html/latest/admin-guide/index.html
 - https://en.wikipedia.org/wiki/Udev
 - https://wiki.gentoo.org/wiki/Udev
 - https://www.linux.com/news/udev-introduction-device-management-modern-linux-system/
+- https://opensource.com/article/18/11/udev
+- https://unix.stackexchange.com/questions/550037/how-does-udev-uevent-work
 - https://wiki.archlinux.org/title/Modalias
 - https://documentation.suse.com/sles/12-SP5/html/SLES-all/cha-udev.html
+- https://docs.kernel.org/userspace-api/netlink/intro.html
+- https://en.wikipedia.org/wiki/Loop_device
 
 ** Alpine Linux
 https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
@@ -69,6 +73,14 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - [[https://www.youtube.com/watch?v=ZlZDWeVL2LI][How Linux Kernel Runs Executables]]
 - https://stackoverflow.com/questions/20823371/what-is-the-difference-between-the-functions-of-the-exec-family-of-system-calls
 
+** Pipelines and Redirections
+- https://labex.io/tutorials/linux-how-to-use-tee-to-capture-standard-error-417673
+- https://www.gnu.org/software/bash/manual/html_node/Pipelines.html
+- https://www.gnu.org/software/bash/manual/html_node/Redirections.html
+- https://tldp.org/LDP/abs/html/process-sub.html
+- https://copyconstruct.medium.com/bash-redirection-fun-with-descriptors-e799ec5a3c16
+- https://unix.stackexchange.com/questions/609375/difference-between-commands-and-commands-in-process-substitution
+
 ** File systems
 [[https://www.youtube.com/watch?v=bbmWOjuFmgA][- Linux File System Explained!]]
 - https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
@@ -80,6 +92,8 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - [[http://www.linusakesson.net/programming/tty/index.php][The TTY demystified]]
 - [[https://learn.sparkfun.com/tutorials/terminal-basics/all][Serial Terminal Basics (to connect with other hardwares)]]
 - https://www.in-ulm.de/~mascheck/various/shebang/#interpreter-script
+- https://kalnytskyi.com/posts/on-tmux-osc52-support/#fnref1
+
 
 *** (Serial/Virtual) Console
 - https://thevaluable.dev/guide-terminal-shell-console/
@@ -110,6 +124,10 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/configuring_authentication_and_authorization_in_rhel/understanding-sssd-and-its-benefits_configuring-authentication-and-authorization-in-rhel
 - https://www.reddit.com/r/yubikey/comments/19eobl5/disappointed_that_yubikey_is_virtually_useless_on/
 - https://joinemm.dev/blog/yubikey-nixos-guide
+- [[https://lwn.net/Articles/700557/][LWN Article - Minijail]]
+- https://security.stackexchange.com/questions/210400/difference-between-linux-capabities-and-seccomp
+  - https://stackoverflow.com/questions/35469038/how-to-find-out-what-linux-capabilities-a-process-requires-to-work
+  - https://sites.google.com/site/fullycapable/su-without-root
 
 *** TPM
 - https://www.monperrus.net/martin/7-things-to-do-with-your-TPM-on-Linux
@@ -141,6 +159,7 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://www.reddit.com/r/linux/comments/3r8nev/eli5_history_of_gtk_qt_x11_and_wayland/
 - https://wayland.freedesktop.org/architecture.html
 - https://wayland-book.com/introduction/high-level-design.html
+  - https://wayland.app/protocols/
 - https://dbus.freedesktop.org/doc/dbus-specification.html
 - https://blog.elementary.io/what-is-hidpi/
 - https://www.trickster.dev/post/running-gui-apps-within-docker-containers/
@@ -166,6 +185,14 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - https://docs.kernel.org/admin-guide/pm/cpufreq.html
 - https://docs.kernel.org/admin-guide/pm/amd-pstate.html
 
+*** Resize Virtual Hard Disk
+- [[https://gist.github.com/ryuheechul/e4747d48b3594bd1b7146047b934107d][Resize disk on a (NixOS) VM without rebooting]]
+
+*** Gotchas
+- https://www.reddit.com/r/pop_os/comments/y4jwzs/touchpad_scrolling_speed_waaay_too_fast/
+
+** (Building) Images
+- https://www.reddit.com/r/devops/comments/1ckopgu/is_there_an_opensource_fork_for_hashicorp_packer/
 
 ** Packaging/ABI
 - https://www.reddit.com/r/linux/comments/42vngw/why_is_the_linux_community_ambivalent_about/

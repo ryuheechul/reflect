@@ -6,6 +6,7 @@
 - https://go.dev/doc/code
 - https://github.com/golang-standards/project-layout
 - https://google.github.io/styleguide/go/
+- https://go.dev/doc/effective_go
 
 * Tips
 - https://github.com/avelino/awesome-go

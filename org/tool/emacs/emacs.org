@@ -1,1 +1,10 @@
 #+title: Emacs
+
+* General
+- [[https://gist.github.com/ryuheechul/1363eec4e945b6840989d255cdbd09e3][[Gist] Note about Emacs]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/eintr/][An Introduction to Programming in Emacs Lisp]]
+
+* Debugging
+- https://www.reddit.com/r/emacs/comments/u8g8n4/request_for_guide_elisp_debugging_workflow/
+- https://endlessparentheses.com/debugging-emacs-lisp-part-1-earn-your-independence.html
+- https://jeskin.net/blog/debugging-emacs/

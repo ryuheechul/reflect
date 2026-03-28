@@ -12,7 +12,7 @@ It's always =host:container= not the reverse but my mind gets confused with it a
 - https://stackoverflow.com/questions/46907558/docker-compose-relative-paths-vs-docker-volume
 
 * Alpine
-https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk
+- https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk
 
 * When you need a quick server to run with docker-compose
 
@@ -30,7 +30,7 @@ services:
 
 * Docker heredoc
 
-https://www.docker.com/blog/introduction-to-heredocs-in-dockerfiles/
+- https://www.docker.com/blog/introduction-to-heredocs-in-dockerfiles/
 
 Adding a line like this on top of Dockerfile will enable new syntax according to https://hub.docker.com/r/docker/dockerfile
 =# syntax = docker/dockerfile:1.4=

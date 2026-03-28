@@ -2,4 +2,4 @@
 
 Structured Query Language
 
-https://justinjaffray.com/joins-13-ways/
+- https://justinjaffray.com/joins-13-ways/

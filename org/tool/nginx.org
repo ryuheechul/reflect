@@ -1,10 +1,10 @@
 #+title: Nginx
 
 * A quickway to get started
-https://www.digitalocean.com/community/tools/nginx
+- https://www.digitalocean.com/community/tools/nginx
 
 * Notable Options
-http://nginx.org/en/docs/http/ngx_http_core_module.html#server_tokens
+- http://nginx.org/en/docs/http/ngx_http_core_module.html#server_tokens
 
 #+begin_quote
 Enables or disables emitting nginx version on error pages and in the “Server” response header field.
@@ -12,4 +12,4 @@ Enables or disables emitting nginx version on error pages and in the “Server�
 
 * With Platforms
 ** Elastic Beanstalk
-https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platforms-linux-extend.html
+- https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platforms-linux-extend.html

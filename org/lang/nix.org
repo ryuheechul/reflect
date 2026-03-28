@@ -34,6 +34,10 @@ I also wrote an article sometime ago when I first tried Nix as well
 - https://summer.nixos.org/blog/callpackage-a-tool-for-the-lazy/
 
 * Flake Cheatsheets
+- https://jade.fyi/blog/flakes-arent-real/
+  - https://news.ycombinator.com/item?id=38929543
+  - https://spacekookie.de/blog/i-am-no-longer-using-flakes/
+
 #+begin_src makefile
 .PHONY: show
 show:
@@ -69,3 +73,11 @@ shell:
 - https://joinemm.dev/blog/yubikey-nixos-guide
 - https://nixcademy.com/posts/nixos-nspawn/
 - https://github.com/SaumonNet/proxmox-nixos
+
+
+- https://francis.begyn.be/blog/nixos-home-router
+- https://www.jjpdev.com/posts/home-router-nixos/
+
+* Security
+- https://fzakaria.com/2024/07/12/nix-secrets-for-dummies
+- https://wiki.nixos.org/wiki/Comparison_of_secret_managing_schemes

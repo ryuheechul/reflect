@@ -1,0 +1,3 @@
+#+title: GL.iNet
+
+- https://forum.gl-inet.com/t/tailscale-exit-node-on-gl-inet-routers/49088/14

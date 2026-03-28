@@ -1,19 +1,19 @@
 #+title: Erlang
 
-https://www.cis.upenn.edu/~matuszek/General/ConciseGuides/concise-erlang.html
-https://learnyousomeerlang.com/content
-[[https://elixir-lang.org/crash-course.html][Erlang/Elixir Syntax: A Crash Course]]
-https://erlang.org/course/concurrent_programming.html
-https://learnyousomeerlang.com/the-hitchhikers-guide-to-concurrency
+- https://www.cis.upenn.edu/~matuszek/General/ConciseGuides/concise-erlang.html
+- https://learnyousomeerlang.com/content
+- [[https://elixir-lang.org/crash-course.html][Erlang/Elixir Syntax: A Crash Course]]
+- https://erlang.org/course/concurrent_programming.html
+- https://learnyousomeerlang.com/the-hitchhikers-guide-to-concurrency
 
 * via YouTube
-[[https://youtu.be/SOqQVoVai6s][Erlang Programming Language - Computerphile]]
-[[https://youtu.be/IEhwc2q1zG4][Erlang Tutorial]]
-[[https://youtu.be/JvBT4XBdoUE][The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019]]
-[[https://youtu.be/7AJR66p5E4s][The Erlang Ecosystem - Robert Virding]]
+- [[https://youtu.be/SOqQVoVai6s][Erlang Programming Language - Computerphile]]
+- [[https://youtu.be/IEhwc2q1zG4][Erlang Tutorial]]
+- [[https://youtu.be/JvBT4XBdoUE][The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019]]
+- [[https://youtu.be/7AJR66p5E4s][The Erlang Ecosystem - Robert Virding]]
 
 * BEAM
-https://github.com/llaisdy/beam_languages
+- https://github.com/llaisdy/beam_languages
 ** Why VM not OS?
 Erlang VM, BEAM is called as virtual machine not OS even though we talk a lot about its OS-like features (processes) much more than a machine like features - they come with both.
 
@@ -28,14 +28,14 @@ So in the case of Erlang's VM, there is no need - at least so far - to seperate 
 This is a self answer that is not verified by others but I'm pretty happy with this answer for now.
 
 * Elixir
-https://elixir-lang.org/
-https://phoenixframework.org/
-https://elixirforum.com/t/arithmetic-operators-with-pipe-operator/3580
-https://github.com/h4cc/awesome-elixir
+- https://elixir-lang.org/
+- https://phoenixframework.org/
+- https://elixirforum.com/t/arithmetic-operators-with-pipe-operator/3580
+- https://github.com/h4cc/awesome-elixir
 
 * with Kubernetes
-https://blog.plataformatec.com.br/2019/10/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small/
-https://github.com/bitwalker/libcluster
+- https://blog.plataformatec.com.br/2019/10/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small/
+- https://github.com/bitwalker/libcluster
 
 * When to not use Erlang/Elixir
 
@@ -92,10 +92,10 @@ To be fair, I haven't properly learned =mix= nor =rebar3= yet, so this part will
 
 ** Agent
 
-https://elixir-lang.org/getting-started/mix-otp/agent.html
+- https://elixir-lang.org/getting-started/mix-otp/agent.html
 
 *** What is an Agent
-https://hexdocs.pm/elixir/Agent.html
+- https://hexdocs.pm/elixir/Agent.html
 
 A module comes with helper functions to create and use a process that can be responsible for holding states.
 
@@ -111,5 +111,5 @@ While reading about types in Elixir via https://thoughtbot.com/blog/types-in-dyn
 It seems quite interesting and has a potential to replace ReasonML (for me).
 It's written in Rust and I can feel some Rust and ReasonML styles from the code syntax which I really like.
 It runs on BEAM and interop with other BEAM languages like Elixir and Erlang.
-[[https://gleam.run/news/v0.16-gleam-compiles-to-javascript/][Compiling to Javascript is possible]] but it doesn't look like a out-of-the-box experience yet.
+- [[https://gleam.run/news/v0.16-gleam-compiles-to-javascript/][Compiling to Javascript is possible]] but it doesn't look like a out-of-the-box experience yet.
 I just wrote [[https://github.com/gleam-lang/example-echo-server/pull/17/files][my first Gleam code]].

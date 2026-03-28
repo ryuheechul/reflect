@@ -1,0 +1,3 @@
+#+title: Nushell
+
+- https://determinate.systems/posts/nuenv/

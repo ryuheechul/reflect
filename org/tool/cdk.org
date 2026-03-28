@@ -1,7 +1,7 @@
 #+title: CDK
 
 * AWS Cloud Development Kit
-https://aws.amazon.com/cdk/
+- https://aws.amazon.com/cdk/
 
 It's a infrastructure as Code tool can potentially replace Terraform in your stack but it only works for AWS.
 However there is also such thing as CDKTF, https://www.terraform.io/cdktf which abstract terraform using CDK which unlocks other cloud providers too.

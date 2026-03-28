@@ -4,3 +4,8 @@
 - [[https://www.youtube.com/watch?v=N2y6csonII4][Compiling, assembling, and linking]]
 - [[https://www.youtube.com/watch?v=2YfM-HxQd_8][Compiling C programs with Multiple Files]]
 - [[https://www.youtube.com/watch?v=2AmP7Pse4U0][Spying on Running Programs (strace, ltrace, system calls vs function calls)]]
+
+
+- https://www.reddit.com/r/C_Programming/comments/10zyicb/where_and_how_to_learn_c/
+
+- https://medium.com/@satadrumemini/what-exactly-is-the-problem-with-gets-a-buffer-overflow-story-125c42bdc134

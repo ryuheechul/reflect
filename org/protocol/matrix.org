@@ -1,12 +1,12 @@
 #+title: Matrix
 
-https://matrix.org/
+- https://matrix.org/
 An open network for secure, decentralized communication
 
-https://matrix.org/bridges/
+- https://matrix.org/bridges/
 A way to allow interop with other platforms
 
-https://www.beeper.com/
+- https://www.beeper.com/
 - it appears to be the simplest way to delegate all the setting up of bridges and have a consistent experience across all platforms.
 - $10 per month
 - it's probably cheaper to pay this and see how it feels like to use other messages via matrix than actually setting things up manually.

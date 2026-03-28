@@ -1,10 +1,9 @@
 #+title: Python
 
 * Intro
-https://docs.python.org/3/tutorial
-https://www.python.org/doc/essays/comparisons/
-https://awesome-python.com/
-
+- https://docs.python.org/3/tutorial
+- https://www.python.org/doc/essays/comparisons/
+- https://awesome-python.com/
 - [[https://www.youtube.com/watch?v=Jbp4l_7kYxE&t=148s][A Brief Introduction to Python]]
   - there are also links to learning materials in the description
   - especially https://dabeaz-course.github.io/practical-python/
@@ -12,19 +11,25 @@ https://awesome-python.com/
 - https://realpython.com/tutorials/best-practices/
 
 * Async
-[[https://www.youtube.com/watch?v=GpqAQxH1Afc][Next-Level Concurrent Programming In Python With Asyncio]]
+- [[https://www.youtube.com/watch?v=GpqAQxH1Afc][Next-Level Concurrent Programming In Python With Asyncio]]
 
 ** =asyncio.run=
-https://docs.python.org/3/library/asyncio-runner.html#asyncio.run
+- https://docs.python.org/3/library/asyncio-runner.html#asyncio.run
 run async function in sync function
 
 ** =asyncio.to_thread=
-https://docs.python.org/3/library/asyncio-task.html#asyncio.to_thread
+- https://docs.python.org/3/library/asyncio-task.html#asyncio.to_thread
 useful to wrap sync code in async manner
 
 ** =asyncio.gather=
-https://docs.python.org/3/library/asyncio-task.html#asyncio.gather
+- https://docs.python.org/3/library/asyncio-task.html#asyncio.gather
 aka [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all][Promise.all]] in Python
+
+* Environments
+- https://www.nijho.lt/post/python-environments/
+  - https://www.reddit.com/r/NixOS/comments/1enrl79/should_i_use_conda_in_nixos/
+- https://prefix.dev/blog/launching_pixi
+  - https://pixi.sh/dev/switching_from/conda/
 
 * Module & Package
 - https://docs.python.org/3/tutorial/modules.html
@@ -42,6 +47,15 @@ aka [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_O
 - https://realpython.com/python-modules-packages/
 - https://realpython.com/python-import/
 - https://realpython.com/inheritance-composition-python/
+- https://realpython.com/python-concurrency/
+- https://realpython.com/python-gil/
+- [[https://opensource.com/article/17/4/grok-gil][Grok the GIL: How to write fast and thread-safe Python]]
+- http://www.golangpatterns.info/concurrency/coroutines
+  - https://www.golang-book.com/books/intro/10
+
+- https://chriskiehl.com/article/parallelism-in-one-line
+  - https://stackoverflow.com/questions/2846653/how-do-i-use-threading-in-python/
+- https://realpython.com/inheritance-composition-python/
 - https://realpython.com/regex-python/
 - [[https://www.valentinog.com/blog/python-for-js/][Python for JavaScript Developers]]
 - [[https://peps.python.org/pep-0008/][PEP 8 - Style Guide for Python Code]]
@@ -51,27 +65,31 @@ aka [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_O
 - https://stackoverflow.com/questions/34149013/what-does-it-mean-that-python-is-stack-based
 
 * Visualize python code execution
-https://pythontutor.com/
+- https://pythontutor.com/
 
 * Configuring Python Projects with INI, TOML, YAML, and ENV files
-https://hackersandslackers.com/simplify-your-python-projects-configuration/
+- https://hackersandslackers.com/simplify-your-python-projects-configuration/
 
 * args and kargs
-https://realpython.com/python-kwargs-and-args/
+- https://realpython.com/python-kwargs-and-args/
 
 * Context Managers and Python's with Statement
-https://realpython.com/python-with-statement/
+- https://realpython.com/python-with-statement/
 
 * Speed Up Your Python Program With Concurrency
 - https://realpython.com/python-concurrency/
 - https://realpython.com/python-gil/
   - benefit of executing single threaded tasks or I/O bound multi threaded tasks with better performance
   - allowing c extension code to be thread-safe
+- [[https://opensource.com/article/17/4/grok-gil][Grok the GIL: How to write fast and thread-safe Python]]
 - http://www.golangpatterns.info/concurrency/coroutines
-  -  https://www.golang-book.com/books/intro/10
+  - https://www.golang-book.com/books/intro/10
+
+- https://chriskiehl.com/article/parallelism-in-one-line
+  - https://stackoverflow.com/questions/2846653/how-do-i-use-threading-in-python
 
 * Celery
-https://betterprogramming.pub/python-celery-best-practices-ae182730bb81
+- https://betterprogramming.pub/python-celery-best-practices-ae182730bb81
 
 * Surprising behavior of python
 
@@ -93,15 +111,15 @@ After experiencing this, I get why it becomes tuple (and I guess it can be handy
 ** https://github.com/satwikkansal/wtfpython
 
 * ORM
-https://www.reddit.com/r/Python/comments/punugl/which_orm_should_i_learn/
-https://www.reddit.com/r/flask/comments/jnrbj0/any_alternative_to_sqlalchemy/
+- https://www.reddit.com/r/Python/comments/punugl/which_orm_should_i_learn/
+- https://www.reddit.com/r/flask/comments/jnrbj0/any_alternative_to_sqlalchemy/
 
-https://github.com/coleifer/peewee
-https://github.com/sqlalchemy/sqlalchemy
-https://github.com/tortoise/tortoise-orm
-https://ponyorm.org/
+- https://github.com/coleifer/peewee
+- https://github.com/sqlalchemy/sqlalchemy
+- https://github.com/tortoise/tortoise-orm
+- https://ponyorm.org/
 
-https://www.cosmicpython.com/book/chapter_02_repository.html
+- https://www.cosmicpython.com/book/chapter_02_repository.html
 
 * Python site-packages interference
 
@@ -149,3 +167,7 @@ ENABLE_USER_SITE: False
 #+end_src
 
 My resolution to this specific case was simply uninstalling =pgcli= and just using =psql= but hopefully I can find better solution to this at some point.
+
+* Platform specifics
+- https://wiki.nixos.org/wiki/Python
+  - [[https://gist.github.com/ryuheechul/c0dc3c0f39790f9a90404dae75fe2b3f][gist:python-dev-on-nixos.md]]

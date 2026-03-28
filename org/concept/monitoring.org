@@ -1,9 +1,8 @@
 #+title: Monitoring / Observability
 
-* Meta
-- https://sre.google/sre-book/monitoring-distributed-systems/
-- https://logz.io/blog/top-10-mistakes-building-observability-dashboards/
-- https://blog.danslimmon.com/2017/10/02/what-makes-a-good-alert/
+#+begin_quote
+Also see [[./sre.org][SRE]] and [[../tool/rollbar.org][Rollbar]]
+#+end_quote
 
 * Black Box Versus White Box
 - summary from https://sre.google/sre-book/monitoring-distributed-systems/#black-box-versus-white-box-q8sJuw
@@ -40,6 +39,8 @@ https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-archit
   - Errors: the count of error events
     - /scalar counts. eg, "this network interface has had fifty late collisions"./
 - https://www.circonus.com/2017/08/system-monitoring-with-the-use-dashboard/
+** The RED Method
+- https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/
 ** The Four Golden Signals
 - summary from https://sre.google/sre-book/monitoring-distributed-systems/#xref_monitoring_golden-signals
 *** Latency
@@ -104,22 +105,22 @@ If you measure all four golden signals and page a human when one signal is probl
 - https://www.gomomento.com/blog/why-tail-latencies-matter
 
 * OpenMetrics
-https://openmetrics.io/
+- https://openmetrics.io/
 Basically Prometheus format evolved into open metrics format so this format can be used more widely at different tools
 
 * OpenTelemetry
-https://opentelemetry.io/
+- https://opentelemetry.io/
 #+begin_quote
 OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) to help you analyze your software’s performance and behavior.
 
 OpenTelemetry is generally available across  [[https://opentelemetry.io/docs/instrumentation/][several languages]] and is suitable for use.
 #+end_quote
 
-https://github.blog/2021-05-26-why-and-how-github-is-adopting-opentelemetry/
-https://docs.datadoghq.com/tracing/trace_collection/open_standards/
+- https://github.blog/2021-05-26-why-and-how-github-is-adopting-opentelemetry/
+- https://docs.datadoghq.com/tracing/trace_collection/open_standards/
 
 ** Relationship with Vector
-https://vector.dev/docs/setup/going-to-prod/architecting/
+- https://vector.dev/docs/setup/going-to-prod/architecting/
 
 * OpenMetrics and OpenTelemetry together
 They both are CNCF projects

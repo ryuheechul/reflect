@@ -4,7 +4,7 @@
 Also see [[./electronics.org][electronics]]
 #+end_quote
 
-[[https://www.youtube.com/watch?v=mc979OhitAg&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K][- Electrical Engineering Basics]]
+- [[https://www.youtube.com/watch?v=mc979OhitAg&list=PLWv9VM947MKi_7yJ0_FCfzTBXpQU-Qd3K][- Electrical Engineering Basics]]
 - https://theengineeringmindset.com/ohms-law/
 - https://electrical-engineering-portal.com/resistive-heating-explained-in-details
 - https://www.nytimes.com/wirecutter/blog/watts-in-a-name-why-were-using-watt-hours-to-compare-batteries/

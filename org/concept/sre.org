@@ -4,8 +4,28 @@
 Also see [[./network.org][Network]] and [[./os.org][OS]]
 #+end_quote
 
+* Meta
+- https://sre.google/sre-book/monitoring-distributed-systems/
+- https://logz.io/blog/top-10-mistakes-building-observability-dashboards/
+- https://blog.danslimmon.com/2017/10/02/what-makes-a-good-alert/
+
+* General
 - https://www.srepath.com/
 - https://www.srepath.com/10-tips-for-onboarding-new-sre-hires/
 - https://www.srepath.com/developer-survive-you-built-it-you-run-it/
 - https://www.srepath.com/rundown-of-linkedins-sre-practices/
-- https://github.com/mxssl/sre-interview-prep-guide?tab=readme-ov-file
+- https://github.com/mxssl/sre-interview-prep-guide
+- https://aws.amazon.com/blogs/hpc/in-the-search-for-performance-theres-more-than-one-way-to-build-a-network/
+
+* Logging
+- https://kubernetes.io/docs/concepts/cluster-administration/logging/
+- https://itnext.io/how-do-open-source-solutions-for-logs-work-elasticsearch-loki-and-victorialogs-9f7097ecbc2f
+  - https://grafana.com/blog/2024/04/09/grafana-loki-3.0-release-all-the-new-features/
+- https://www.syslog-ng.com/community/b/blog/posts/systemd-journald-vs-syslog-ng
+- https://signoz.io/product-comparison/signoz-vs-grafana/
+  - https://signoz.io/blog/logs-performance-benchmark/
+- https://github.com/OneUptime/oneuptime
+- https://github.com/openobserve/openobserve
+- https://betterstack.com/community/logging/fluentd-vs-fluent-bit/
+  - https://www.fluentd.org/plugins/all
+  - https://docs.fluentbit.io/manual/pipeline/outputs

@@ -27,23 +27,27 @@
 - [[https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte][backed by Vercel]]
 
 *** Some Links
-https://svelte.dev/
-https://kit.svelte.dev/
-[[https://www.youtube.com/watch?v=AdNJ3fydeao][Rich Harris - Rethinking reactivity]]
-[[https://www.youtube.com/watch?v=kMlkCYL9qo0][Svelte Origins: A JavaScript Documentary]]
-[[https://www.youtube.com/watch?v=860d8usGC0o][Have Single-Page Apps Ruined the Web? | Transitional Apps with Rich Harris, NYTimes]]
-[[https://naturaily.com/blog/why-svelte-is-next-big-thing-javascript-development][Why Svelte is the Next Big Thing in JavaScript Development]]
-[[https://naturaily.com/blog/why-svelte-is-next-big-thing-javascript-development#:~:text=When%20Should%20You%20Not%20Use%20Svelte%20and%20SvelteKit%3F][When Should You Not Use Svelte and SvelteKit?]]
-[[https://www.youtube.com/watch?v=HyWYpM_S-2c][React for the Haters in 100 Seconds]]
-[[https://www.youtube.com/watch?v=uQntFkK8Z54][The Future of Svelte (Interview with Rich Harris)]]
-https://cprimozic.net/blog/trying-out-sveltekit/
-https://css-tricks.com/svelte-for-the-experienced-react-dev/
-https://blog.logrocket.com/build-web-components-svelte/
-[[https://www.youtube.com/watch?v=f6prqYlbTE4][🍞 & 🧈: Magically load data with SvelteKit Endpoints]]
-
-** RedwoodJS
-[[https://www.youtube.com/watch?v=o5Mwa_TJ3HM][Redwood in 100 Seconds]]
+- https://svelte.dev/
+- https://kit.svelte.dev/
+- [[https://www.youtube.com/watch?v=AdNJ3fydeao][Rich Harris - Rethinking reactivity]]
+- [[https://www.youtube.com/watch?v=kMlkCYL9qo0][Svelte Origins: A JavaScript Documentary]]
+- [[https://www.youtube.com/watch?v=860d8usGC0o][Have Single-Page Apps Ruined the Web? | Transitional Apps with Rich Harris, NYTimes]]
+- [[https://naturaily.com/blog/why-svelte-is-next-big-thing-javascript-development][Why Svelte is the Next Big Thing in JavaScript Development]]
+- [[https://naturaily.com/blog/why-svelte-is-next-big-thing-javascript-development#:~:text=When%20Should%20You%20Not%20Use%20Svelte%20and%20SvelteKit%3F][When Should You Not Use Svelte and SvelteKit?]]
+- [[https://www.youtube.com/watch?v=HyWYpM_S-2c][React for the Haters in 100 Seconds]]
+- [[https://www.youtube.com/watch?v=uQntFkK8Z54][The Future of Svelte (Interview with Rich Harris)]]
+- https://cprimozic.net/blog/trying-out-sveltekit/
+- https://css-tricks.com/svelte-for-the-experienced-react-dev/
+- https://blog.logrocket.com/build-web-components-svelte/
+- [[https://www.youtube.com/watch?v=f6prqYlbTE4][🍞 & 🧈: Magically load data with SvelteKit Endpoints]]
+- [[https://www.youtube.com/watch?v=o5Mwa_TJ3HM][Redwood in 100 Seconds]]
 
 * Typescript
+- https://www.qualdesk.com/blog/2021/type-guard-for-string-union-types-typescript/
+- https://gist.github.com/ssalbdivad/d60d876ab6486adc97e38e3f6916e93f
+- https://github.com/ts-essentials/ts-essentials
+- https://www.totaltypescript.com/no-such-thing-as-a-generic
 
-https://www.qualdesk.com/blog/2021/type-guard-for-string-union-types-typescript/
+
+* Async
+- https://stevenwmerrill.com/blog/2025-01-27-i-promise-you-shouldn-t-fear-rejection/

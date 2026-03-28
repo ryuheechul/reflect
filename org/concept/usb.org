@@ -1,0 +1,16 @@
+#+title: USB
+
+* Ethernet over USB
+
+** legacy way
+- /run/booted-system/kernel-modules/lib/modules/6.10.5/kernel/drivers
+
+** new way (already loaded usbnet)
+- https://forums.linuxmint.com/viewtopic.php?t=300541
+- https://stackoverflow.com/a/48064010
+
+* random
+- https://www.webos-internals.org/wiki/USBnet_Setup
+- http://www.linux-usb.org/usbnet/
+- https://medium.com/@mihirgrand/using-bluetooth-wifi-together-on-linux-a-guide-for-the-rtl8723be-card-cc8d6a1e756f
+- The USB debugging arsenal - https://lwn.net/Articles/798266/

@@ -13,6 +13,26 @@
 * LLM/LMM
 - https://research.ibm.com/blog/retrieval-augmented-generation-RAG
 - https://swizec.com/blog/ai-engineer-summit-report
+- https://taoofmac.com/space/blog/2024/04/13/2100
+- https://medium.com/@shikharstruck/shrinking-elephants-a-funny-guide-to-4-bit-and-8-bit-quantization-for-llms-with-lora-ddf9f1a62070
+  - https://huggingface.co/blog/4bit-transformers-bitsandbytes
+    - https://huggingface.co/blog/hf-bitsandbytes-integration
+  - https://blog.dataiku.com/quantization-in-llms-why-does-it-matter
+  - [[https://www.youtube.com/watch?v=Ju0ndy2kwlw][I built an AI supercomputer with 5 Mac Studios]]
+
+** Coding Toolings
+- https://aider.chat/
+- https://block.github.io/goose/blog
+- https://plandex.ai/
+
+*** Coding Agents
+**** Claude Code
+- https://claude.ai/code
+- https://github.com/anthropic-ai/claude-code
+**** OpenCode
+- https://github.com/OpenCode-dev/OpenCode
+**** Gemini CLI
+- https://medium.com/@ksprashu
 
 * Packaging
 - https://neptune.ai/blog/ml-model-packaging
@@ -21,4 +41,14 @@
 - https://medium.com/moonvision/onnx-the-long-and-collaborative-road-to-machine-learning-portability-a6416a96e870
 
 * Learning
-https://www.cloudskillsboost.google/paths/118
+- https://www.cloudskillsboost.google/paths/118
+- https://huggingface.co/learn/llm-course
+
+* Develop
+- https://blog.box.com/building-systems-langchain-deep-agents-and-box
+- https://blog.langchain.com/building-multi-agent-applications-with-deep-agents/
+  - https://research.trychroma.com/context-rot
+- https://www.ibm.com/think/ai-agents#605511093
+
+* corp
+- https://blog.box.com/ai-first-part-1

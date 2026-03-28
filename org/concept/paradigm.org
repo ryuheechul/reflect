@@ -11,22 +11,22 @@ There are so many things to be said about functional programming. What would I s
 - it should feel like assembling lego when right code and it's quite enjoyable but this also could comes with downside of having to use more brain power to read or decode the code later (again especially when you are not so used to it)
 
 ** Monoids
-https://fsharpforfunandprofit.com/posts/monoids-without-tears/
+- https://fsharpforfunandprofit.com/posts/monoids-without-tears/
 
 ** Ramda
-https://ramdajs.com/
-https://fr.umio.us/why-ramda/
-[[https://youtu.be/m3svKOdZijA][Hey Underscore, You're Doing It Wrong!]]
+- https://ramdajs.com/
+- https://fr.umio.us/why-ramda/
+- [[https://youtu.be/m3svKOdZijA][Hey Underscore, You're Doing It Wrong!]]
 
 *** =pipe= vs =compose=
 Pipe is left to right
-https://ramdajs.com/docs/#pipe
+- https://ramdajs.com/docs/#pipe
 
 Left from right is compose
-https://ramdajs.com/docs/#compose
+- https://ramdajs.com/docs/#compose
 
 *** =converge= vs =useWith=
-https://ramdajs.com/docs/#converge
+- https://ramdajs.com/docs/#converge
 Applies parameter to each function of the list (the second arg) and use them to the firgt arg function
 
 #+begin_src js
@@ -34,7 +34,7 @@ const average = R.converge(R.divide, [R.sum, R.length]) // == (x) => R.divide(R.
 average([1, 2, 3, 4, 5, 6, 7]) //=> 4 == 28 / 7
 #+end_src
 
-https://ramdajs.com/docs/#useWith
+- https://ramdajs.com/docs/#useWith
 Each function in the list matches to each parameter
 
 #+begin_src js
@@ -43,20 +43,20 @@ R.useWith(Math.pow, [R.dec, R.inc])(3, 4); //=> 32 == Math.pow(2, 5)== Math.pow(
 #+end_src
 
 *** =transducer=
-https://ramdajs.com/docs/#transduce
-https://www.jeremydaly.com/transducers-supercharge-functional-javascript/
+- https://ramdajs.com/docs/#transduce
+- https://www.jeremydaly.com/transducers-supercharge-functional-javascript/
 
 * Agile Manifesto
-https://agilemanifesto.org/
+- https://agilemanifesto.org/
 
 * What Is Negative Engineering?
-https://future.com/negative-engineering-and-the-art-of-failing-successfully/
+- https://future.com/negative-engineering-and-the-art-of-failing-successfully/
 
 * Don't get locked up into avoiding lock-in
-https://martinfowler.com/articles/oss-lockin.html
+- https://martinfowler.com/articles/oss-lockin.html
 
 * Chasing Shiny Objects Makes You Blind
-[[https://architectelevator.com/cloud/hybrid-multi-cloud/][Multi Cloud Architecture: Decisions and Options]]
+- [[https://architectelevator.com/cloud/hybrid-multi-cloud/][Multi Cloud Architecture: Decisions and Options]]
 
 * Programming without a stack trace: When abstractions become illusions
-https://architectelevator.com/architecture/stacktrace-abstraction/
+- https://architectelevator.com/architecture/stacktrace-abstraction/

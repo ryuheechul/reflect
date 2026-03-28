@@ -12,6 +12,7 @@ Also see [[../concept/os.org][OS]] and [[../lang/nix.org][Nix]]
 - https://michael.franzl.name/blog/posts/2023-11-01-praising-systemd-nspawn
 - https://nixcademy.com/posts/nixos-nspawn/
 - https://michael.franzl.name/blog/posts/2023-12-02-run-graphical-wayland-applications-in-systemd-nspawn
+- https://fntlnz.wtf/post/systemd-nspawn/
 - [[https://www.youtube.com/watch?v=o_AIw9bGogo][The Tragedy of systemd]]
 - https://mgdm.net/weblog/systemd/
 - https://mgdm.net/weblog/systemd-socket-activation/
@@ -52,3 +53,8 @@ Also see [[../concept/os.org][OS]] and [[../lang/nix.org][Nix]]
 * advanced
 - https://www.codethink.co.uk/articles/2024/systemd-integration-testing-part-1/
 - https://www.codethink.co.uk/articles/2024/systemd-integration-testing-part-2/
+
+* [issues with nspawn]
+- https://unix.stackexchange.com/questions/382263/enabling-networking-in-a-systemd-nspawn-container
+- https://askubuntu.com/questions/1268548/how-to-enable-networking-inside-a-systemd-nspawn-container
+- https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/

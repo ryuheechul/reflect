@@ -1,6 +1,6 @@
 #+title: ScriptKit
 
-https://www.scriptkit.com/
+- https://www.scriptkit.com/
 
 It's sort of like [[https://www.alfredapp.com/][Alfred]] but much more pleasant to work with.
 

@@ -1,6 +1,6 @@
 #+title: Edgedb
 
-https://www.edgedb.com
+- https://www.edgedb.com
 
 Just discovered this tool right a day before their 2.0 launch day by these posts:
 - https://news.hada.io/topic?id=7052 (in Korean)

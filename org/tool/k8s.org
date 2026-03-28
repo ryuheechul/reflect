@@ -11,8 +11,10 @@ Also see [[../concept/container.org][Container]], [[./docker.org][Docker]] and [
 - https://github.com/kubernetes-sigs/kustomize
 - https://helm.sh/
 - https://fluxcd.io/
+- https://cloud.google.com/kubernetes-engine/kubernetes-comic
 
-* Desktop/Dev
+* Desktop/Dev/Tools
+- [[https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands][kubectl commands]]
 - https://k9scli.io/
 - https://github.com/stern/stern
 - https://gefyra.dev/
@@ -25,16 +27,45 @@ Also see [[../concept/container.org][Container]], [[./docker.org][Docker]] and [
 - https://github.com/abiosoft/colima
 - https://github.com/lima-vm/lima
 
+* Resources
+- https://home.robusta.dev/blog/stop-using-cpu-limits
+- https://www.ardanlabs.com/blog/2024/02/kubernetes-cpu-limits-go.html
+- https://www.datadoghq.com/blog/kubernetes-cpu-requests-limits/
+
 * Internals
 - https://github.com/kubernetes/community/blob/master/contributors/devel/README.md
 - https://garrettmills.dev/blog/2022/04/18/Rancher-K3s-Kubernetes-on-Proxmox-Container/
+- https://kubernetes.io/blog/2023/08/25/native-sidecar-containers/
+- https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
+
+* Auth
+- https://raesene.github.io/blog/2024/04/22/Fun-with-Kubernetes-Authz/
 
 * Networking
+- https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/
 - https://serverfault.com/a/910054/633069
 - https://www.redhat.com/sysadmin/kubernetes-pod-network-communications
 - https://www.redhat.com/sysadmin/kubernetes-pods-communicate-nodes
 - https://itnext.io/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727
 - [[https://youtu.be/cUGXu2tiZMc?si=8WBX6wDtTlskIEfP][Kubernetes Networking 101 - Randy Abernethy, RX-M LLC]]
+- https://www.tutorialworks.com/learn-kubernetes-online/#1-learn-the-what-and-why-of-kubernetes-in-a-comic
+
+* Distributions
+- https://docs.tilt.dev/choosing_clusters.html
+** Rancher related stuff
+*** [[https://ranchermanager.docs.rancher.com/][Rancher]]
+- this is not RKE2 nor Rancher Desktop
+*** [[https://rancherdesktop.io/][Rancher Desktop]]
+- a quick way to replace Docker desktop
+  - Rancher can be installed on top of it, https://docs.rancherdesktop.io/how-to-guides/rancher-on-rancher-desktop/
+*** [[https://docs.rke2.io/][RKE2 - Rancher Kubernetes Engine 2]]
+- https://docs.rke2.io/architecture
+- https://www.suse.com/c/rancher_blog/when-to-use-k3s-and-rke2/
+- Rancher does not come with it but it is installable
+- this is a production grade setup
+  - hence Rancher Desktop might be more than enough for testing Kubernetes and Rancher
+  - I was able to run it on my (NixOS) laptop using https://github.com/astro/microvm.nix and =services.rke2=
+- https://www.thegalah.com/which-kubernetes-distribution-should-you-choose-lessons-from-failure
 
 * Extensions
 - https://kubernetes.io/docs/concepts/extend-kubernetes/
@@ -73,3 +104,12 @@ Also see [[../concept/container.org][Container]], [[./docker.org][Docker]] and [
     - shell scripting can be great on having a concise code for happy path but it is very easy to not handle failure paths and then users would not know what went wrong (in that case) unless that information gets logged or registered as k8s event
     - so I wonder how these are being handled, so far, I couldn't find the detailed information about this neither from the doc nor the code
     - digging [[https://sourcegraph.com/search?q=context%3Aglobal+repo%3A%5Egithub%5C.com%2Fflant%2Fshell-operator%24+stderr&patternType=standard&sm=1&groupBy=path][here]] might give some clues
+
+* Competitors?
+- https://www.cloudfoundry.org/blog/cloud-foundry-and-kubernetes-complementary/
+  - https://northflank.com/blog/cloud-foundry-journey-and-alternatives-internal-developer-platform
+    - https://www.starkandwayne.com/blog/demystifying-cloud-foundrys-diego/index.html
+  - https://www.techtarget.com/searchitoperations/feature/Compare-Red-Hat-OpenShift-vs-Cloud-Foundry-in-a-Kubernetes-faceoff
+  - https://www.cloudfoundry.org/blog/cloud-foundry-and-kubernetes-complementary/
+
+- https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/
