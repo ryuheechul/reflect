@@ -7,13 +7,13 @@ Also see [[../concept/os.org][OS]] and [[../lang/nix.org][Nix]]
 * general
 - https://systemd.io/
 - https://www.coursera.org/lecture/linux-system-administration-ibm-power-systems/introduction-to-systemd-NHWnE
-- [[https://www.youtube.com/watch?v=tY9GYsoxeLg][Demystifying systemd]]
+- [[https://www.youtube.com/watch?v=tY9GYsoxeLg][📺 Demystifying systemd]]
 - https://freedesktop.org/wiki/Software/systemd/Debugging/
 - https://michael.franzl.name/blog/posts/2023-11-01-praising-systemd-nspawn
 - https://nixcademy.com/posts/nixos-nspawn/
 - https://michael.franzl.name/blog/posts/2023-12-02-run-graphical-wayland-applications-in-systemd-nspawn
 - https://fntlnz.wtf/post/systemd-nspawn/
-- [[https://www.youtube.com/watch?v=o_AIw9bGogo][The Tragedy of systemd]]
+- [[https://www.youtube.com/watch?v=o_AIw9bGogo][📺 The Tragedy of systemd]]
 - https://mgdm.net/weblog/systemd/
 - https://mgdm.net/weblog/systemd-socket-activation/
 - [[https://opensource.com/article/20/4/systemd][Learning to love systemd]]

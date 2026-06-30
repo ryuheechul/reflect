@@ -7,10 +7,10 @@
 - https://learnyousomeerlang.com/the-hitchhikers-guide-to-concurrency
 
 * via YouTube
-- [[https://youtu.be/SOqQVoVai6s][Erlang Programming Language - Computerphile]]
-- [[https://youtu.be/IEhwc2q1zG4][Erlang Tutorial]]
-- [[https://youtu.be/JvBT4XBdoUE][The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019]]
-- [[https://youtu.be/7AJR66p5E4s][The Erlang Ecosystem - Robert Virding]]
+- [[https://youtu.be/SOqQVoVai6s][📺 Erlang Programming Language - Computerphile]]
+- [[https://youtu.be/IEhwc2q1zG4][📺 Erlang Tutorial]]
+- [[https://youtu.be/JvBT4XBdoUE][📺 The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019]]
+- [[https://youtu.be/7AJR66p5E4s][📺 The Erlang Ecosystem - Robert Virding]]
 
 * BEAM
 - https://github.com/llaisdy/beam_languages
@@ -62,8 +62,8 @@ Hello
 #+end_src
 
 Slow startup time (and attempt to find solutions) is mentioned here and there including:
-- https://www.reddit.com/r/elixir/comments/gthrne/startup_time/fsfh5v0/
-- https://news.ycombinator.com/item?id=25240905
+- [[https://www.reddit.com/r/elixir/comments/gthrne/startup_time/fsfh5v0/][[r/elixir] Elixir script startup time (~0.5s) is frustrating for CLI tools]]
+- [[https://news.ycombinator.com/item?id=25240905][[HN] BEAM startup time too slow for scripting]]
 - https://elixirforum.com/t/how-to-minimise-beam-startup-time/31913
 - https://nick.groenen.me/notes/building-cli-scripts-with-elixir/
 
@@ -77,7 +77,7 @@ I haven't tried to do this myself but after a quick googling, this also seems to
 
 Here are few conversations I found regarding the topic:
 - https://stackoverflow.com/questions/31861544/can-elixir-or-erlang-programs-be-compiled-to-a-standalone-binary
-- https://news.ycombinator.com/item?id=24491700
+- [[https://news.ycombinator.com/item?id=24491700][[HN] Bakeware – Compile Elixir apps into standalone binaries]]
 - https://elixirforum.com/t/elixir-static-app-binaries/15335/14
 
 In contrast, Go and Rust has excellent cross-compiling support which makes the program portable and performant to many different target systems. There are many executables made by Go and Rust (as well as other languages) which often available via =brew= and =nix=, etc.

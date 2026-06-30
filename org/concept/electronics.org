@@ -18,14 +18,14 @@ Also see [[./electricity.org][electricity]] and [[./os.org][OS]]
 
 * Data and Power Transfers
 - https://www.quora.com/USB-vs-PCIE-What-is-the-difference-between-them-and-the-buses-Thank-you
-  - https://www.reddit.com/r/ElectricalEngineering/comments/17miaq3/etymology_bus/
+  - [[https://www.reddit.com/r/ElectricalEngineering/comments/17miaq3/etymology_bus/][[r/ElectricalEngineering] Etymology bus]]
     - https://www.ltmuseum.co.uk/collections/stories/transport/londons-horse-bus-era-1829-1910
     - https://electronics.stackexchange.com/questions/96139/difference-between-a-bus-and-a-wire
-- https://www.reddit.com/r/explainlikeimfive/comments/5sgfzh/eli5_parallel_was_faster_than_serial_why_isnt/
+- [[https://www.reddit.com/r/explainlikeimfive/comments/5sgfzh/eli5_parallel_was_faster_than_serial_why_isnt/][[r/explainlikeimfive] ELI5: Parallel was faster than serial, why isn't there a Universal Parallel Bus?]]
 - https://www.diffen.com/difference/USB_2.0_vs_USB_3.0
-- [[https://www.youtube.com/watch?v=egkqDwQuh8E][Why This WEIRD USB Connector Exists (Type B)]]
+- [[https://www.youtube.com/watch?v=egkqDwQuh8E][📺 Why This WEIRD USB Connector Exists (Type B)]]
 - https://en.wikipedia.org/wiki/USB_hardware
-- [[https://www.youtube.com/watch?v=PctX3kcTj5U][Explaining USB: From 1.0 to USB4 V2.0]]
+- [[https://www.youtube.com/watch?v=PctX3kcTj5U][📺 Explaining USB: From 1.0 to USB4 V2.0]]
 - https://community.frame.work/t/pcie-tunneling-over-usb4/21537/11
 - https://appleinsider.com/articles/20/08/24/usb-3-usb-4-thunderbolt-usb-c----everything-you-need-to-know
 - https://community.fs.com/blog/pci-vs-pci-x-vs-pci-e-why-choose-pci-e-card.html

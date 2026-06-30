@@ -9,14 +9,14 @@
 - https://www.orgroam.com/
 
 ** Babel: Active Code in Org
-Great demo: https://www.youtube.com/watch?v=dljNabciEGg
+- [[https://www.youtube.com/watch?v=dljNabciEGg][📺 Org Babel: Great Demo]]
 Examples: https://github.com/dfeich/org-babel-examples/blob/master/shell/shell-babel.org
 
 *** use =:cache yes= to avoid re-evaluation
 - https://www.gnu.org/software/emacs/manual/html_node/org/Evaluating-Code-Blocks.html
 
 *** show result in plain form (i.e. json)
-- https://www.reddit.com/r/emacs/comments/gabku5/tips_for_managing_json_from_orgbabel/foytx86/?utm_source=reddit&utm_medium=web2x&context=3
+- [[https://www.reddit.com/r/emacs/comments/gabku5/tips_for_managing_json_from_orgbabel/foytx86/][[r/emacs] Use :results verbatim for raw JSON output in org-babel]]
 
 *** Handling Results
 A simple (table) results of code block is actually nested list even though it could look like just a list.

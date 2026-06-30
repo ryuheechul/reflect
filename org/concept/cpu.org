@@ -5,8 +5,8 @@ Also see [[./compile.org][Compile]], [[./gpu.org][GPU]] and [[./os.org][OS]]
 #+end_quote
 
 * General
-- [[https://www.youtube.com/watch?v=FU_YFpfDqqA][Why Lightbulbs Might Be The Best Invention Ever]]
-- [[https://www.youtube.com/watch?v=IcrBqCFLHIY][How Does a Transistor Work?]]
+- [[https://www.youtube.com/watch?v=FU_YFpfDqqA][📺 Why Lightbulbs Might Be The Best Invention Ever]]
+- [[https://www.youtube.com/watch?v=IcrBqCFLHIY][📺 How Does a Transistor Work?]]
 #+begin_src
           + voltage
          floating gate
@@ -27,7 +27,7 @@ what makes p-type and n-type silicon?
 p: silicon + x doping
 n: silicon + y doping
 #+end_src
-- [[https://youtu.be/J4oO7PT_nzQ][Transistors Explained - How transistors work]]
+- [[https://youtu.be/J4oO7PT_nzQ][📺 Transistors Explained - How transistors work]]
 - https://wiki.nikiv.dev/hardware/cpu/
 - [[https://kb.iu.edu/d/agxz][What are binary, octal, and hexadecimal notation?]]
 - https://stackoverflow.com/questions/5295903/how-many-bits-does-a-word-contain-in-32-64-bit-os-respectively
@@ -47,7 +47,7 @@ n: silicon + y doping
 - https://en.wikipedia.org/wiki/Heterogeneous_computing
 - https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture
 ** Translation to x86
-- https://www.reddit.com/r/AsahiLinux/comments/ufbyah/x86_to_arm_translation_using_rosetta/
+- [[https://www.reddit.com/r/AsahiLinux/comments/ufbyah/x86_to_arm_translation_using_rosetta/][[r/AsahiLinux] X86 to arm translation using rosetta]]
 - https://github.com/FEX-Emu/FEX
 - https://box86.org/
 
@@ -62,8 +62,8 @@ n: silicon + y doping
 - https://www.quora.com/What-is-the-difference-between-Secure-Boot-and-Trusted-Platform-Module-given-that-both-involves-Trusted-Hardware
 
 * "Beyond CPU"
-- [[https://www.youtube.com/watch?v=kHV6wmG35po][High-Performance Computing - Episode 1 - Introducing MPI]]
-- [[https://www.youtube.com/watch?v=c0C9mQaxsD4][MPI Basics]]
-- [[https://www.youtube.com/watch?v=G-EimI4q-TQ][Intro to GPU Programming]]
+- [[https://www.youtube.com/watch?v=kHV6wmG35po][📺 High-Performance Computing - Episode 1 - Introducing MPI]]
+- [[https://www.youtube.com/watch?v=c0C9mQaxsD4][📺 MPI Basics]]
+- [[https://www.youtube.com/watch?v=G-EimI4q-TQ][📺 Intro to GPU Programming]]
 - https://langdev.stackexchange.com/questions/1450/what-are-the-pros-and-cons-of-register-based-vms-and-stack-based-vms
 - https://www.quora.com/Why-is-a-stack-based-architecture-preferred-for-application-virtual-machines-while-a-general-purpose-register-architecture-is-preferred-for-physical-CPUs

@@ -17,4 +17,4 @@ Also see [[./network.org][Network]], [[./auth.org][auth]] and [[./web.org][web]]
 - https://www.saaspegasus.com/guides/modern-javascript-for-django-developers/apis/
 - https://www.django-rest-framework.org/topics/documenting-your-api/#documenting-your-api
 - https://apisyouwonthate.com/blog/openapi-v4-project-moonwalk/
-- [[https://www.youtube.com/watch?v=pRS9LRBgjYg&list=PLOspHqNVtKAAAq9pHWlEiRUVcYMCcu4X0&index=6][REST API and OpenAPI: It’s Not an Either/Or Question]]
+- [[https://www.youtube.com/watch?v=pRS9LRBgjYg&list=PLOspHqNVtKAAAq9pHWlEiRUVcYMCcu4X0&index=6][📺 REST API and OpenAPI: It’s Not an Either/Or Question]]

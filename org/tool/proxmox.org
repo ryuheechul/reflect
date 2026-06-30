@@ -6,10 +6,10 @@ Also see [[../concept/os.org][OS]] and [[../concept/container.org][Container]]
 
 - https://pve.proxmox.com/pve-docs/chapter-qm.html
 - https://github.com/SaumonNet/proxmox-nixos
-- https://www.reddit.com/r/Proxmox/comments/yy0kha/confused_on_when_to_use_vm_vs_lxc/
-- https://www.reddit.com/r/Proxmox/comments/lca6cv/proxmox_vs_openstack/
+- [[https://www.reddit.com/r/Proxmox/comments/yy0kha/confused_on_when_to_use_vm_vs_lxc/][[r/Proxmox] Confused on when to use vm vs lxc]]
+- [[https://www.reddit.com/r/Proxmox/comments/lca6cv/proxmox_vs_openstack/][[r/Proxmox] Proxmox vs openstack]]
 - https://forums.lawrencesystems.com/t/xen-vs-xenserver-vs-kvm-vs-proxmox/14256
-- https://www.reddit.com/r/Proxmox/comments/x4z889/proxmox_vs_xcpng/
+- [[https://www.reddit.com/r/Proxmox/comments/x4z889/proxmox_vs_xcpng/][[r/Proxmox] Proxmox vs xcpng]]
 - https://aws.amazon.com/ec2/nitro/
 - https://www.qubes-os.org/doc/architecture/
 
@@ -17,7 +17,7 @@ Also see [[../concept/os.org][OS]] and [[../concept/container.org][Container]]
 - https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_pci_passthrough
 - https://pve.proxmox.com/wiki/PCI(e)_Passthrough
 - https://pve.proxmox.com/wiki/PCI_Passthrough
-- https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/
+- [[https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/][[r/homelab] The ultimate beginners guide to gpu passthrough]]
 - https://www.servethehome.com/how-to-pass-through-pcie-nics-with-proxmox-ve-on-intel-and-amd/
 
 #+begin_src bash
@@ -90,7 +90,7 @@ dmesg | grep iommu
       - there was also booting issue after a reboot and it's solvable via rebooting proxmox (may need hard reboot after shutting off?)
 
 ** Opnsense
-- [[https://www.youtube.com/watch?v=VcTGKBHcqmk][Virtualizing OPNsense on Proxmox as Your Primary Router]]
+- [[https://www.youtube.com/watch?v=VcTGKBHcqmk][📺 Virtualizing OPNsense on Proxmox as Your Primary Router]]
 
 - https://mtlynch.io/notes/opnsense-local-dns/
   - in my case just use dnsmasq too and forward the query for a simpler solution
@@ -111,12 +111,12 @@ dmesg | grep iommu
 * etc
 - https://github.com/community-scripts/ProxmoxVE
 - https://github.com/ryuheechul/nixos-terraform
-- https://www.reddit.com/r/NixOS/comments/1aw9k9v/default_username_password_for_nixos_lxc_on_proxmox/
+- [[https://www.reddit.com/r/NixOS/comments/1aw9k9v/default_username_password_for_nixos_lxc_on_proxmox/][[r/NixOS] Default username password for nixos lxc on proxmox]]
 - https://www.jacob-swanson.com/posts/nixos-proxmox-lxc-setup
 - https://wiki.nixos.org/wiki/Proxmox_Virtual_Environment#LXC
 - https://neal.codes/blog/2024-06-04-nixos-proxmox-lxc/
 - [[https://taoofmac.com/space/blog/2024/08/17/1530][Running NixOS on Proxmox LXC]]
 - https://mtlynch.io/notes/nixos-proxmox/
 - https://aran.dev/posts/deploying-nixos-on-proxmox/
-- https://www.reddit.com/r/Proxmox/comments/1kkk8lm/torn_between_lxc_and_docker_whats_the_real_risk/
+- [[https://www.reddit.com/r/Proxmox/comments/1kkk8lm/torn_between_lxc_and_docker_whats_the_real_risk/][[r/Proxmox] Torn between lxc and docker whats the real risk]]
 - https://discuss.linuxcontainers.org/t/incus-and-proxmox-on-the-same-host/21091/5

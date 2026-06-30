@@ -89,7 +89,7 @@ Also see [[../protocol][Protocols]], [[./api.org][API]], [[./auth.org][auth]], [
 - https://developers.cloudflare.com/cloudflare-one/faq/cloudflare-tunnels-faq/
   =netcat -zv [origin-ip] [port]= to check if port is open
 - https://github.com/SagerNet/sing-box
-  - https://www.youtube.com/watch?v=9f4bX6gNseg&list=PL_akDzx9nCAEYAZByaDGVJM5Sw_2HWoF9
+  - [[https://www.youtube.com/watch?v=9f4bX6gNseg&list=PL_akDzx9nCAEYAZByaDGVJM5Sw_2HWoF9][📺 sing-box proxy overview announcement]]
 
 ** Tailscale
 - https://tailscale.com/blog/how-tailscale-works/
@@ -99,9 +99,9 @@ Also see [[../protocol][Protocols]], [[./api.org][API]], [[./auth.org][auth]], [
 - https://tailscale.com/kb/1320/performance-best-practices
 
 ** Zerotier
-- [[https://www.youtube.com/watch?v=T2BbrqpnMAE][ZeroTier The Planetary Data Center]]
-- [[https://www.youtube.com/watch?v=iAITDB24KKg][ZeroTier Networking Demo]]
-- [[https://www.youtube.com/watch?v=VhQ30bVF3_s][ZeroTier Technical Deep Dive]]
+- [[https://www.youtube.com/watch?v=T2BbrqpnMAE][📺 ZeroTier The Planetary Data Center]]
+- [[https://www.youtube.com/watch?v=iAITDB24KKg][📺 ZeroTier Networking Demo]]
+- [[https://www.youtube.com/watch?v=VhQ30bVF3_s][📺 ZeroTier Technical Deep Dive]]
 - https://docs.zerotier.com/protocol/
 
 * Anycast

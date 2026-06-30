@@ -18,7 +18,7 @@
   - https://huggingface.co/blog/4bit-transformers-bitsandbytes
     - https://huggingface.co/blog/hf-bitsandbytes-integration
   - https://blog.dataiku.com/quantization-in-llms-why-does-it-matter
-  - [[https://www.youtube.com/watch?v=Ju0ndy2kwlw][I built an AI supercomputer with 5 Mac Studios]]
+  - [[https://www.youtube.com/watch?v=Ju0ndy2kwlw][📺 I built an AI supercomputer with 5 Mac Studios]]
 
 ** Coding Toolings
 - https://aider.chat/
@@ -42,6 +42,7 @@
 
 * Learning
 - https://www.cloudskillsboost.google/paths/118
+- https://course.fast.ai/
 - https://huggingface.co/learn/llm-course
 
 * Develop

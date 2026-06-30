@@ -5,6 +5,6 @@
 - [[https://www.gnu.org/software/emacs/manual/html_node/eintr/][An Introduction to Programming in Emacs Lisp]]
 
 * Debugging
-- https://www.reddit.com/r/emacs/comments/u8g8n4/request_for_guide_elisp_debugging_workflow/
+- [[https://www.reddit.com/r/emacs/comments/u8g8n4/request_for_guide_elisp_debugging_workflow/][[r/emacs] Request for guide elisp debugging workflow]]
 - https://endlessparentheses.com/debugging-emacs-lisp-part-1-earn-your-independence.html
 - https://jeskin.net/blog/debugging-emacs/

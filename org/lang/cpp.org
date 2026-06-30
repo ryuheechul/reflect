@@ -1,4 +1,4 @@
 #+title: C++
 
 - [[https://abstrusegoose.com/249][[Cartoon] How to Teach Yourself Programming]]
-- [[https://www.youtube.com/watch?v=aq365yzrTVE][why does polymorphism suck?]]
+- [[https://www.youtube.com/watch?v=aq365yzrTVE][📺 why does polymorphism suck?]]

@@ -1,6 +1,6 @@
 #+title: Web Assembly
 
-- [[https://youtu.be/gSpXMH9xJy0][Steve Klabnik - WebAssembly (Digging a bit deeper)]]
+- [[https://youtu.be/gSpXMH9xJy0][📺 Steve Klabnik - WebAssembly (Digging a bit deeper)]]
 - [[https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format][Understanding WebAssembly text format]]
 - https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_Wasm
 - [[https://wasdk.github.io/wasmcodeexplorer/][WebAssembly Code Explorer]]
@@ -37,4 +37,4 @@
 - https://wasmer.io/posts/wasm-as-universal-binary-format-part-2-wapm
 
 * Implementations
-- https://youtu.be/r-A78RgMhZU?si=T1eqR-SdCIgDZbFx
+- [[https://youtu.be/r-A78RgMhZU?si=T1eqR-SdCIgDZbFx][📺 A Talk Near the Future of Python (live-codes a WebAssembly Interpreter)]]

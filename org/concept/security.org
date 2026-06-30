@@ -1,0 +1,7 @@
+#+title: Security
+
+#+begin_quote
+Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Docker]], [[../tool/k8s.org][Kubernetes]] and [[../tool/proxmox.org][Proxmox]]
+#+end_quote
+
+- https://frenck.dev/your-editor-is-part-of-your-supply-chain-now/?ref=selfh.st

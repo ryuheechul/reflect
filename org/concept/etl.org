@@ -1,4 +1,4 @@
-#+title: Etl
+#+title: ETL
 
 There is also [[https://www.ibm.com/cloud/blog/elt-vs-etl-whats-the-difference][ELT]].
 
@@ -11,4 +11,4 @@ There is also [[https://www.ibm.com/cloud/blog/elt-vs-etl-whats-the-difference][
 
 * DBT
 - https://www.fivetran.com/blog/dbt-explained
-- [[https://www.youtube.com/watch?v=8FZZivIfJVo&pp=ygUHZGJ0bGFicw%3D%3D][What Is DBT and Why Is It So Popular - Intro To Data Infrastructure Part 3]]
+- [[https://www.youtube.com/watch?v=8FZZivIfJVo&pp=ygUHZGJ0bGFicw%3D%3D][📺 What Is DBT and Why Is It So Popular - Intro To Data Infrastructure Part 3]]

@@ -1,13 +1,13 @@
 #+title: (Design) Pattern / Architecture
 
-- [[https://www.youtube.com/watch?v=tv-_1er1mWI][10 Design Patterns Explained in 10 Minutes]]
+- [[https://www.youtube.com/watch?v=tv-_1er1mWI][📺 10 Design Patterns Explained in 10 Minutes]]
 
 * Anti Pattern
 Antipattern is not as simple as bad pattern - https://martinfowler.com/bliki/AntiPattern.html
 
 * Microservices
 - https://martinfowler.com/articles/microservices.html
-- [[https://youtu.be/KPtLbSEFe6c][Data Design and Modeling for Microservices]]
+- [[https://youtu.be/KPtLbSEFe6c][📺 Data Design and Modeling for Microservices]]
 
 * Micro Frontends
 - https://martinfowler.com/articles/micro-frontends.html
@@ -61,9 +61,9 @@ I also liked the clearly stated benefits from the article especially this one.
 Guides us in What To Put Where (WTPW) in the code. WTPW is crucial in making and [[http://wirfs-brock.com/blog/2009/06/08/sustainable-design/][keeping our code habitable]]. Getting something to work is half the effort, finding a good place is the other half.
 #+end_quote
 
-- [[https://youtu.be/2dKZ-dWaCiU?t=3664][ITkonekt 2019 | Robert C. Martin (Uncle Bob), Clean Architecture and Design]]
+- [[https://youtu.be/2dKZ-dWaCiU?t=3664][📺 ITkonekt 2019 | Robert C. Martin (Uncle Bob), Clean Architecture and Design]]
 #+begin_quote
-- [[https://youtube.com/clip/UgkxIam9a_Bj9hBQCZvofFJuSDHtLYmf-fJS][A good architecture maximizes the number of decisions not made]]
+- [[https://youtube.com/clip/UgkxIam9a_Bj9hBQCZvofFJuSDHtLYmf-fJS][📺 A good architecture maximizes the number of decisions not made]]
 #+end_quote
 
 ** Domain Driven Design

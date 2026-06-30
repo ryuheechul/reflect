@@ -24,7 +24,7 @@ Also see [[./network.org][Network]] and [[./api.org][API]], [[./auth.org][auth]]
 - https://lessonsofacto.com/videos/029-the-cookie-store-api/
 
 * Compression
-- [[https://youtu.be/whGwm0Lky2s][GZIP is not enough!]]
+- [[https://youtu.be/whGwm0Lky2s][📺 GZIP is not enough!]]
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Compression
 - https://www.cloudways.com/blog/brotli-vs-gzip/
 - https://kinsta.com/blog/brotli-compression/

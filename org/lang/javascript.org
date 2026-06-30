@@ -7,11 +7,11 @@
 * NodeJS
 ** "Asynchronous Non-blocking I/O"
 - https://medium.com/coderscorner/tale-of-client-server-and-socket-a6ef54a74763
-- [[https://www.youtube.com/watch?v=wB9tIg209-8][Non-blocking I/O and how Node uses it, in friendly terms: blocking vs async IO, CPU vs IO]]
-- [[https://www.youtube.com/watch?v=zphcsoSJMvM][The Node.js Event Loop: Not So Single Threaded]]
+- [[https://www.youtube.com/watch?v=wB9tIg209-8][📺 Non-blocking I/O and how Node uses it, in friendly terms: blocking vs async IO, CPU vs IO]]
+- [[https://www.youtube.com/watch?v=zphcsoSJMvM][📺 The Node.js Event Loop: Not So Single Threaded]]
 - https://nodejs.org/en/docs/guides/blocking-vs-non-blocking
-- [[https://www.youtube.com/watch?v=PNa9OMajw9w][Morning Keynote- Everything You Need to Know About Node.js Event Loop - Bert Belder, IBM]]
-- [[https://www.youtube.com/watch?v=P9csgxBgaZ8][Node's Event Loop From the Inside Out by Sam Roberts, IBM]]
+- [[https://www.youtube.com/watch?v=PNa9OMajw9w][📺 Morning Keynote- Everything You Need to Know About Node.js Event Loop - Bert Belder, IBM]]
+- [[https://www.youtube.com/watch?v=P9csgxBgaZ8][📺 Node's Event Loop From the Inside Out by Sam Roberts, IBM]]
 - https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74
 - https://strogiyotec.github.io/pages/posts/io.html
 - https://nima101.github.io/io_multiplexing
@@ -29,18 +29,18 @@
 *** Some Links
 - https://svelte.dev/
 - https://kit.svelte.dev/
-- [[https://www.youtube.com/watch?v=AdNJ3fydeao][Rich Harris - Rethinking reactivity]]
-- [[https://www.youtube.com/watch?v=kMlkCYL9qo0][Svelte Origins: A JavaScript Documentary]]
-- [[https://www.youtube.com/watch?v=860d8usGC0o][Have Single-Page Apps Ruined the Web? | Transitional Apps with Rich Harris, NYTimes]]
+- [[https://www.youtube.com/watch?v=AdNJ3fydeao][📺 Rich Harris - Rethinking reactivity]]
+- [[https://www.youtube.com/watch?v=kMlkCYL9qo0][📺 Svelte Origins: A JavaScript Documentary]]
+- [[https://www.youtube.com/watch?v=860d8usGC0o][📺 Have Single-Page Apps Ruined the Web? | Transitional Apps with Rich Harris, NYTimes]]
 - [[https://naturaily.com/blog/why-svelte-is-next-big-thing-javascript-development][Why Svelte is the Next Big Thing in JavaScript Development]]
 - [[https://naturaily.com/blog/why-svelte-is-next-big-thing-javascript-development#:~:text=When%20Should%20You%20Not%20Use%20Svelte%20and%20SvelteKit%3F][When Should You Not Use Svelte and SvelteKit?]]
-- [[https://www.youtube.com/watch?v=HyWYpM_S-2c][React for the Haters in 100 Seconds]]
-- [[https://www.youtube.com/watch?v=uQntFkK8Z54][The Future of Svelte (Interview with Rich Harris)]]
+- [[https://www.youtube.com/watch?v=HyWYpM_S-2c][📺 React for the Haters in 100 Seconds]]
+- [[https://www.youtube.com/watch?v=uQntFkK8Z54][📺 The Future of Svelte (Interview with Rich Harris)]]
 - https://cprimozic.net/blog/trying-out-sveltekit/
 - https://css-tricks.com/svelte-for-the-experienced-react-dev/
 - https://blog.logrocket.com/build-web-components-svelte/
-- [[https://www.youtube.com/watch?v=f6prqYlbTE4][🍞 & 🧈: Magically load data with SvelteKit Endpoints]]
-- [[https://www.youtube.com/watch?v=o5Mwa_TJ3HM][Redwood in 100 Seconds]]
+- [[https://www.youtube.com/watch?v=f6prqYlbTE4][📺 🍞 & 🧈: Magically load data with SvelteKit Endpoints]]
+- [[https://www.youtube.com/watch?v=o5Mwa_TJ3HM][📺 Redwood in 100 Seconds]]
 
 * Typescript
 - https://www.qualdesk.com/blog/2021/type-guard-for-string-union-types-typescript/
@@ -48,6 +48,6 @@
 - https://github.com/ts-essentials/ts-essentials
 - https://www.totaltypescript.com/no-such-thing-as-a-generic
 
-
-* Async
+* Async/Generator/Concurrency
 - https://stevenwmerrill.com/blog/2025-01-27-i-promise-you-shouldn-t-fear-rejection/
+- https://blog.logrocket.com/javascript-generators-the-superior-async-await/

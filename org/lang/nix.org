@@ -35,7 +35,7 @@ I also wrote an article sometime ago when I first tried Nix as well
 
 * Flake Cheatsheets
 - https://jade.fyi/blog/flakes-arent-real/
-  - https://news.ycombinator.com/item?id=38929543
+  - [[https://news.ycombinator.com/item?id=38929543][[HN] Flakes aren't real and cannot hurt you]]
   - https://spacekookie.de/blog/i-am-no-longer-using-flakes/
 
 #+begin_src makefile

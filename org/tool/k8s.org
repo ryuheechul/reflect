@@ -47,7 +47,7 @@ Also see [[../concept/container.org][Container]], [[./docker.org][Docker]] and [
 - https://www.redhat.com/sysadmin/kubernetes-pod-network-communications
 - https://www.redhat.com/sysadmin/kubernetes-pods-communicate-nodes
 - https://itnext.io/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727
-- [[https://youtu.be/cUGXu2tiZMc?si=8WBX6wDtTlskIEfP][Kubernetes Networking 101 - Randy Abernethy, RX-M LLC]]
+- [[https://youtu.be/cUGXu2tiZMc?si=8WBX6wDtTlskIEfP][📺 Kubernetes Networking 101 - Randy Abernethy, RX-M LLC]]
 - https://www.tutorialworks.com/learn-kubernetes-online/#1-learn-the-what-and-why-of-kubernetes-in-a-comic
 
 * Distributions
@@ -90,14 +90,14 @@ Also see [[../concept/container.org][Container]], [[./docker.org][Docker]] and [
 - https://book.kubebuilder.io/
   - https://book.kubebuilder.io/architecture
   - https://itnext.io/under-the-hood-of-kubebuilder-framework-ff6b38c10796
-  - [[https://www.youtube.com/watch?v=q7b23612pSc][Writing Kubernetes Controllers (with kubebuilder)]]
+  - [[https://www.youtube.com/watch?v=q7b23612pSc][📺 Writing Kubernetes Controllers (with kubebuilder)]]
 - https://operatorframework.io/
   - https://tiewei.github.io/posts/kubebuilder-vs-operator-sdk
   - https://sdk.operatorframework.io/docs/faqs/#what-are-the-the-differences-between-kubebuilder-and-operator-sdk
   - https://sdk.operatorframework.io/docs/best-practices/best-practices/
   - https://itnext.io/under-the-hood-of-the-operator-sdk-eebc8fdeebbf
 - https://kube.rs/
-- [[https://www.youtube.com/watch?v=3xkLYOpXy2U][Metacontroller - Custom Kubernetes Controllers The Easy Way]]
+- [[https://www.youtube.com/watch?v=3xkLYOpXy2U][📺 Metacontroller - Custom Kubernetes Controllers The Easy Way]]
   - https://metacontroller.github.io/metacontroller/faq.html
 - https://github.com/flant/shell-operator
   - my initial concern on using this one:

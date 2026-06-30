@@ -15,12 +15,12 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
 - https://www.lucavall.in/blog/barco-linux-containers-from-scratch-in-c
 - https://docs.orbstack.dev/
 - https://fly.io/blog/sandboxing-and-workload-isolation/
-- https://www.reddit.com/r/Proxmox/comments/yy0kha/confused_on_when_to_use_vm_vs_lxc/
+- [[https://www.reddit.com/r/Proxmox/comments/yy0kha/confused_on_when_to_use_vm_vs_lxc/][[r/Proxmox] Confused on when to use vm vs lxc]]
 - https://github.com/rkt/rkt/blob/master/Documentation/rkt-vs-other-projects.md#rkt-vs-systemd-nspawn
 - https://www.redhat.com/en/topics/containers/what-is-skopeo
 - https://www.redhat.com/en/blog/podman-rootless-overlay
 - https://www.tutorialworks.com/containers/
-- [[https://www.youtube.com/watch?v=sK5i-N34im8][Cgroups, namespaces, and beyond: what are containers made from?]]
+- [[https://www.youtube.com/watch?v=sK5i-N34im8][📺 Cgroups, namespaces, and beyond: what are containers made from?]]
 
 * Runtimes
 - https://www.cloudraft.io/blog/container-runtimes
@@ -28,18 +28,18 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
 - https://github.com/nestybox/sysbox
 - https://github.com/gotoz/runq
 - https://github.com/newsnowlabs/runcvm
-- https://www.reddit.com/r/docker/comments/1fmuv5b/kata_containers_vs_firecracker_vs_gvisor/
+- [[https://www.reddit.com/r/docker/comments/1fmuv5b/kata_containers_vs_firecracker_vs_gvisor/][[r/docker] Kata containers vs firecracker vs gvisor]]
 - https://github.com/iximiuz/awesome-container-tinkering/blob/main/RUNTIMES.md
 
 * Networking
 - https://labs.iximiuz.com/tutorials/container-networking-from-scratch
 - https://passt.top/passt/about/
   - https://kvmforum2022.sched.com/event/15jJY/slirp-is-dead-long-live-slirp-a-new-approach-to-user-mode-networking-stefano-brivio-alona-paz-red-hat
-    - https://news.ycombinator.com/item?id=33243063
-  - [[https://www.youtube.com/watch?v=QMUEtEt1i3I][passt & pasta: Modern unprivileged networking for containers and VMs]]
+    - [[https://news.ycombinator.com/item?id=33243063][[HN] Podman: Pasta User-Mode Networking]]
+  - [[https://www.youtube.com/watch?v=QMUEtEt1i3I][📺 passt & pasta: Modern unprivileged networking for containers and VMs]]
   - passt to overcome exisiting solutions like these, https://gitlab.com/abologna/kubevirt-and-kvm/-/blob/master/Networking.md
   - http://blog.vmsplice.net/2021/10/a-new-approach-to-usermode-networking.html
-- [[https://www.youtube.com/watch?v=S30Kj135-Kc][Rootful networking with rootless podman containers - DevConf.CZ 2023]]
+- [[https://www.youtube.com/watch?v=S30Kj135-Kc][📺 Rootful networking with rootless podman containers - DevConf.CZ 2023]]
 
 * Security
 - https://cloud.google.com/container-optimized-os/docs/how-to/secure-apparmor
@@ -48,7 +48,7 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
 - https://docs.docker.com/engine/security/seccomp/
 - https://cloud.google.com/kubernetes-engine/docs/concepts/seccomp-in-gke
 - https://www.redhat.com/en/blog/understanding-root-inside-and-outside-container
-- [[https://www.youtube.com/watch?v=jeTKgAEyhsA][Rootless Containers from Scratch - Liz Rice, Aqua Security]]
+- [[https://www.youtube.com/watch?v=jeTKgAEyhsA][📺 Rootless Containers from Scratch - Liz Rice, Aqua Security]]
   - https://opensource.com/article/19/2/how-does-rootless-podman-work
 
 * Debugging
@@ -76,8 +76,8 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
 - https://www.redhat.com/en/blog/kubernetes-workloads-podman-systemd
 - https://benjamintoll.com/2022/02/04/on-running-systemd-nspawn-containers/
   - https://benjamintoll.com/2018/08/20/on-systemd-nspawn/
-  - [[https://www.youtube.com/watch?v=s7LlUs5D9p4][Systemd-Nspawn is Chroot on Steroids - Lennart Poettering, Red Hat]]
-  - [[https://www.youtube.com/watch?v=d4SwL2t5Yh4][Containers with systemd - Lennart Poettering]]
+  - [[https://www.youtube.com/watch?v=s7LlUs5D9p4][📺 Systemd-Nspawn is Chroot on Steroids - Lennart Poettering, Red Hat]]
+  - [[https://www.youtube.com/watch?v=d4SwL2t5Yh4][📺 Containers with systemd - Lennart Poettering]]
 - https://linuxcontainers.org/incus/docs/main/
   - https://github.com/abiosoft/colima#incus on macOS
   - https://linuxcontainers.org/incus/docs/main/reference/manpages/incus/webui/
