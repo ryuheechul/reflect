@@ -1,0 +1,10 @@
+#+title: Incus
+
+#+begin_quote
+Also see [[../concept/network.org][network]], [[../concept/os.org][OS]], [[../concept/container.org][Container]], [[./docker.org][Docker]], [[../tool/k8s.org][Kubernetes]] and [[../tool/proxmox.org][Proxmox]]
+#+end_quote
+
+* General
+- https://gyptazy.com/blog/incus-for-containers-and-vms-a-powerful-proxmox-alternative-a-step-by-step-guide-to-build-a-cluster/
+- [[https://www.youtube.com/watch?v=_wucXs0zYMM][📺 Deep Dive into Incus and Containers in TrueNAS with Stéphane Graber | TrueNAS Tech Talk (T3) E022]]
+- [[https://www.nijho.lt/post/proxmox-to-nixos/][I've gone full Nix: Proxmox to NixOS + Incus]]

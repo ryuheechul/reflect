@@ -72,3 +72,17 @@ Also see [[./network.org][Network]] and [[./api.org][API]], [[./auth.org][auth]]
 
 - https://dev.to/stuffbreaker/web-components-and-ssr-2024-edition-1nel
 - https://www.spicyweb.dev/web-components-ssr-node/
+
+* Browser
+** Automation
+- https://flowtivity.ai/blog/browser-harness-why-your-ai-agent-needs-direct-browser-control/
+- https://remote-browser.dev/blog/browser-use-vs-agent-browser
+*** CDP
+- https://www.browserbase.com/blog/what-is-cdp
+- https://flaviocopes.com/chrome-devtools-protocol/
+- https://lightpanda.io/blog/posts/cdp-vs-playwright-vs-puppeteer-is-this-the-wrong-question
+- https://specstory.com/learning/cli-and-web/browser-automation
+- https://browser-use.com/posts/what-is-chrome-devtools-protocol
+  - https://browser-use.com/posts/playwright-to-cdp
+** Experiments
+- https://peter.sh/experiments/chromium-command-line-switches

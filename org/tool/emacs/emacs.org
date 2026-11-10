@@ -3,6 +3,8 @@
 * General
 - [[https://gist.github.com/ryuheechul/1363eec4e945b6840989d255cdbd09e3][[Gist] Note about Emacs]]
 - [[https://www.gnu.org/software/emacs/manual/html_node/eintr/][An Introduction to Programming in Emacs Lisp]]
+- [[https://news.ycombinator.com/item?id=45783376][[HN] Ask HN: Where to begin with "modern" Emacs?]]
+- [[https://www.youtube.com/watch?v=42PYq9rjNr0][📺 Understanding Emacs modes]]
 
 * Debugging
 - [[https://www.reddit.com/r/emacs/comments/u8g8n4/request_for_guide_elisp_debugging_workflow/][[r/emacs] Request for guide elisp debugging workflow]]

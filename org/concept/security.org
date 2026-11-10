@@ -5,3 +5,16 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
 #+end_quote
 
 - https://frenck.dev/your-editor-is-part-of-your-supply-chain-now/?ref=selfh.st
+- https://blog.cloudflare.com/cloudflare-acquires-bastionzero/
+
+(should the below to be moved on its own?)
+* SSH
+** SSH Agents
+- https://smallstep.com/blog/ssh-agent-explained/
+- https://www.ietf.org/archive/id/draft-miller-ssh-agent-13.html
+*** Integration with PAM
+- https://github.com/nresare/pam-ssh-agent
+*** Advanced & Convenient & Flexible
+- https://github.com/maxgoedjen/secretive
+- https://github.com/overhacked/ssh-agent-mux
+- https://github.com/akamai/akr

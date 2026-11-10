@@ -22,6 +22,11 @@ https://johv.dk/blog/bare-metal-assembly-tutorial
   - https://www.redhat.com/en/blog/introduction-virtio-networking-and-vhost-net
   - https://www.redhat.com/en/blog/deep-dive-virtio-networking-and-vhost-net
   - https://www.redhat.com/en/blog/hands-vhost-net-do-or-do-not-there-no-try
+- https://www.redhat.com/en/blog/inception-how-usable-are-nested-kvm-guests
+** Headless
+- [[https://www.youtube.com/watch?v=h-b1hvsmG6Y][📺 Headless Wayland Is Getting A Whole Lot Easier]]
+- https://github.com/selkies-project/pixelflux
+  - https://github.com/selkies-project
 
 * "other" hardwares aka embedded
 - https://blog.tonari.no/rust-simple-hardware-project
@@ -93,7 +98,8 @@ https://hackernoon.com/you-should-use-alpine-linux-instead-of-ubuntu-yb193ujt
 - [[https://learn.sparkfun.com/tutorials/terminal-basics/all][Serial Terminal Basics (to connect with other hardwares)]]
 - https://www.in-ulm.de/~mascheck/various/shebang/#interpreter-script
 - https://kalnytskyi.com/posts/on-tmux-osc52-support/#fnref1
-
+- [[https://jvns.ca/blog/2024/10/01/terminal-colours/][Julia Evans - Terminal colours are tricky]]
+  - https://hamvocke.com/blog/lets-create-a-terminal-color-scheme/
 
 *** (Serial/Virtual) Console
 - https://thevaluable.dev/guide-terminal-shell-console/

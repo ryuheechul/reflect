@@ -5,6 +5,7 @@
 
 * config
 - https://git-scm.com/docs/git-config
+- https://neg4n.dev/blog/understanding-zealous-diff3-style-git-conflict-markers
 
 * submodule
 - https://git-scm.com/book/en/v2/Git-Tools-Submodules

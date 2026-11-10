@@ -67,6 +67,10 @@ Also see [[../concept/container.org][Container]], [[./docker.org][Docker]] and [
   - I was able to run it on my (NixOS) laptop using https://github.com/astro/microvm.nix and =services.rke2=
 - https://www.thegalah.com/which-kubernetes-distribution-should-you-choose-lessons-from-failure
 
+* Multi Tenancy
+- https://kubernetes.io/docs/concepts/security/multi-tenancy/
+- https://github.com/loft-sh/vcluster
+
 * Extensions
 - https://kubernetes.io/docs/concepts/extend-kubernetes/
 - https://dapr.io/

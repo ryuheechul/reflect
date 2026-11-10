@@ -1,0 +1,5 @@
+#+title: GIS
+
+- https://overturemaps.org/
+- https://felt.com/blog/qgis-vs-arcgis
+  - https://felt.com/blog/the-7-top-gis-software-compared

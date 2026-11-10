@@ -17,10 +17,14 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
 - https://fly.io/blog/sandboxing-and-workload-isolation/
 - [[https://www.reddit.com/r/Proxmox/comments/yy0kha/confused_on_when_to_use_vm_vs_lxc/][[r/Proxmox] Confused on when to use vm vs lxc]]
 - https://github.com/rkt/rkt/blob/master/Documentation/rkt-vs-other-projects.md#rkt-vs-systemd-nspawn
-- https://www.redhat.com/en/topics/containers/what-is-skopeo
 - https://www.redhat.com/en/blog/podman-rootless-overlay
 - https://www.tutorialworks.com/containers/
 - [[https://www.youtube.com/watch?v=sK5i-N34im8][📺 Cgroups, namespaces, and beyond: what are containers made from?]]
+
+* Image Managements
+- https://www.redhat.com/en/topics/containers/what-is-skopeo
+- https://eng.d2iq.com/blog/a-tale-of-two-container-image-tools-skopeo-and-crane/
+- https://alexandre-vazquez.com/skopeo-crane-regctl-container-image-tools/
 
 * Runtimes
 - https://www.cloudraft.io/blog/container-runtimes
@@ -30,6 +34,8 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
 - https://github.com/newsnowlabs/runcvm
 - [[https://www.reddit.com/r/docker/comments/1fmuv5b/kata_containers_vs_firecracker_vs_gvisor/][[r/docker] Kata containers vs firecracker vs gvisor]]
 - https://github.com/iximiuz/awesome-container-tinkering/blob/main/RUNTIMES.md
+- https://www.statuspal.io/blog/apple-container-machine-persistent-linux-vm-macos
+  - https://medium.com/devops-weekly-update/apple-container-rethinking-linux-containers-on-macos-e8e949447c2a
 
 * Networking
 - https://labs.iximiuz.com/tutorials/container-networking-from-scratch
@@ -70,6 +76,7 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
 - https://stgraber.org/2013/12/23/lxc-1-0-some-more-advanced-container-usage/
 - https://github.com/dockur/windows
 - https://github.com/dockur/macos
+- https://github.com/dockur/umbrel
 - https://distrobox.it/useful_tips/
   - https://liv.pink/post/2023-02-01-developing-in-distrobox-containers/
     - https://liv.pink/post/2023-09-12-distrobox-on-lima/
@@ -82,8 +89,18 @@ Also see [[./network.org][network]], [[./os.org][OS]], [[../tool/docker.org][Doc
   - https://github.com/abiosoft/colima#incus on macOS
   - https://linuxcontainers.org/incus/docs/main/reference/manpages/incus/webui/
   - https://discuss.linuxcontainers.org/t/how-to-launch-a-nixos-vm-in-incus/23834
+- https://containix.dev/
+  - https://github.com/atmask/containix
 
 * Convinence
 - https://rancherdesktop.io/
 - https://podman-desktop.io/
   - https://podman-desktop.io/blog/2024/10/05/kubernetes-blog
+
+* Troubleshooting
+** Deleting just the tag from GHCR.io not the manifest
+- https://github.com/orgs/community/discussions/26267#discussioncomment-17980391
+
+* Sandbox (move it to somewhere else than this file)
+- https://getkern.dev/
+- https://microsandbox.dev/

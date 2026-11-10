@@ -53,3 +53,31 @@
 
 * corp
 - https://blog.box.com/ai-first-part-1
+
+* Agents/Harness
+- https://lucumr.pocoo.org/2026/10/6/codemode/
+- https://herdr.dev/
+  - https://flaviocopes.com/herdr/
+- https://isuruwijesiri.com/harness-engineering-101/
+- https://ghuntley.com/loop/
+- https://cua.ai/
+
+* Tool Use
+** Browser Use
+- https://browser-use.com/posts/computer-use-vs-browser-use
+** Computer use
+- https://github.com/trycua/cua
+  - https://hermes-agent.nousresearch.com/docs/user-guide/features/computer-use
+- https://rakazo.com/sandboxes/
+  - https://rakazo.com/docs/self-host-sandbox-providers/
+- https://github.com/e2b-dev/desktop
+- https://boat.dev/compare
+  - https://raft.micr.dev/
+- https://github.com/linuxserver/pelorus
+- https://github.com/rivet-dev/agentos
+  - https://rivet.dev/agentos/docs/limitations/
+
+* Orchestration
+- https://rivet.dev/
+- https://celld.dev/docs/
+- https://developers.cloudflare.com/durable-objects/

@@ -25,3 +25,8 @@ Simply put, test early (shift testing phase to left) to get benefits of testing 
 - https://www.freecodecamp.org/news/how-to-effectively-scope-your-software-projects-from-planning-to-execution-e96cbcac54b9/
 - https://www.shopify.com/partners/blog/feature-creep
 - https://buffer.com/resources/product-scope/
+
+* Review
+- [[https://google.github.io/eng-practices/review/][Google’s Code Review Guidelines]]
+  - [[https://google.github.io/eng-practices/review/reviewer/][The Code Reviewer’s Guide]]
+  - [[https://google.github.io/eng-practices/review/developer/][The Change Author’s Guide]]
